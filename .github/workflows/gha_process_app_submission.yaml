@@ -1,10 +1,11 @@
 name: Process Metadata Submission
 
 on:
-  issues:
-    types:
-      - opened
-      - edited
+    workflow_dispatch:
+    issues:
+        types:
+            - opened
+            - edited
 
 jobs:
   process_metadata_submission:
