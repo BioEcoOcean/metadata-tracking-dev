@@ -9,5 +9,3 @@ dependencies:
   - pyyaml
   - requests
   - markdown2
-  - re
-  - json
