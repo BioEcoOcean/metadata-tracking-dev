@@ -34,15 +34,11 @@ def process_github_issue(issue_title, issue_body):
     
     print("issue body",issue_body)
 
-    # Remove the header and initial markdown indicators
-    #issue_cleaned = re.sub(r"(?m)^### Metadata Submission[\r\n]*``json", "", issue_body)
-    issue_cleaned = re.sub(
-        r"(?s)^### Metadata Submission.*?\`\`\`json\s*",
-        "",
-        issue_body.strip()
-    )
+    # Clean the issue body content to extract JSON between ```json
+    issue_cleaned = re.sub(r"(?s)^### Metadata Submission\s*```json", "", issue_body)
     issue_cleaned = re.sub(r"```$", "", issue_cleaned).strip()
-    print(f"cleaned issue: {issue_cleaned}")
+
+    print(f"Cleaned Issue: {issue_cleaned}")
 
     # Try parsing the cleaned content as JSON
     try:
@@ -62,6 +58,7 @@ def process_github_issue(issue_title, issue_body):
     print(f"Metadata saved to {json_file_path}")
 
 if __name__ == "__main__":
+    # Expecting issue_title and issue_body as command-line arguments
     if len(sys.argv) != 3:
         print("Usage: process_issues.py <issue_title> <issue_body>")
         sys.exit(1)
