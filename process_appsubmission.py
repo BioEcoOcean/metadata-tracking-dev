@@ -22,16 +22,18 @@ def process_github_issue(issue_title, issue_body):
 
     # Sanitize the folder name
     folder_name = re.sub(r"[^\w\-_]", "_", name)
-    folder_path = os.path.join("jsonFiles", folder_name)
+    folder_path = f"jsonFiles/{folder_name}"
     os.makedirs(folder_path, exist_ok=True)
 
     # Extract content between ``` markers in the issue body
-    match = re.search(r"```json(.*?)```", issue_body, re.DOTALL)
+    #match = re.search(r"```json(.*?)```", issue_body, re.DOTALL)
+    issue_cleaned = re.sub(r"^### Metadata Submission[\r\n]*\`*json", "", issue_body)
+    issue_cleaned = re.sub(r"\`*$", "", issue_cleaned)
     if not match:
-        print("No content found between ''' markers in the issue body.")
+        print("No content found between ``` markers in the issue body.")
         sys.exit(1)
     
-    content = match.group(1).strip()
+    content = issue_cleaned.strip()
     print(f"Extracted Content: {content}")
 
     # Parse the JSON content
