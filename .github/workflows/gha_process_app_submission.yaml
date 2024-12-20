@@ -1,0 +1,46 @@
+name: Process Metadata Submission
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+
+jobs:
+  process_metadata_submission:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check if issue has the "metadata submission" label
+        if: contains(github.event.issue.labels.*.name, 'metadata submission')
+        run: |
+          # Extract issue body and name from the github context
+          body="${{ github.event.issue.body }}"
+          name=$(echo "$body" | grep -oP '(?<=name": ")[^"]*')
+          
+          if [ -z "$name" ]; then
+            echo "No 'name' field found in the issue body."
+            exit 1
+          fi
+          
+          echo "Name field extracted: $name"
+          
+          # Create folder with the name extracted from the issue
+          mkdir -p "./$name"
+          
+          # Extract content between ''' [content] '''
+          content=$(echo "$body" | sed -n '/''' [content] '''/,/'''/p' | sed 's/'''//g')
+          
+          # Create JSON file inside the folder with the extracted content
+          echo "$content" > ./$name/metadata.json
+
+      - name: Commit and push the changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Add metadata for $name"
+          git push
