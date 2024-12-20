@@ -10,9 +10,8 @@ on:
 
 jobs:
   process_metadata_submission:
-    if: contains(github.event.issue.labels.*.name, 'metadata submission')
-    runs-on: ubuntu-latest
     
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -29,7 +28,7 @@ jobs:
           echo "Issue body: ${{ github.event.issue.body }}"
           echo "Issue labels: ${{ toJson(github.event.issue.labels) }}" 
       - name: Check if issue has the "metadata submission" label
-        
+        if: contains(github.event.issue.labels.*.name, 'metadata submission')
         run: |
           # Extract the issue title from GitHub context
           issue_title="${{ github.event.issue.title }}"
