@@ -25,8 +25,8 @@ def process_github_issue(issue_title, issue_body):
     folder_path = os.path.join("jsonFiles", folder_name)
     os.makedirs(folder_path, exist_ok=True)
 
-    # Extract content between ''' markers in the issue body
-    match = re.search(r"'''(.*?)'''", issue_body, re.DOTALL)
+    # Extract content between ``` markers in the issue body
+    match = re.search(r"```json(.*?)```", issue_body, re.DOTALL)
     if not match:
         print("No content found between ''' markers in the issue body.")
         sys.exit(1)
@@ -34,10 +34,18 @@ def process_github_issue(issue_title, issue_body):
     content = match.group(1).strip()
     print(f"Extracted Content: {content}")
 
+    # Parse the JSON content
+    try:
+        json_content = json.loads(content)
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON: {e}")
+        sys.exit(1)
+
     # Write content to a JSON file in the folder
-    json_file_path = os.path.join(folder_path, "metadata.json")
+    json_file_name = f"{folder_name}.json"
+    json_file_path = os.path.join(folder_path, json_file_name)
     with open(json_file_path, "w") as json_file:
-        json_file.write(content)
+        json.dump(json_content, json_file, indent=4)
     
     print(f"Metadata saved to {json_file_path}")
 
