@@ -24,18 +24,20 @@ def process_github_issue(issue_title, issue_body):
     
     name = match.group(1)
     print(f"Extracted Name: {name}")
-
+    
     # Sanitize the folder name
     folder_name = re.sub(r"[^\w\-_]", "_", name)
     folder_path = f"jsonFiles/{folder_name}"
     os.makedirs(folder_path, exist_ok=True)
     print(folder_name)
     print(folder_path)
+    
+    print("issue body",issue_body)
 
     # Remove the header and initial markdown indicators
     #issue_cleaned = re.sub(r"(?m)^### Metadata Submission[\r\n]*``json", "", issue_body)
     issue_cleaned = re.sub(
-        r"(?s)^### Metadata Submission.*?```json\s*",
+        r"(?s)^### Metadata Submission.*?\`\`\`json\s*",
         "",
         issue_body.strip()
     )
