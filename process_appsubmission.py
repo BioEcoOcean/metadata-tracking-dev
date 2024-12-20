@@ -24,26 +24,24 @@ def process_github_issue(issue_title, issue_body):
     folder_name = re.sub(r"[^\w\-_]", "_", name)
     folder_path = f"jsonFiles/{folder_name}"
     os.makedirs(folder_path, exist_ok=True)
-
-    # Extract content between ``` markers in the issue body
-    #match = re.search(r"```json(.*?)```", issue_body, re.DOTALL)
-    # Remove the header and initial markdown indicators
-    issue_cleaned = re.sub(r"^### Metadata Submission[\r\n]*```json", "", issue_body)
-    # Remove trailing backticks and whitespace
-    issue_cleaned = re.sub(r"```$", "", issue_cleaned).strip()
-    
-    content = issue_cleaned.strip()
-    print(f"Extracted Content: {content}")
-
-    # Parse the JSON content
     class setEncoder(json.JSONEncoder):
         def default(self, obj):
             if isinstance(obj, set):
                 return list(obj)
             return json.JSONEncoder.default(self, obj)
-        
+
+    # Extract content between ``` markers in the issue body
+    #match = re.search(r"```json(.*?)```", issue_body, re.DOTALL)
+    # Remove the header and initial markdown indicators
+    # Remove the header and initial markdown indicators
+    issue_cleaned = re.sub(r"^### Metadata Submission[\r\n]*```json", "", issue_body)
+    # Remove trailing backticks and whitespace
+    issue_cleaned = re.sub(r"```$", "", issue_cleaned).strip()
+
+    # Try parsing the cleaned content as JSON
     try:
-        json_content = json.loads(content)
+        json_content = json.loads(issue_cleaned)
+        print("Parsed JSON successfully:", json_content)
     except json.JSONDecodeError as e:
         print(f"Error decoding JSON: {e}")
         sys.exit(1)
