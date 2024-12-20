@@ -13,56 +13,40 @@ jobs:
     
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+        - name: Checkout Repository
+          uses: actions/checkout@v4
 
-      - name: Setup Micromamba ${{ matrix.python-version }}
-        uses: mamba-org/setup-micromamba@v2
-        with:
-          environment-file: environment.yml
-          init-shell: bash
-      
-      - name: Debug Issue Details
-        run: |
-          echo "Issue title: ${{ github.event.issue.title }}"
-          echo "Issue body: ${{ github.event.issue.body }}"
-          echo "Issue labels: ${{ toJson(github.event.issue.labels) }}" 
-      - name: Check if issue has the "metadata submission" label
-        if: contains(github.event.issue.labels.*.name, 'metadata submission')
-        run: |
-          # Extract the issue title from GitHub context
-          issue_title="${{ github.event.issue.title }}"
-          echo "Original issue title: $issue_title"
-          
-          # Extract the 'name' from the issue title using regex
-          name=$(echo "$issue_title" | sed -E 's/^New Submission: //')
-          
-          # If name is not found, print an error message and stop
-          if [ -z "$name" ]; then
-            echo "No 'name' found in the issue title."
-            exit 1
-          fi
-          
-          echo "Name field extracted: $name"
-          
-          # Create a folder named after the extracted name
-          folder_name=$(echo "$name" | sed -E 's/[^\w\-_]/_/g')  # Sanitize folder name
-          folder_path="./jsonFiles/$folder_name"
-          mkdir -p "$folder_path"
-          
-          # Extract content between ''' [content] ''' (example content) from the issue body
-          issue_body="${{ github.event.issue.body }}"
-          content=$(echo "$issue_body" | sed -n '/''' [content] '''/,/'''/p' | sed 's/'''//g')
-          
-          # Create a JSON file inside the folder with the extracted content
-          echo "$content" > "$folder_path/metadata.json"
-          
-          echo "Created folder and saved metadata.json in $folder_path"
-
-      - name: Commit and push the changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "Add metadata for $name"
-          git push
+        - name: Setup Micromamba ${{ matrix.python-version }}
+          uses: mamba-org/setup-micromamba@v2
+          with:
+            environment-file: environment.yml
+            init-shell: bash
+        - name: Set up Python
+          uses: actions/setup-python@v4
+          with:
+            python-version: '3.9'
+  
+        - name: Install dependencies
+          run: pip install --upgrade pip
+  
+        - name: Debug Issue Details
+          run: |
+            echo "Issue title: ${{ github.event.issue.title }}"
+            echo "Issue body: ${{ github.event.issue.body }}"
+            echo "Issue labels: ${{ toJson(github.event.issue.labels) }}"
+  
+        - name: Check for Metadata Submission Label
+          if: contains(github.event.issue.labels.*.name, 'metadata submission')
+          run: |
+            python process_appsubmission.py \
+              "${{ github.event.issue.title }}" \
+              "${{ github.event.issue.body }}"
+  
+        - name: Commit and Push Changes
+          if: contains(github.event.issue.labels.*.name, 'metadata submission')
+          run: |
+            git config --global user.name "GitHub Actions"
+            git config --global user.email "github-actions@github.com"
+            git add .
+            git commit -m "Add metadata for ${{ github.event.issue.title }}"
+            git push
