@@ -10,7 +10,7 @@ on:
 
 jobs:
   process_metadata_submission:
-    
+    if: contains(github.event.issue.labels.*.name, 'metadata submission')
     runs-on: ubuntu-latest
     steps:
         - name: Checkout Repository
@@ -36,7 +36,7 @@ jobs:
             echo "Issue labels: ${{ toJson(github.event.issue.labels) }}"
   
         - name: Check for Metadata Submission Label
-          if: contains(github.event.issue.labels.*.name, 'metadata submission')
+          
           run: |
             python process_appsubmission.py \
               "${{ github.event.issue.title }}" \
