@@ -35,11 +35,11 @@ def process_github_issue(issue_title, issue_body):
     # Remove the header and initial markdown indicators
     #issue_cleaned = re.sub(r"(?m)^### Metadata Submission[\r\n]*``json", "", issue_body)
     issue_cleaned = re.sub(
-        r"^### Metadata Submission[\r\n]*\`*json",
+        r"(?s)^### Metadata Submission.*?```json\s*",
         "",
         issue_body.strip()
     )
-    issue_cleaned = re.sub(r"\`*$", "", issue_cleaned).strip()
+    issue_cleaned = re.sub(r"```$", "", issue_cleaned).strip()
     print(f"cleaned issue: {issue_cleaned}")
 
     # Try parsing the cleaned content as JSON
