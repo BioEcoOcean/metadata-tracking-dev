@@ -2,6 +2,11 @@ import os
 import re
 import sys
 import json
+class setEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, set):
+            return list(obj)
+        return json.JSONEncoder.default(self, obj)
 
 def process_github_issue(issue_title, issue_body):
     """
@@ -26,20 +31,11 @@ def process_github_issue(issue_title, issue_body):
     os.makedirs(folder_path, exist_ok=True)
     print(folder_name)
     print(folder_path)
-    class setEncoder(json.JSONEncoder):
-        def default(self, obj):
-            if isinstance(obj, set):
-                return list(obj)
-            return json.JSONEncoder.default(self, obj)
 
-    # Extract content between ``` markers in the issue body
-    #match = re.search(r"```json(.*?)```", issue_body, re.DOTALL)
     # Remove the header and initial markdown indicators
-    # Remove the header and initial markdown indicators
-    issue_cleaned = re.sub(r"^### Metadata Submission[\r\n]*```json", "", issue_body)
-    # Remove trailing backticks and whitespace
-    issue_cleaned = re.sub(r"```$", "", issue_cleaned).strip()
-    print(f"Extracted Name: {issue_cleaned}")
+    issue_cleaned = re.sub(r"(?m)^### Metadata Submission.*?```json", "", issue_body)
+    issue_cleaned = re.sub(r"```[\s]*$", "", issue_cleaned).strip()
+    print(f"cleaned issue: {issue_cleaned}")
 
     # Try parsing the cleaned content as JSON
     try:
@@ -52,13 +48,13 @@ def process_github_issue(issue_title, issue_body):
     # Write content to a JSON file in the folder
     json_file_name = f"{folder_name}.json"
     json_file_path = os.path.join(folder_path, json_file_name)
+    print("json path", json_file_path)
     with open(json_file_path, "w", encoding="utf-8") as json_file:
         json.dump(json_content, json_file, indent=4, cls=setEncoder)
     
     print(f"Metadata saved to {json_file_path}")
 
 if __name__ == "__main__":
-    # Expecting issue_title and issue_body as command-line arguments
     if len(sys.argv) != 3:
         print("Usage: process_issues.py <issue_title> <issue_body>")
         sys.exit(1)
