@@ -6,17 +6,30 @@ on:
         types:
             - opened
             - edited
+            - labeled
 
 jobs:
   process_metadata_submission:
+    if: contains(github.event.issue.labels.*.name, 'metadata submission')
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Setup Micromamba ${{ matrix.python-version }}
+        uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          init-shell: bash
+      
+      - name: Debug Issue Details
+        run: |
+          echo "Issue title: ${{ github.event.issue.title }}"
+          echo "Issue body: ${{ github.event.issue.body }}"
+          echo "Issue labels: ${{ toJson(github.event.issue.labels) }}" 
       - name: Check if issue has the "metadata submission" label
-        if: contains(github.event.issue.labels.*.name, 'metadata submission')
+        
         run: |
           # Extract the issue title from GitHub context
           issue_title="${{ github.event.issue.title }}"
