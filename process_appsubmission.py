@@ -24,6 +24,8 @@ def process_github_issue(issue_title, issue_body):
     folder_name = re.sub(r"[^\w\-_]", "_", name)
     folder_path = f"jsonFiles/{folder_name}"
     os.makedirs(folder_path, exist_ok=True)
+    print(folder_name)
+    print(folder_path)
     class setEncoder(json.JSONEncoder):
         def default(self, obj):
             if isinstance(obj, set):
@@ -37,6 +39,7 @@ def process_github_issue(issue_title, issue_body):
     issue_cleaned = re.sub(r"^### Metadata Submission[\r\n]*```json", "", issue_body)
     # Remove trailing backticks and whitespace
     issue_cleaned = re.sub(r"```$", "", issue_cleaned).strip()
+    print(f"Extracted Name: {issue_cleaned}")
 
     # Try parsing the cleaned content as JSON
     try:
