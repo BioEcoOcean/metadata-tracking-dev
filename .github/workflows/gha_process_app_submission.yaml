@@ -18,25 +18,34 @@ jobs:
       - name: Check if issue has the "metadata submission" label
         if: contains(github.event.issue.labels.*.name, 'metadata submission')
         run: |
-          # Extract issue body and name from the github context
-          body="${{ github.event.issue.body }}"
-          name=$(echo "$body" | grep -oP '(?<=name": ")[^"]*')
+          # Extract the issue title from GitHub context
+          issue_title="${{ github.event.issue.title }}"
+          echo "Original issue title: $issue_title"
           
+          # Extract the 'name' from the issue title using regex
+          name=$(echo "$issue_title" | sed -E 's/^New Submission: //')
+          
+          # If name is not found, print an error message and stop
           if [ -z "$name" ]; then
-            echo "No 'name' field found in the issue body."
+            echo "No 'name' found in the issue title."
             exit 1
           fi
           
           echo "Name field extracted: $name"
           
-          # Create folder with the name extracted from the issue
-          mkdir -p "./$name"
+          # Create a folder named after the extracted name
+          folder_name=$(echo "$name" | sed -E 's/[^\w\-_]/_/g')  # Sanitize folder name
+          folder_path="./jsonFiles/$folder_name"
+          mkdir -p "$folder_path"
           
-          # Extract content between ''' [content] '''
-          content=$(echo "$body" | sed -n '/''' [content] '''/,/'''/p' | sed 's/'''//g')
+          # Extract content between ''' [content] ''' (example content) from the issue body
+          issue_body="${{ github.event.issue.body }}"
+          content=$(echo "$issue_body" | sed -n '/''' [content] '''/,/'''/p' | sed 's/'''//g')
           
-          # Create JSON file inside the folder with the extracted content
-          echo "$content" > ./$name/metadata.json
+          # Create a JSON file inside the folder with the extracted content
+          echo "$content" > "$folder_path/metadata.json"
+          
+          echo "Created folder and saved metadata.json in $folder_path"
 
       - name: Commit and push the changes
         run: |
