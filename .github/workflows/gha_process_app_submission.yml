@@ -27,13 +27,13 @@ jobs:
         - name: Debug Issue Details
           run: |
             echo "Issue title: ${{ github.event.issue.title }}"
-            echo "Issue body: ${{ github.event.issue.body }}"
+            echo "Issue body: ${{ github.event.issue.body }}" | tee issue_body.txt
             echo "Issue labels: ${{ toJson(github.event.issue.labels) }}"
   
         - name: Check for Metadata Submission Label
           if: contains(github.event.issue.labels.*.name, 'metadata submission')
           run: |
-            python process_appsubmission.py "${{ github.event.issue.title }}" "${{ github.event.issue.body }}"
+            python process_appsubmission.py "${{ github.event.issue.title }}" "$(cat issue_body.txt)"
   
         - name: Commit and Push Changes
           if: contains(github.event.issue.labels.*.name, 'metadata submission')
