@@ -30,19 +30,14 @@ jobs:
           run: |
             echo "Env issue body: $env_issue_body"
             echo "Issue title: ${{ github.event.issue.title }}"
-            echo "Raw issue body:"
-            echo "${{ github.event.issue.body }}"
-            issue_body="${{ github.event.issue.body }}"
-            echo "$issue_body" | xxd
-            sanitized_body=$(echo "$issue_body" | tr '\n' ' ' | sed -E 's/^### Metadata Submission//')
-            echo "Sanitized issue body: $sanitized_body"
             echo "Issue labels: ${{ toJson(github.event.issue.labels) }}"
   
         - name: Check for Metadata Submission Label
           if: contains(github.event.issue.labels.*.name, 'metadata submission')
+          env:
+            env_issue_body: ${{ github.event.issue.body }}
           run: |
-            sanitized_body=$(echo "${{ github.event.issue.body }}" | tr '\n' ' ' | sed -E 's/^### Metadata Submission//')
-            python process_appsubmission.py "${{ github.event.issue.title }}" "$sanitized_body"
+            python process_appsubmission.py "${{ github.event.issue.title }}" "$env_issue_body"
   
         - name: Commit and Push Changes
           if: contains(github.event.issue.labels.*.name, 'metadata submission')
