@@ -25,7 +25,10 @@ jobs:
           run: pip install --upgrade pip
   
         - name: Debug Issue Details
+          env:
+            issue_body: ${{ github.event.issue.body }}
           run: |
+            echo "Env issue body: process.env.body"
             echo "Issue title: ${{ github.event.issue.title }}"
             echo "Raw issue body:"
             echo "${{ github.event.issue.body }}"
