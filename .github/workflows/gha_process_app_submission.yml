@@ -27,14 +27,14 @@ jobs:
         - name: Debug Issue Details
           run: |
             echo "Issue title: ${{ github.event.issue.title }}"
-            sanitized_body=$(echo "${{ toJson(github.event.issue.body) }}" | sed -E 's/^### Metadata Submission[\r\n]*//')
+            sanitized_body=$(echo "${{ toJson(github.event.issue.body) }}" | sed -E 's/^### Metadata Submission//')
             echo "Issue body: $sanitized_body
             echo "Issue labels: ${{ toJson(github.event.issue.labels) }}"
   
         - name: Check for Metadata Submission Label
           if: contains(github.event.issue.labels.*.name, 'metadata submission')
           run: |
-            sanitized_body=$(echo "${{ toJson(github.event.issue.body) }}" | sed -E 's/^### Metadata Submission[\r\n]*//')
+            sanitized_body=$(echo "${{ toJson(github.event.issue.body) }}" | sed -E 's/^### Metadata Submission//')
             python process_appsubmission.py "${{ github.event.issue.title }}" "$sanitized_body"
   
         - name: Commit and Push Changes
