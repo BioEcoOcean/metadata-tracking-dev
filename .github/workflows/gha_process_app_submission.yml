@@ -16,11 +16,6 @@ jobs:
         - name: Checkout Repository
           uses: actions/checkout@v4
 
-        - name: Setup Micromamba ${{ matrix.python-version }}
-          uses: mamba-org/setup-micromamba@v2
-          with:
-            environment-file: environment.yml
-            init-shell: bash
         - name: Set up Python
           uses: actions/setup-python@v4
           with:
@@ -32,13 +27,13 @@ jobs:
         - name: Debug Issue Details
           run: |
             echo "Issue title: ${{ github.event.issue.title }}"
-            echo "Issue body: ${{ toJson(github.event.issue.body) }}" | tee issue_body.txt
+            echo "Issue body: ${{ toJson(github.event.issue.body) }}"
             echo "Issue labels: ${{ toJson(github.event.issue.labels) }}"
   
         - name: Check for Metadata Submission Label
           if: contains(github.event.issue.labels.*.name, 'metadata submission')
           run: |
-            python process_appsubmission.py "${{ github.event.issue.title }}" "$(cat issue_body.txt)"
+            python process_appsubmission.py "${{ github.event.issue.title }}" "${{ toJson(github.event.issue.body) }}"
   
         - name: Commit and Push Changes
           if: contains(github.event.issue.labels.*.name, 'metadata submission')
@@ -46,5 +41,5 @@ jobs:
             git config --global user.name "GitHub Actions"
             git config --global user.email "github-actions@github.com"
             git add .
-            git commit -m "Add metadata for ${{ github.event.issue.title }}"
+            git diff --quiet || git commit -m "Add metadata for ${{ github.event.issue.title }}"
             git push
