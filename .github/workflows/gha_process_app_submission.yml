@@ -45,5 +45,5 @@ jobs:
             git config --global user.name "GitHub Actions"
             git config --global user.email "github-actions@github.com"
             git add .
-            git git commit -m "Add metadata for ${{ github.event.issue.title }}"
+            git commit -m "Add metadata for ${{ github.event.issue.title }}"
             git push
