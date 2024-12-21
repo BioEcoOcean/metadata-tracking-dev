@@ -32,10 +32,12 @@ def process_github_issue(issue_title, issue_body):
     print(folder_name)
     print(folder_path)
     
+    issue_json = json.loads(issue_body)
     print("issue body",issue_body)
+    print("issue body (json)",issue_json)
 
     # Clean the issue body content to extract JSON between ```json
-    issue_cleaned = re.sub(r"(?s)^### Metadata Submission\s*```json", "", issue_body)
+    issue_cleaned = re.sub(r"^### Metadata Submission\s*```json", "", issue_body)
     issue_cleaned = re.sub(r"```$", "", issue_cleaned).strip()
 
     print(f"Cleaned Issue: {issue_cleaned}")
