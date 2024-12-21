@@ -27,8 +27,9 @@ jobs:
         - name: Debug Issue Details
           run: |
             echo "Issue title: ${{ github.event.issue.title }}"
-            sanitized_body=$(echo "${{ github.event.issue.body }}" | tr '\n' ' ' | sed -E 's/^### Metadata Submission//')
-            echo "Issue body: $sanitized_body"
+            echo "${{ github.event.issue.body }}" > issue_body.txt
+            sanitized_body=$(cat issue_body.txt | tr '\n' ' ' | sed -E 's/^### Metadata Submission//')
+            echo "Sanitized issue body: $sanitized_body"
             echo "Issue labels: ${{ toJson(github.event.issue.labels) }}"
   
         - name: Check for Metadata Submission Label
