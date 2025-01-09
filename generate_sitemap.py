@@ -9,32 +9,22 @@ BRANCH = "refs/heads/main"
 JSON_FOLDER = "jsonFiles"
 RAW_BASE_URL = f"https://raw.githubusercontent.com/{REPO_ORG}/{REPO_NAME}/{BRANCH}/{JSON_FOLDER}"
 
-def generate_sitemap():
-    # Load all sitemap entries
+def generate_sitemap_for_folder(folder_path, folder_name):
+    """Generates a sitemap for a specific folder."""
     sitemap_entries = []
-    # Iterate through subfolders in the JSON folder
-    for root, dirs, files in os.walk(JSON_FOLDER):
-        for file_name in files:
-            if file_name.endswith(".json"):
-                json_path = os.path.join(root, file_name)
-                try:
-                    with open(json_path, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-                        # Extract URL and frequency from the JSON file
-                        url = data.get("url", f"{RAW_BASE_URL}/{os.path.relpath(json_path, JSON_FOLDER)}")
-                        frequency = data.get("frequency", "never")  # Default to 'weekly' if not specified
-                        lastmod = datetime.now().strftime("%Y-%m-%d")  # Use current date as last modified
-
-                        # Append the entry to the sitemap
-                        sitemap_entries.append({
-                            "url": url,
-                            "lastmod": lastmod,
-                            "changefreq": frequency
-                        })
-                except json.JSONDecodeError:
-                    print(f"Error decoding JSON in file: {json_path}")
-                except Exception as e:
-                    print(f"Unexpected error with file {json_path}: {e}")
+    for file_name in os.listdir(folder_path):
+        if file_name.endswith(".json"):
+            file_path = os.path.join(folder_path, file_name)
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                url = data.get("url", f"{RAW_BASE_URL}/{folder_name}/{file_name}")
+                frequency = data.get("frequency", "never")
+                lastmod = data.get("lastmod", datetime.utcnow().strftime("%Y-%m-%d"))
+                sitemap_entries.append({
+                    "url": url,
+                    "lastmod": lastmod,
+                    "changefreq": frequency
+                })
 
     # Generate sitemap XML
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -47,11 +37,19 @@ def generate_sitemap():
         sitemap += "  </url>\n"
     sitemap += "</urlset>"
 
-    # Save sitemap
-    with open("sitemap.xml", "w", encoding="utf-8") as f:
+    # Save sitemap to folder
+    sitemap_file = os.path.join(folder_path, "sitemap.xml")
+    with open(sitemap_file, "w", encoding="utf-8") as f:
         f.write(sitemap)
 
     print("Sitemap generated successfully.")
 
+def generate_all_sitemaps():
+    """Generates sitemaps for all folders in the JSON_FOLDER."""
+    for folder_name in os.listdir(JSON_FOLDER):
+        folder_path = os.path.join(JSON_FOLDER, folder_name)
+        if os.path.isdir(folder_path):
+            generate_sitemap_for_folder(folder_path, folder_name)
+
 if __name__ == "__main__":
-    generate_sitemap()
+    generate_all_sitemaps()
