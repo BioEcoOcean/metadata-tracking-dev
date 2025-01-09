@@ -2,6 +2,11 @@ name: Generate Sitemap
 
 on:
     workflow_dispatch:
+    workflow_run:
+        workflows: ["Process Metadata Submission"]
+        types: [requested]
+        branches:
+          - 'main'
     push:
         paths:
             - "JsonFiles/**"
