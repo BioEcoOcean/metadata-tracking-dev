@@ -13,6 +13,7 @@
         "name": "Elizabeth Lawrence",
         "email": "elizabeth-lawrence@outlook.com"
     },
+    "frequency": "monthly",
     "temporalCoverage": "2024-12-10/2025-01-03",
     "keywords": [
         "OBIS"
@@ -26,7 +27,12 @@
         {
             "@type": "Place",
             "name": "Bali province",
-            "identifier": ""
+            "identifier": "",
+            "geo": {
+                "@type": "GeoShape",
+                "description": "schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx",
+                "box": "   "
+            }
         }
     ],
     "variableMeasured": [
