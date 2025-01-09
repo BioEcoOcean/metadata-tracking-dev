@@ -12,11 +12,29 @@ RAW_BASE_URL = f"https://raw.githubusercontent.com/{REPO_ORG}/{REPO_NAME}/{BRANC
 def generate_sitemap():
     # Load all sitemap entries
     sitemap_entries = []
-    for file_name in os.listdir("sitemap_data"):
-        if file_name.endswith("_sitemap.json"):
-            with open(f"sitemap_data/{file_name}", "r", encoding="utf-8") as f:
-                entry = json.load(f)
-                sitemap_entries.append(entry)
+    # Iterate through subfolders in the JSON folder
+    for root, dirs, files in os.walk(JSON_FOLDER):
+        for file_name in files:
+            if file_name.endswith(".json"):
+                json_path = os.path.join(root, file_name)
+                try:
+                    with open(json_path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        # Extract URL and frequency from the JSON file
+                        url = data.get("url", f"{RAW_BASE_URL}/{os.path.relpath(json_path, JSON_FOLDER)}")
+                        frequency = data.get("frequency", "never")  # Default to 'weekly' if not specified
+                        lastmod = datetime.now().strftime("%Y-%m-%d")  # Use current date as last modified
+
+                        # Append the entry to the sitemap
+                        sitemap_entries.append({
+                            "url": url,
+                            "lastmod": lastmod,
+                            "changefreq": frequency
+                        })
+                except json.JSONDecodeError:
+                    print(f"Error decoding JSON in file: {json_path}")
+                except Exception as e:
+                    print(f"Unexpected error with file {json_path}: {e}")
 
     # Generate sitemap XML
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
