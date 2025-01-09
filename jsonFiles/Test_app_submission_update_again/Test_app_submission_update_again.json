@@ -31,7 +31,7 @@
             "geo": {
                 "@type": "GeoShape",
                 "description": "schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx",
-                "box": "   "
+                "box": "41.011749835997364 -68.84532570329912 49.52034723286799 -56.89146722812376"
             }
         }
     ],
