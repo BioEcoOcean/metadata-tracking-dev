@@ -27,7 +27,7 @@
         {
             "@type": "Place",
             "name": "Bali province",
-            "identifier": "",
+            "identifier": "http://marineregions.org/mrgid/26415",
             "geo": {
                 "@type": "GeoShape",
                 "description": "schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx",
