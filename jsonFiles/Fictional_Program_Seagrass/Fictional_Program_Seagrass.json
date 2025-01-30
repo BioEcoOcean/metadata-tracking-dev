@@ -8,7 +8,7 @@
     "name": "Fictional Program Seagrass",
     "url": "https://bioecoocean.org/",
     "description": "Description",
-    "contactPoints": [
+    "contactPoint": [
         {
             "@type": "ContactPoint",
             "name": "Elizabeth Lawrence",
