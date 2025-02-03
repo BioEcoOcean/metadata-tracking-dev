@@ -99,18 +99,12 @@
     "funding": [
         {
             "@type": "MonetaryGrant",
-            "name": [
-                "Horizon Europe"
-            ],
-            "identifier": [
-                "1234567"
-            ],
+            "name": "Horizon Europe",
+            "identifier": "1234567",
             "funder": [
                 {
                     "@type": "FundingAgency",
-                    "name": [
-                        "European Commission"
-                    ],
+                    "name": "European Commission",
                     "legalName": "European Commission",
                     "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
                 }
