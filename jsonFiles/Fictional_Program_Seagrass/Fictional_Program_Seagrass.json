@@ -90,6 +90,10 @@
             "@type": "PropertyValue",
             "name": "Satellite",
             "propertyID": "https://vocab.nerc.ac.uk/collection/L06/current/68/"
+        },
+        {
+            "@type": "URL",
+            "url": "https://www.google.com/"
         }
     ],
     "funding": [
@@ -107,12 +111,8 @@
                     "name": [
                         "European Commission"
                     ],
-                    "legalName": [
-                        "European Commission"
-                    ],
-                    "url": [
-                        "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
-                    ]
+                    "legalName": "European Commission",
+                    "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
                 }
             ]
         }
