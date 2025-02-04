@@ -1,0 +1,76 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@type": "Project",
+    "@id": "https://example.com/json/Test Pieter",
+    "name": "Test Pieter",
+    "url": "https://obis.org",
+    "description": "",
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "name": "Pieter Provoost",
+            "email": "p.provoost@unesco.org",
+            "role": "Data manager",
+            "identifier": ""
+        },
+        {
+            "@type": "ContactPoint",
+            "name": "Elizabeth Lawrence",
+            "email": "e.lawrence@unesco.org",
+            "role": "",
+            "identifier": ""
+        }
+    ],
+    "frequency": "never",
+    "temporalCoverage": "2025-02-01/2025-02-28",
+    "keywords": [],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "CC0: Public Domain",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "spatialCoverage": [
+        {
+            "@type": "Place",
+            "name": "Belgian part of the North Sea",
+            "identifier": "http://marineregions.org/mrgid/26567",
+            "geo": {
+                "@type": "GeoShape",
+                "description": "schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx",
+                "box": "42.285 -18.435 61.820 8.540"
+            }
+        }
+    ],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Macroalgal canopy cover and composition",
+            "propertyID": "https://goosocean.org/document/17515"
+        }
+    ],
+    "measurementTechnique": [
+        {
+            "@type": "PropertyValue",
+            "name": "Stations",
+            "propertyID": ""
+        }
+    ],
+    "funding": [
+        {
+            "@type": "MonetaryGrant",
+            "name": "",
+            "identifier": "",
+            "funder": [
+                {
+                    "@type": "FundingAgency",
+                    "name": "",
+                    "legalName": "",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}
