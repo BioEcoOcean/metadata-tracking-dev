@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bioecoocean.org/</loc>
+    <loc>https://obis.org</loc>
     <lastmod>2025-02-10</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>never</changefreq>
   </url>
 </urlset>
