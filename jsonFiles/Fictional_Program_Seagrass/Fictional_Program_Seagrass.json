@@ -14,7 +14,7 @@
             "name": "Elizabeth Lawrence",
             "email": "elizabeth-lawrence@outlook.com",
             "role": "Contact Person",
-            "identifier": "https://oceanexpert.org/expert/50997"
+            "identifier": ""
         },
         {
             "@type": "ContactPoint",
@@ -44,7 +44,7 @@
             "geo": {
                 "@type": "GeoShape",
                 "description": "schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx",
-                "box": "42.006854731602495 -70.55862223827167 52.696361078274485 -50.48412194457959"
+                "box": "41.994 -68.924 52.684 -48.849"
             }
         }
     ],
@@ -106,7 +106,7 @@
                     "@type": "FundingAgency",
                     "name": "European Commission",
                     "legalName": "European Commission",
-                    "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
+                    "url": "https://commission.europa.eu/index_en"
                 }
             ]
         }
