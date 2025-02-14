@@ -8,7 +8,15 @@
     "name": "test submission success",
     "url": "https://bioecoocean.org/",
     "description": "",
-    "contactPoint": [],
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "name": "Elizabeth Lawrence",
+            "email": "elizabeth-lawrence@outlook.com",
+            "role": "",
+            "identifier": ""
+        }
+    ],
     "frequency": "daily",
     "temporalCoverage": "2025-02-17/2025-02-12",
     "keywords": [
