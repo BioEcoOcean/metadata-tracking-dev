@@ -28,12 +28,12 @@
     "spatialCoverage": [
         {
             "@type": "Place",
-            "name": "Quebec",
+            "name": "['Quebec']",
             "identifier": "http://marineregions.org/mrgid/9057",
             "geo": {
                 "@type": "GeoShape",
                 "description": "schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx",
-                "box": "13.304 -73.089 43.304 -33.089"
+                "box": "19.597 -91.196 49.597 -51.196"
             }
         }
     ],
@@ -47,9 +47,9 @@
             "funder": [
                 {
                     "@type": "FundingAgency",
-                    "name": "European Commission",
-                    "legalName": "European Commission",
-                    "url": "https://commission.europa.eu/index_en"
+                    "name": "",
+                    "legalName": "",
+                    "url": ""
                 }
             ]
         }
