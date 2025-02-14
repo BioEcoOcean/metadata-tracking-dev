@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@type": "Project",
+    "@id": "https://example.com/json/test submission success",
+    "name": "test submission success",
+    "url": "https://bioecoocean.org/",
+    "description": "",
+    "contactPoint": [],
+    "frequency": "daily",
+    "temporalCoverage": "2025-02-17/2025-02-12",
+    "keywords": [],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "CC-BY-SA: Creative Commons Attribution Share Alike 4.0 International",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "spatialCoverage": [
+        {
+            "@type": "Place",
+            "name": "Quebec",
+            "identifier": "http://marineregions.org/mrgid/9057",
+            "geo": {
+                "@type": "GeoShape",
+                "description": "schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx",
+                "box": "13.150 -63.067 43.150 -23.067"
+            }
+        }
+    ],
+    "variableMeasured": [],
+    "measurementTechnique": [],
+    "funding": [
+        {
+            "@type": "MonetaryGrant",
+            "name": "Horizon Europe",
+            "identifier": "Numberstring",
+            "funder": [
+                {
+                    "@type": "FundingAgency",
+                    "name": "European Commission",
+                    "legalName": "European Commission",
+                    "url": "https://commission.europa.eu/index_en"
+                }
+            ]
+        }
+    ]
+}
