@@ -30,7 +30,7 @@
     "spatialCoverage": [
         {
             "@type": "Place",
-            "name": "[",
+            "name": "['[']",
             "identifier": "http://marineregions.org/mrgid/9057",
             "geo": {
                 "@type": "GeoShape",
