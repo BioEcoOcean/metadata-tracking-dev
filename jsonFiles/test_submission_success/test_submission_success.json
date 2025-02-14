@@ -30,16 +30,27 @@
     "spatialCoverage": [
         {
             "@type": "Place",
-            "name": "['[']",
+            "name": "[",
             "identifier": "http://marineregions.org/mrgid/9057",
             "geo": {
                 "@type": "GeoShape",
                 "description": "schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx",
-                "box": "21.739 -76.243 51.739 -36.243"
+                "box": "36.173 -76.243 51.739 -44.827"
             }
         }
     ],
-    "variableMeasured": [],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Sea ice",
+            "propertyID": "http://purl.obolibrary.org/obo/ENVO_00002200, https://vocab.nerc.ac.uk/collection/EXV/current/EXV027/, https://goosocean.org/document/17464"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Sea surface height",
+            "propertyID": "http://purl.obolibrary.org/obo/ENVO_01001377, https://goosocean.org/document/17465"
+        }
+    ],
     "measurementTechnique": [],
     "funding": [
         {
