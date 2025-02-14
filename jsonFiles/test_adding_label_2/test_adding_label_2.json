@@ -28,8 +28,8 @@
     "spatialCoverage": [
         {
             "@type": "Place",
-            "name": "['Quebec']",
-            "identifier": "http://marineregions.org/mrgid/9057",
+            "name": "Canadian Atlantic Coast",
+            "identifier": "http://marineregions.org/mrgid/14910",
             "geo": {
                 "@type": "GeoShape",
                 "description": "schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx",
@@ -37,7 +37,18 @@
             }
         }
     ],
-    "variableMeasured": [],
+    "variableMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "Zooplankton biomass and diversity",
+            "propertyID": "https://vocab.nerc.ac.uk/collection/EXV/current/EXV057/, https://goosocean.org/document/17509"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Fish abundance and distribution",
+            "propertyID": "https://goosocean.org/document/17510"
+        }
+    ],
     "measurementTechnique": [],
     "funding": [
         {
@@ -47,8 +58,8 @@
             "funder": [
                 {
                     "@type": "FundingAgency",
-                    "name": "",
-                    "legalName": "",
+                    "name": "European Commission",
+                    "legalName": "European Commission",
                     "url": ""
                 }
             ]
