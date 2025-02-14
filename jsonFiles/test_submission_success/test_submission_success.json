@@ -11,7 +11,9 @@
     "contactPoint": [],
     "frequency": "daily",
     "temporalCoverage": "2025-02-17/2025-02-12",
-    "keywords": [],
+    "keywords": [
+        "OBIS"
+    ],
     "license": {
         "@type": "CreativeWork",
         "name": "CC-BY-SA: Creative Commons Attribution Share Alike 4.0 International",
@@ -39,9 +41,9 @@
             "funder": [
                 {
                     "@type": "FundingAgency",
-                    "name": "European Commission",
-                    "legalName": "European Commission",
-                    "url": "https://commission.europa.eu/index_en"
+                    "name": "dg",
+                    "legalName": "dg",
+                    "url": ""
                 }
             ]
         }
