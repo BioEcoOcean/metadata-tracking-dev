@@ -4,7 +4,7 @@ which helps GitHub to generate a issue template
 for BioEco metadata contribution.
 """
 import yaml
-import generate_readme
+import archived.generate_readme as generate_readme
 
 # read source json file (data type definition)
 bioeco_data = generate_readme.get_bioeco_list()

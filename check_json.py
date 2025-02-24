@@ -5,7 +5,7 @@ Conda env:
 - cefilist 
 
 """
-from generate_readme import get_bioeco_list
+from archived.generate_readme import get_bioeco_list
 
 data = get_bioeco_list()
 print('json file successfully loaded')

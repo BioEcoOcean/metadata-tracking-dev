@@ -1,13 +1,13 @@
 """
-Testing if the submitted resource overlapping
+Testing if the submitted resource overlaps
 with the resource that is currently in the
 database
 """
 import os
 import json
 import requests
-from generate_readme import get_bioeco_list
-from generate_pr_from_issue import parse_issue, check_link_availability
+from archived.generate_readme import get_bioeco_list
+from archived.generate_pr_from_issue import parse_issue, check_link_availability
 
 
 def check_duplicate_url(new_url):
@@ -181,3 +181,17 @@ if __name__ == "__main__":
 
     # check the url for duplication in the data base
     check_duplicate_url(dict_issue_parsed['url'])
+
+
+#placing this here to revamp this workflow so that it updates existing entries
+def update_entry(existing_data, update_data):
+    """
+    Updates an existing JSON entry with new data.
+    Only applies changes for non-blank fields that differ from the current data.
+    """
+    for key, value in update_data.items():
+        if value:  # Skip blank fields
+            if existing_data.get(key) != value:  # Apply only if different
+                print(f"Updating {key}: {existing_data.get(key)} -> {value}")
+                existing_data[key] = value
+    return existing_data

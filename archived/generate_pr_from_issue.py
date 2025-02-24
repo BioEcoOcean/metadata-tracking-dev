@@ -11,7 +11,7 @@ import sys
 import subprocess
 import json
 import requests
-import generate_readme
+import archived.generate_readme as generate_readme
 import re
 import glob
 from datetime import datetime
