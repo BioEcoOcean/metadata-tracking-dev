@@ -25,7 +25,7 @@ def generate_sitemap():
                     data = json.load(f)
                     url = f"{RAW_BASE_URL}/{folder_name}/{file_name}".strip("/")
                     frequency = data.get("frequency", "never")
-                    last_modified_timestamp = os.path.getmtime(root) # Get the last modified timestamp
+                    last_modified_timestamp = os.path.getmtime(file_name) # Get the last modified timestamp
                     lastmod = datetime.fromtimestamp(last_modified_timestamp).strftime("%Y-%m-%d") # Convert timestamp to a readable date
                     sitemap_entries.append({
                         "url": url,
