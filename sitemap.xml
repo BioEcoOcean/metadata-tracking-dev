@@ -10,4 +10,9 @@
     <lastmod>2025-06-16</lastmod>
     <changefreq>hourly</changefreq>
   </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fictional_Program_Seagrass/Fictional_Program_Seagrass.json</loc>
+    <lastmod>2025-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
