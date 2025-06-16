@@ -2,7 +2,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Pieter/Test_Pieter.json</loc>
-    <lastmod>2025-06-16</lastmod>
+    <lastmod>2025-02-04</lastmod>
     <changefreq>never</changefreq>
   </url>
   <url>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fictional_Program_Seagrass/Fictional_Program_Seagrass.json</loc>
-    <lastmod>2025-06-16</lastmod>
+    <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
