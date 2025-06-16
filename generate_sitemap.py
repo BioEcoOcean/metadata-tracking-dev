@@ -15,17 +15,20 @@ def generate_sitemap():
 
     # Traverse all subfolders and gather .json file data
     for root, dirs, files in os.walk(JSON_FOLDER):
+        print(f"Checking folder: {root}")
         for file_name in files:
             if file_name.endswith(".json"):
                 file_path = os.path.join(root, file_name)
+                print(f"  Found JSON file: {file_path}")
                 relative_folder = os.path.relpath(root, JSON_FOLDER)
                 folder_name = relative_folder if relative_folder != "." else ""
+                last_modified_timestamp = os.path.getmtime(file_path) # Get the last modified timestamp
                 
                 with open(file_path, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     url = f"{RAW_BASE_URL}/{folder_name}/{file_name}".strip("/")
                     frequency = data.get("frequency", "never")
-                    last_modified_timestamp = os.path.getmtime(file_name) # Get the last modified timestamp
+                    
                     lastmod = datetime.fromtimestamp(last_modified_timestamp).strftime("%Y-%m-%d") # Convert timestamp to a readable date
                     sitemap_entries.append({
                         "url": url,
