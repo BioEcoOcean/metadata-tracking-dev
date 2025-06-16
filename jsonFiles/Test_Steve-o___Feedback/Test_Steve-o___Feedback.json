@@ -1,0 +1,150 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@type": "Project",
+    "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Steve-o/Test_Steve-o.json",
+    "name": "Test Steve-o",
+    "url": "https://eovmetadata.obis.org/handle_form_submission",
+    "frequency": "hourly",
+    "keywords": [
+        {
+            "@id": "http://vocab.nerc.ac.uk/collection/P04/current/G392/",
+            "@type": "URL",
+            "name": "EARTH SCIENCE > Biosphere > Microbiota Taxonomy > Zooplankton",
+            "url": "http://vocab.nerc.ac.uk/collection/P04/current/G392/"
+        },
+        {
+            "@id": "http://vocab.nerc.ac.uk/collection/P04/current/G384/",
+            "@type": "URL",
+            "name": "EARTH SCIENCE > Biosphere > Microbiota Taxonomy > Diatoms",
+            "url": "http://vocab.nerc.ac.uk/collection/P04/current/G384/"
+        },
+        {
+            "@id": "http://vocab.nerc.ac.uk/collection/P04/current/G388/",
+            "@type": "URL",
+            "name": "EARTH SCIENCE > Biosphere > Microbiota Taxonomy > Phytoplankton",
+            "url": "http://vocab.nerc.ac.uk/collection/P04/current/G388/"
+        },
+        {
+            "@id": "http://vocab.nerc.ac.uk/collection/P04/current/G376/",
+            "@type": "URL",
+            "name": "EARTH SCIENCE > Biosphere > Microbiota > Biomass",
+            "url": "http://vocab.nerc.ac.uk/collection/P04/current/G376/"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Phytoplankton biomass and diversity",
+            "url": [
+                "https://goosocean.org/document/17507"
+            ],
+            "inDefinedTermSet": {
+                "@type": "DefinedTermSet",
+                "name": "Essential Ocean Variables",
+                "description": "GOOS Essential Ocean Variables",
+                "url": "https://goosocean.org/eov/"
+            }
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Zooplankton biomass and diversity",
+            "url": [
+                "https://vocab.nerc.ac.uk/collection/EXV/current/EXV057/, https://goosocean.org/document/17509"
+            ],
+            "inDefinedTermSet": {
+                "@type": "DefinedTermSet",
+                "name": "Essential Ocean Variables",
+                "description": "GOOS Essential Ocean Variables",
+                "url": "https://goosocean.org/eov/"
+            }
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Dissolved organic carbon",
+            "url": [
+                "https://goosocean.org/document/17480"
+            ],
+            "inDefinedTermSet": {
+                "@type": "DefinedTermSet",
+                "name": "Essential Ocean Variables",
+                "description": "GOOS Essential Ocean Variables",
+                "url": "https://goosocean.org/eov/"
+            }
+        }
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "CC0: Public Domain",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "measurementTechnique": [
+        {
+            "@type": "PropertyValue",
+            "name": "Ship",
+            "propertyID": "https://vocab.nerc.ac.uk/collection/L06/current/30/"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Airplane",
+            "propertyID": "http://vocab.nerc.ac.uk/collection/L06/current/62/"
+        },
+        {
+            "@type": "CreativeWork",
+            "url": "http://dx.doi.org/10.25607/OBP-243",
+            "isPartOf": {
+                "@type": "CreativeWork",
+                "name": "Ocean Best Practices",
+                "url": "https://www.oceanbestpractices.org/"
+            }
+        }
+    ],
+    "description": "Blah blah blah yadda yadda",
+    "identifier": [
+        {
+            "@type": "PropertyValue",
+            "description": "Test Steve-o",
+            "url": "https://ror.org/00rnnfh78"
+        }
+    ],
+    "temporalCoverage": "2013-09-01/2012-10-01",
+    "areaServed": [
+        {
+            "@type": "Place",
+            "name": "Puerto Rican part of the Caribbean Sea",
+            "identifier": "http://marineregions.org/mrgid/25286",
+            "geo": {
+                "@type": "GeoShape",
+                "description": "schema.org expects lat long (Y X) coordinate order. Box syntax is: miny minx maxy maxx",
+                "box": "25 -85 30 -90"
+            }
+        }
+    ],
+    "isRelatedTo": [
+        "http://mda.nioo.knaw.nl/imis.php?module=dataset&dasid=665"
+    ],
+    "funding": [
+        {
+            "@type": "MonetaryGrant",
+            "name": "Cool Science Award",
+            "identifier": "12345.AB",
+            "funder": [
+                {
+                    "@type": "FundingAgency",
+                    "name": "NSF",
+                    "legalName": "NSF",
+                    "url": "https://www.nsf.gov"
+                }
+            ]
+        }
+    ],
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "name": "Stephen Formel",
+            "email": "steve@formeldataservices.com",
+            "role": "Contact Person",
+            "identifier": "https://orcid.org/0000-0001-7418-1244"
+        }
+    ]
+}
