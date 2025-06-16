@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Pieter/Test_Pieter.json</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>never</changefreq>
-  </url>
-  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Steve-o___Feedback/Test_Steve-o___Feedback.json</loc>
     <lastmod>2025-06-16</lastmod>
     <changefreq>hourly</changefreq>
