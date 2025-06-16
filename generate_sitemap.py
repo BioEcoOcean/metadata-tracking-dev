@@ -52,7 +52,9 @@ def generate_sitemap():
                         "lastmod": lastmod,
                         "changefreq": frequency
                     })
-
+    # Sort entries so oldest are first, newest are last
+    sitemap_entries.sort(key=lambda x: x['lastmod'])
+    
     # Generate the consolidated sitemap XML
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap += '<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">\n'
