@@ -4,7 +4,8 @@ on:
     workflow_dispatch:
     workflow_run:
         workflows: ["Process Metadata Submission"]
-        types: [requested]
+        types: 
+          - completed
         branches:
           - 'main'
     push:
