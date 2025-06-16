@@ -4,7 +4,7 @@
         "geosparql": "http://www.opengis.net/ont/geosparql#"
     },
     "@type": "Project",
-    "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/test_submission/test_submission.json",
+    "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/TSub/TSub.json",
     "legalName": "test submission",
     "url": "https://bioecoocean.org/",
     "frequency": "weekly",
