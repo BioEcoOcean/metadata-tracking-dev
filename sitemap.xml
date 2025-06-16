@@ -6,6 +6,11 @@
     <changefreq>never</changefreq>
   </url>
   <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/EOV_Metadata_Entry/EOV_Metadata_Entry.json</loc>
+    <lastmod>2025-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Steve-o___Feedback/Test_Steve-o___Feedback.json</loc>
     <lastmod>2025-06-16</lastmod>
     <changefreq>hourly</changefreq>
