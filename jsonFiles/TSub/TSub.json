@@ -130,14 +130,12 @@
             "@type": "MonetaryGrant",
             "name": "Horizon Europe",
             "identifier": "1234567",
-            "funder": [
-                {
-                    "@type": "FundingAgency",
-                    "name": "European Commission",
-                    "legalName": "European Commission",
-                    "url": "https://commission.europa.eu/index_en"
-                }
-            ]
+            "funder": {
+                "@type": "FundingAgency",
+                "name": "European Commission",
+                "legalName": "European Commission",
+                "url": "https://commission.europa.eu/index_en"
+            }
         }
     ],
     "contactPoint": [
