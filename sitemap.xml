@@ -20,4 +20,9 @@
     <lastmod>2025-06-18</lastmod>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/title/title.json</loc>
+    <lastmod>2025-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
