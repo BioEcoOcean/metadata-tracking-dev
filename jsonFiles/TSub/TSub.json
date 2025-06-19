@@ -7,109 +7,60 @@
     "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/TSub/TSub.json",
     "legalName": "test submission",
     "url": "https://bioecoocean.org/",
-    "frequency": "weekly",
     "keywords": [
         {
-            "@id": "http://purl.obolibrary.org/obo/ENVO_00000150",
-            "@type": "URL",
+            "identifier": "http://purl.obolibrary.org/obo/ENVO_00000150",
+            "@type": "DefinedTerm",
+            "termCode": "ENVO:00000150",
             "name": "coral reef",
             "url": "http://purl.obolibrary.org/obo/ENVO_00000150"
         },
         {
-            "@id": "http://purl.obolibrary.org/obo/ENVO_01000852",
-            "@type": "URL",
+            "identifier": "http://purl.obolibrary.org/obo/ENVO_01000852",
+            "@type": "DefinedTerm",
             "name": "coral bleaching process",
             "url": "http://purl.obolibrary.org/obo/ENVO_01000852"
         },
         {
-            "@id": "http://purl.obolibrary.org/obo/ENVO_00000166",
-            "@type": "URL",
+            "identifier": "http://purl.obolibrary.org/obo/ENVO_00000166",
+            "@type": "DefinedTerm",
             "name": "atoll",
             "url": "http://purl.obolibrary.org/obo/ENVO_00000166"
         },
         {
             "@type": "DefinedTerm",
             "name": "Fish abundance and distribution",
-            "url": [
-                "https://goosocean.org/document/17510"
-            ],
-            "inDefinedTermSet": {
-                "@type": "DefinedTermSet",
-                "name": "Essential Ocean Variables",
-                "description": "GOOS Essential Ocean Variables",
-                "url": "https://goosocean.org/eov/"
-            }
+            "url": "https://goosocean.org/document/TODO:add real code"
         },
-        {
-            "@type": "DefinedTerm",
-            "name": "Seagrass cover and composition",
-            "url": [
-                "https://goosocean.org/document/17513"
-            ],
-            "inDefinedTermSet": {
-                "@type": "DefinedTermSet",
-                "name": "Essential Ocean Variables",
-                "description": "GOOS Essential Ocean Variables",
-                "url": "https://goosocean.org/eov/"
-            }
-        },
+        "Seagrass cover and composition",
         {
             "@type": "DefinedTerm",
             "name": "Sea surface temperature",
-            "url": [
-                "http://purl.obolibrary.org/obo/ENVO_04000002, https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/, https://goosocean.org/document/17466"
+            "identifier": [
+                "http://purl.obolibrary.org/obo/ENVO_04000002",
+                "https://vocab.nerc.ac.uk/collection/EXV/current/EXV017/"
             ],
-            "inDefinedTermSet": {
-                "@type": "DefinedTermSet",
-                "name": "Essential Ocean Variables",
-                "description": "GOOS Essential Ocean Variables",
-                "url": "https://goosocean.org/eov/"
-            }
+            "url": "https://goosocean.org/document/17466"
         },
         {
             "@type": "DefinedTerm",
             "name": "Subsurface temperature",
-            "url": [
-                "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/, https://goosocean.org/document/17467"
-            ],
-            "inDefinedTermSet": {
-                "@type": "DefinedTermSet",
-                "name": "Essential Ocean Variables",
-                "description": "GOOS Essential Ocean Variables",
-                "url": "https://goosocean.org/eov/"
-            }
-        }
-    ],
-    "license": {
-        "@type": "CreativeWork",
-        "name": "CC-BY-SA: Creative Commons Attribution Share Alike 4.0 International",
-        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-    },
-    "measurementTechnique": [
-        {
-            "@type": "PropertyValue",
-            "name": "Fixed point: Human based",
-            "propertyID": "http://vocab.nerc.ac.uk/collection/L06/current/71/"
-        },
-        {
-            "@type": "CreativeWork",
-            "url": "https://www.google.com/"
-        },
-        {
-            "@type": "CreativeWork",
-            "url": "https://www.google.com"
+            "identifier": "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/",
+            "url": "https://goosocean.org/document/17467"
         }
     ],
     "name": "TSub",
     "description": "Descriptive description",
     "identifier": [
         {
-            "@type": "PropertyValue",
-            "description": "test submission",
-            "url": "123"
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "url": "https://doi.org/10.5066/F7VX0DMQ",
+        "value": "10.5066/F7VX0DMQ"
         }
     ],
-    "temporalCoverage": "2025-06-02/2025-06-19",
+    "foundingDate": "2025-06-02",
+    "dissolutionDate": "2025-06-19",
     "areaServed": [
         {
             "@type": "Place",
@@ -122,9 +73,16 @@
             }
         }
     ],
-    "isRelatedTo": [
-        "https://bioecoocean.github.io/blueprint-dev/"
-    ],
+    "makesOffer": {
+            "@type": "Offer",
+            "name": "Distribution of the BioEcoOcean Blueprint for Integrated Ocean Science",
+            "itemOffered": 
+              {
+                  "@type": "CreativeWork",
+                  "name": "The BioEcoOcean Blueprint for Integrated Ocean Science",
+                  "url": "https://bioecoocean.github.io/blueprint-dev/"
+              }
+        },
     "funding": [
         {
             "@type": "MonetaryGrant",
@@ -141,17 +99,16 @@
     "contactPoint": [
         {
             "@type": "ContactPoint",
-            "name": "Elizabeth Lawrence",
-            "email": "elizabeth-lawrence@outlook.com",
-            "role": "Data manager",
-            "identifier": "https://oceanexpert.org/expert/50997"
+            "contactType": "General inquiries",
+            "name": "Contact Us Page",
+            "url": "https://contactpoint.org"
         },
-        {
+         {
             "@type": "ContactPoint",
-            "name": "Jonathan Lawrence",
-            "email": "elizabeth-lawrence@hotmail.com",
-            "role": "Data collector",
-            "identifier": ""
+            "name": "Contact email address",
+            "contactType": "General inquiries",
+            "email": "contact@org.org"
         }
     ]
+    
 }
