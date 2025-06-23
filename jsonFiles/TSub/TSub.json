@@ -150,8 +150,8 @@
             "@type": "ContactPoint",
             "name": "Jonathan Lawrence",
             "email": "elizabeth-lawrence@hotmail.com",
-            "role": "Data collector",
-            "identifier": ""
+            "contactType": "Other",
+            "url": ""
         }
     ]
 }
