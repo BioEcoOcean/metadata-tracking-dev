@@ -125,9 +125,15 @@
             }
         }
     ],
-    "isRelatedTo": [
-        "https://bioecoocean.github.io/blueprint-dev/"
-    ],
+    "makesOffer": {
+        "@type": "Offer",
+        "name": "Distribution of the BioEcoOcean Blueprint for Integrated Ocean Science",
+        "itemOffered": {
+            "@type": "CreativeWork",
+            "name": "The BioEcoOcean Blueprint for Integrated Ocean Science",
+            "url": "https://bioecoocean.github.io/blueprint-dev/"
+        }
+    },
     "funding": [
         {
             "@type": "MonetaryGrant",
