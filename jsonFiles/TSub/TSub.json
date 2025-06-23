@@ -105,8 +105,10 @@
     "identifier": [
         {
             "@type": "PropertyValue",
-            "description": "test submission",
-            "url": "123"
+            "description": "RAiD",
+            "propertyID": "https://registry.identifiers.org/registry/raid",
+            "url": "https://raid.org/10.71821/418be95a",
+            "value": "10.71821/418be95a"
         }
     ],
     "temporalCoverage": "2025-06-02/2025-06-19",
@@ -117,6 +119,7 @@
             "identifier": "http://marineregions.org/mrgid/9057",
             "geo": {
                 "@type": "GeoShape",
+                "propertyID": "https://registry.identifiers.org/registry/",
                 "description": "schema.org expects lat long (Y X) coordinate order. Box syntax is: miny minx maxy maxx",
                 "box": "41.771 -70.488 52.268 -50.801"
             }
