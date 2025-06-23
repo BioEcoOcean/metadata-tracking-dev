@@ -143,8 +143,8 @@
             "@type": "ContactPoint",
             "name": "Elizabeth Lawrence",
             "email": "elizabeth-lawrence@outlook.com",
-            "role": "Data manager",
-            "identifier": "https://oceanexpert.org/expert/50997"
+            "contactType": "Data manager",
+            "url": "https://oceanexpert.org/expert/50997"
         },
         {
             "@type": "ContactPoint",
