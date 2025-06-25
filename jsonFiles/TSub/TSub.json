@@ -139,7 +139,8 @@
             "value": "10.71821/418be95a"
         }
     ],
-    "temporalCoverage": "2025-06-02/2025-06-19",
+    "foundingDate": "2025-06-10",
+    "dissolutionDate": "2025-06-20",
     "areaServed": [
         {
             "@type": "Place",
