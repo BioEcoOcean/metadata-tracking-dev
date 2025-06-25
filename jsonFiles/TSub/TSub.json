@@ -100,6 +100,34 @@
             "url": "https://www.google.com"
         }
     ],
+    "potentialAction": [
+        {
+            "@type": "Action",
+            "name": "Fixed point: Human based",
+            "agent": "test submission",
+            "instrument": {
+                "name": "Fixed point: Human based",
+                "identifier": "http://vocab.nerc.ac.uk/collection/L06/current/71/"
+            }
+        },
+        {
+            "@type": "Action",
+            "agent": {
+                "@type": "Project",
+                "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/TSub/TSub.json",
+                "name": "test submission"
+            },
+            "actionProcess": {
+                "@type": "HowTo",
+                "url": "https://www.google.com/",
+                "isPartOf": {
+                    "@type": "Collection",
+                    "name": "Ocean Best Practices",
+                    "url": "https://www.oceanbestpractices.org/"
+                }
+            }
+        }
+    ],
     "name": "TSub",
     "description": "Descriptive description",
     "identifier": [
