@@ -68,6 +68,16 @@
         },
         {
             "@type": "DefinedTerm",
+            "name": "Community composition Taxonomic/phylogenetic diversity",
+            "url": "https://geobon.org/ebvs/what-are-ebvs/"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Benthic invertebrates - Presence/absence",
+            "url": "https://goosocean.org/document/36269"
+        },
+        {
+            "@type": "DefinedTerm",
             "name": "Subsurface temperature",
             "url": [
                 "https://vocab.nerc.ac.uk/collection/EXV/current/EXV018/, https://goosocean.org/document/17467"
