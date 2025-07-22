@@ -11,7 +11,7 @@ class setEncoder(json.JSONEncoder):
 # Function to handle the separate sections
 def extract_sections(issue_body):
     # Split by headings, capturing heading and JSON
-    pattern = r"(Metadata Submission|Actions JSON|Metadata Frequency)\s*({.*?})(?=(?:\n[A-Za-z ]+\n)|$)"
+    pattern = r"###\s*(Metadata Submission|Actions JSON|Metadata Frequency)\s*```json\s*({.*?})\s*```"
     matches = re.findall(pattern, issue_body, re.DOTALL)
     sections = {}
     for heading, json_text in matches:
