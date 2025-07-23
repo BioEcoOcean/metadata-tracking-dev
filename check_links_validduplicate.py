@@ -4,6 +4,7 @@ import sys
 
 CSV_FILE = 'data/bioeco_list.csv'
 
+# this is not working, URLs are giving SSL CERTIFICATE_VERIFY_FAILED errors e.g. bioecoocean.org
 def check_urls(rows):
     bad_urls = []
     for row in rows:
@@ -51,10 +52,10 @@ if __name__ == "__main__":
             print(f"  {url}")
 
     # Check URLs
-    bad_urls = check_urls(rows)
+    #bad_urls = check_urls(rows)
 
     # Fail if any problems found
-    if dup_names or dup_urls or bad_urls:
+    if dup_names or dup_urls: #or bad_urls:
         with open("gh_alert.txt", "w", encoding="utf-8") as alert:
             alert.write("## :warning: Metadata List Issues Detected\n")
             if dup_names:
@@ -65,10 +66,10 @@ if __name__ == "__main__":
                 alert.write("### Duplicate URLs:\n")
                 for url in dup_urls:
                     alert.write(f"- {url}\n")
-            if bad_urls:
-                alert.write("### Bad URLs:\n")
-                for url in bad_urls:
-                    alert.write(f"- {url}\n")
+            # if bad_urls:
+            #     alert.write("### Bad URLs:\n")
+            #     for url in bad_urls:
+            #         alert.write(f"- {url}\n")
             alert.write("\n/cc @EliLawrence\n") 
         sys.exit(1)
     

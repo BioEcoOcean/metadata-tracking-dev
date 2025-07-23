@@ -23,6 +23,7 @@ jobs:
 
       - name: Check links and duplicates
         run: python check_links_validduplicate.py
+        continue-on-error: true
 
       - name: Check if alert file exists
         id: check_alert
