@@ -1,0 +1,42 @@
+name: Check Links and Duplicates
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/bioeco_list.csv"
+
+jobs:
+  check-links-and-dupes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Check links and duplicates
+        run: python check_links_and_duplicates.py
+
+      - name: Check if alert file exists
+        id: check_alert
+        run: |
+          if [ -f gh_alert.txt ]; then
+            echo "found=true" >> $GITHUB_OUTPUT
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create GitHub Issue from file
+        if: steps.check_alert.outputs.found == 'true'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Metadata List: Duplicates or Bad Links Detected"
+          content-filepath: gh_alert.txt
+          labels: bug, automated-alert
