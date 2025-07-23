@@ -23,3 +23,11 @@ jobs:
 
       - name: Collect Project Names to CSV
         run: python collectNamesTo_csv.py
+      
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+          git add data/bioeco_list.csv
+          git diff --cached --quiet || git commit -m "Updated list of metadata entries"
+          git push
