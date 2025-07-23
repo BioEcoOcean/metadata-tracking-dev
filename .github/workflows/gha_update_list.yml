@@ -1,0 +1,25 @@
+name: Update Metadata Entry List
+
+on:
+  workflow_dispatch:
+  push:
+      paths:
+          - "JsonFiles/**"
+
+jobs:
+  collectNamesTo_csv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+  
+      - name: Install dependencies
+        run: pip install --upgrade pip
+
+      - name: Collect Project Names to CSV
+        run: python collectNamesTo_csv.py
