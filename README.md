@@ -2,7 +2,7 @@
 
 # EOV metadata
 
-This repo is for generating and processing metadata JSON-LD files for EOV "data producers" (i.e. projects, programmes, institutions, etc.). Metadata entries are submitted by an application accessible via [eovmetadata.obis.org/](eovmetadata.obis.org/), and become visible in both ODIS and the GOOS BioEco Portal (as of summer 2025 these connections are still WIP). Metadata submitted with this tool describe the data source (data producer) rather than a dataset. Dataset metadata should be associated with the dataset itself, for example when published to [OBIS](https://obis.org/).
+This repo is for generating and processing metadata JSON-LD files for EOV "data producers" (i.e. projects, programmes, institutions, etc.). Metadata entries are submitted by an application accessible via [eovmetadata.obis.org/](https://eovmetadata.obis.org/), and become visible in both ODIS and the GOOS BioEco Portal (as of summer 2025 these connections are still WIP). Metadata submitted with this tool describe the data source (data producer) rather than a dataset. Dataset metadata should be associated with the dataset itself, for example when published to [OBIS](https://obis.org/).
 
 This work is supported by the [BioEcoOcean](https://bioecoocean.org/) project, with the aim to be useful after the lifetime of the project.
 
