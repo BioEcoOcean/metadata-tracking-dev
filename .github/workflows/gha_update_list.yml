@@ -5,6 +5,8 @@ on:
   push:
       paths:
           - "JsonFiles/**"
+  schedule:
+    - cron: '0 0 * * 1'  # Weekly job to update the list, every Monday at midnight UTC
 
 jobs:
   collectNamesTo_csv:
