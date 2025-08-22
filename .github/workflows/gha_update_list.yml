@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
   push:
       paths:
-          - "JsonFiles/**"
-          - "JsonFiles/*"
-          - "JsonFiles"
+          - "jsonFiles/**"
+          - "jsonFiles/*"
+          - "jsonFiles"
   schedule:
     - cron: '0 0 */3 * *'  # Weekly job to update the list every 3 days at midnight UTC
 
