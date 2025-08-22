@@ -41,6 +41,9 @@ def generate_sitemap():
     # Traverse all subfolders and gather .json file data
     for root, dirs, files in os.walk(JSON_FOLDER):
         print(f"Checking folder: {root}")
+        if "Example" in os.path.normpath(root).split(os.sep):
+            continue  # Skip any folder named Example
+        print(f"Checking folder: {root}")
         for file_name in files:
             if file_name.endswith(".json") and not file_name.endswith("_actions.json") and not file_name.endswith("_frequency.json"):
                 folder_name = os.path.splitext(file_name)[0]

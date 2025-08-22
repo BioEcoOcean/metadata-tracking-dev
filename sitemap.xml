@@ -1,23 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Draft_Sub/Draft_Sub.json</loc>
-    <lastmod>2025-07-22</lastmod>
-    <changefreq>asneeded</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Draft_Sub/Draft_Sub_actions.json</loc>
-    <lastmod>2025-07-22</lastmod>
-    <changefreq>asneeded</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Example/Example.json</loc>
-    <lastmod>2025-08-22</lastmod>
-    <changefreq>asNeeded</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Example/Example_actions.json</loc>
-    <lastmod>2025-08-22</lastmod>
-    <changefreq>asNeeded</changefreq>
-  </url>
+</url>
 </urlset>
