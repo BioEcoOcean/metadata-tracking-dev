@@ -1,0 +1,32 @@
+name: Remove Metadata Entry
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  remove_entry:
+    if: contains(github.event.label.name, 'remove entry')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Remove entry and update sitemap
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          python remove_entry.py "$ISSUE_TITLE"
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Removed entry and updated sitemap for ${{ github.event.issue.title }}"
+          git push
