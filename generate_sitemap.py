@@ -70,6 +70,7 @@ def generate_sitemap():
                         print(f"    ERROR reading frequency from {main_json_path}: {e}")
 
                     url = f"{RAW_BASE_URL}/{folder_url}/{file_name}".strip("/")
+                    print(url) #debugging
                     lastmod = get_git_last_modified_date(main_json_path)
                     if not lastmod:
                         lastmod = datetime.now().strftime("%Y-%m-%d")

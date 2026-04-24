@@ -10,13 +10,18 @@ on:
           - 'main'
     push:
         paths:
-            - "JsonFiles/**"
+            - "jsonFiles/**"
     schedule:
         - cron: "0 0 * * 1"  # Weekly job to regenerate sitemap
 
 jobs:
   build:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # multiple conditions to trigger the job so 
+    if: > 
+      github.event_name == 'workflow_dispatch' || 
+      github.event_name == 'push' ||
+      github.event_name == 'schedule' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
 
     steps:
