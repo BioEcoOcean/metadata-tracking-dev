@@ -35,14 +35,6 @@ def process_github_issue(issue_title, issue_body):
         print(f"Error decoding JSON-LD: {e}")
         sys.exit(1)
     
-    # Parse the issue body as JSON-LD
-    try:
-        data = json.loads(issue_body)
-        print("Parsed JSON-LD:", data)
-    except json.JSONDecodeError as e:
-        print(f"Error decoding JSON-LD: {e}")
-        sys.exit(1)
-
     # Find the Project node in the @graph to determine folder name
     folder_base = None
     if "@graph" in data:
