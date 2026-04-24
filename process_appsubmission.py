@@ -20,57 +20,38 @@ def extract_sections(issue_body):
 
 # Function to process the json content
 def process_github_issue(issue_title, issue_body):
-    # Extract the 'name' from the issue title using regex
-    match = re.match(r"^New Submission: (.+)$", issue_title)
-    if not match:
-        print("No valid 'name' found in the issue title.")
-        sys.exit(1)
-    
-    name = match.group(1)
-    print(f"Extracted Name: {name}")
-    
-    # Extract JSON sections
-    sections = extract_sections(issue_body)
-    if "Metadata Submission" not in sections:
-        print("No 'Metadata Submission' section found.")
-        sys.exit(1)
-    
-    # Parse main metadata to get folder name
+    # Parse the issue body as JSON-LD
     try:
-        main_json = json.loads(sections["Metadata Submission"])
-        print("Parsed Metadata Submission:", main_json)
+        data = json.loads(issue_body)
+        print("Parsed JSON-LD:", data)
     except json.JSONDecodeError as e:
-        print(f"Error decoding Metadata Submission JSON: {e}")
+        print(f"Error decoding JSON-LD: {e}")
         sys.exit(1)
 
-    # Sanitize the folder name
-    folder_base = main_json.get("name") or main_json.get("legalName") or name
+    # Find the Project node in the @graph to determine folder name
+    folder_base = None
+    if "@graph" in data:
+        for node in data["@graph"]:
+            if node.get("@type") == "Project" or node.get("@type") == "schema:Project":
+                folder_base = node.get("schema:name") or node.get("schema:legalName")
+                break
+    if not folder_base:
+        print("No Project node with a name found in the @graph.")
+        sys.exit(1)
+
     folder_name = re.sub(r"[^\w\-_]", "_", folder_base)
     folder_path = f"jsonFiles/{folder_name}"
     os.makedirs(folder_path, exist_ok=True)
-
     # Debugging
     print("Folder name:", folder_name)
     print("Folder path:", folder_path)    
     print("issue body",issue_body)
-
-    # Save each section as its own JSON file
-    filenames = {
-        "Metadata Submission": f"{folder_name}.json",
-        "Actions JSON": f"{folder_name}_actions.json",
-        "Metadata Frequency": f"{folder_name}_frequency.json"
-    }
-    for heading, json_text in sections.items():
-        try:
-            content = json.loads(json_text)
-        except json.JSONDecodeError as e:
-            print(f"Error decoding {heading} JSON: {e}")
-            continue
-        json_file_path = os.path.join(folder_path, filenames.get(heading, f"{folder_name}_{heading.lower().replace(' ', '_')}.json"))
-        print(f"Saving {heading} to {json_file_path}")
-        with open(json_file_path, "w", encoding="utf-8") as json_file:
-            json.dump(content, json_file, indent=4, cls=setEncoder)
-        print(f"{heading} saved to {json_file_path}")
+    # Save the entire JSON-LD as a single file
+    json_file_path = os.path.join(folder_path, f"{folder_name}.json")
+    print(f"Saving JSON-LD to {json_file_path}")
+    with open(json_file_path, "w", encoding="utf-8") as json_file:
+        json.dump(data, json_file, indent=4, cls=setEncoder)
+    print(f"JSON-LD saved to {json_file_path}")
 
 if __name__ == "__main__":
     # Expecting issue_title and issue_body as command-line arguments

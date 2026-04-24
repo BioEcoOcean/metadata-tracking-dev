@@ -38,27 +38,38 @@ def generate_sitemap():
     """Generates a single sitemap for all .json files in the jsonFiles folder and its subfolders."""
     sitemap_entries = []
 
-    # Traverse all subfolders and gather .json file data
+    # Traverse all subfolders and gather only main .json file data
     for root, dirs, files in os.walk(JSON_FOLDER):
         print(f"Checking folder: {root}")
         if "Example" in os.path.normpath(root).split(os.sep):
             continue  # Skip any folder named Example
-        print(f"Checking folder: {root}")
         for file_name in files:
-            if file_name.endswith(".json") and not file_name.endswith("_actions.json") and not file_name.endswith("_frequency.json"):
+            if file_name.endswith(".json"):
+                # Only include if it's the only .json file for the folder (no _actions or _frequency)
+                if file_name.endswith("_actions.json") or file_name.endswith("_frequency.json"):
+                    continue
                 folder_name = os.path.splitext(file_name)[0]
-                main_json_path = os.path.join(root, f"{folder_name}.json")
-                actions_json_path = os.path.join(root, f"{folder_name}_actions.json")
-                freq_json_path = os.path.join(root, f"{folder_name}_frequency.json")
+                main_json_path = os.path.join(root, file_name)
                 relative_folder = os.path.relpath(root, JSON_FOLDER)
                 folder_url = relative_folder if relative_folder != "." else ""
 
-                # Get frequency from frequency file
-                frequency = get_frequency_from_file(freq_json_path)
-
-                # Add main JSON entry
+                # Try to extract frequency from the JSON-LD @graph
+                frequency = "never"
                 if os.path.exists(main_json_path):
-                    url = f"{RAW_BASE_URL}/{folder_url}/{folder_name}.json".strip("/")
+                    try:
+                        with open(main_json_path, "r", encoding="utf-8") as jf:
+                            data = json.load(jf)
+                            # Look for a node with 'schema:frequency' in @graph
+                            if "@graph" in data:
+                                for node in data["@graph"]:
+                                    freq = node.get("schema:frequency")
+                                    if freq:
+                                        frequency = freq
+                                        break
+                    except Exception as e:
+                        print(f"    ERROR reading frequency from {main_json_path}: {e}")
+
+                    url = f"{RAW_BASE_URL}/{folder_url}/{file_name}".strip("/")
                     lastmod = get_git_last_modified_date(main_json_path)
                     if not lastmod:
                         lastmod = datetime.now().strftime("%Y-%m-%d")
@@ -69,21 +80,6 @@ def generate_sitemap():
                         "lastmod": lastmod,
                         "changefreq": frequency
                     })
-
-                # Add actions JSON entry if it exists
-                if os.path.exists(actions_json_path):
-                    url = f"{RAW_BASE_URL}/{folder_url}/{folder_name}_actions.json".strip("/")
-                    lastmod = get_git_last_modified_date(actions_json_path)
-                    if not lastmod:
-                        lastmod = datetime.now().strftime("%Y-%m-%d")
-                    else:
-                        lastmod = lastmod[:10]
-                    sitemap_entries.append({
-                        "url": url,
-                        "lastmod": lastmod,
-                        "changefreq": frequency
-                    })
-                
     # Sort entries so oldest are first, newest are last
     sitemap_entries.sort(key=lambda x: x['lastmod'])
     
