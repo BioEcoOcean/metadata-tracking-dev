@@ -20,6 +20,21 @@ def extract_sections(issue_body):
 
 # Function to process the json content
 def process_github_issue(issue_title, issue_body):
+    # Extract the JSON from the markdown sections first
+    sections = extract_sections(issue_body) 
+    if "Metadata Submission" not in sections:
+        print("No 'Metadata Submission' section found in issue body.")
+        sys.exit(1)
+    
+    json_text = sections["Metadata Submission"]
+    
+    try:
+        data = json.loads(json_text)
+        print("Parsed JSON-LD:", data)
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON-LD: {e}")
+        sys.exit(1)
+    
     # Parse the issue body as JSON-LD
     try:
         data = json.loads(issue_body)
