@@ -2,12 +2,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Example/Test_Example.json</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>asNeeded</changefreq>
-  </url>
-  <url>
-    <loc>https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Test_Example/Test_Example_actions.json</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>asNeeded</changefreq>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>unknown</changefreq>
   </url>
 </urlset>
