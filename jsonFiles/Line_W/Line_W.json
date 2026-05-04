@@ -24,7 +24,7 @@
           "schema:geo": {
             "@type": "schema:GeoShape",
             "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
-            "schema:geosparql:asWKT": {
+            "geosparql:asWKT": {
               "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
               "@value": "POLYGON ((-69.719 41.046, -64.116 34.994, -65.325 34.434, -70.642 40.564, -69.719 41.046))"
             }
