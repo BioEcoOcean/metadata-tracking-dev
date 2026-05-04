@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Sanya Tropical Marine Biological Research Station",
+      "schema:name": "Sanya Tropical Marine Biological Research Station",
+      "schema:url": "http://syb.cern.ac.cn/",
+      "schema:description": "Sanya Tropical Marine Biological Research Station",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2009-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (109.467 18.217)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sanya_Tropical_Marine_Biological_Research_Station/Sanya_Tropical_Marine_Biological_Research_Station.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sanya_Tropical_Marine_Biological_Research_Station/Sanya_Tropical_Marine_Biological_Research_Station.json",
+        "name": "Sanya Tropical Marine Biological Research Station"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sanya_Tropical_Marine_Biological_Research_Station/Sanya_Tropical_Marine_Biological_Research_Station_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

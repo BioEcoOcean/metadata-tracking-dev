@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "LTER- MareChiara, Golfo di Napoli",
+      "schema:name": "LTER- MareChiara, Golfo di Napoli",
+      "schema:url": "http://szn.macisteweb.com/front-page-en-en-en?set_language=en",
+      "schema:description": "The MareChiara research program, started in 1984, is aimed at studying the structure and functioning of the plankton of the coastal pelagic system of the Gulf of Naples in relation to environmental characteristics and climatic changes. The LTER-MC sampling site is located 2 miles off the coast of the city of Naples, on a depth of about 75 m, in a dynamic area between the coastal system, which is affected by the inputs from the land, and the offshore system, which has characteristics typical of the open waters of the Southern Tyrrhenian Sea.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "http://szn.macisteweb.com/front-page-en-en-en?set_language=en"
+      ],
+      "schema:foundingDate": "1984-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (14.25 40.816)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER-_MareChiara_Golfo_di_Napoli/LTER-_MareChiara_Golfo_di_Napoli.json",
+      "schema:keywords": [
+        "LTER"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER-_MareChiara_Golfo_di_Napoli/LTER-_MareChiara_Golfo_di_Napoli.json",
+        "name": "LTER- MareChiara, Golfo di Napoli"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER-_MareChiara_Golfo_di_Napoli/LTER-_MareChiara_Golfo_di_Napoli_actions.json",
+      "schema:description": "daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

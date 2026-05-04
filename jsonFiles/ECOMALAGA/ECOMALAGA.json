@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "ECOMALAGA",
+      "schema:name": "ECOMALAGA",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/es-50301/",
+      "schema:description": "Instituto Español de Oceanografiía - ECOMALAGA\r\nThe Málaga Bay was sampled from 1992 to 2000 as part of the ECOMÁLAGA time-series operated by the Instituto Español de Oceanografiía (IEO). In 2010, sampling at Station MA2 of the Málaga transect was restarted. Station MA2 is located within the Bay of Málaga (36 41.76 N, 4 24.35 W), in the northwest Alboran Sea, with a bottom depth of 28 meters.Zooplankton samples were collected on a quarterly basis from near bottom to the surface using a double bongo net (40 cm diameter, 200 µm mesh). Once on board, samples were preserved in 100 ml plastic jars with 4% buffered formalin seawater (pH 7.0) for abundance and taxonomic composition analyses. Abundance counts and taxonomical identification were done with a binocular macroscope (Zeiss, Stemi SV11). Prior to the analyses, samples were stained with Rose Bengal to facilitate identification of gelatinous plankton. A Seabird25 CTD was used to obtain in situ profiles of temperature and salinity.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1992-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-4.406 36.696)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ECOMALAGA/ECOMALAGA.json",
+      "schema:keywords": [
+        "Málaga Bay"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ECOMALAGA/ECOMALAGA.json",
+        "name": "ECOMALAGA"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ECOMALAGA/ECOMALAGA_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

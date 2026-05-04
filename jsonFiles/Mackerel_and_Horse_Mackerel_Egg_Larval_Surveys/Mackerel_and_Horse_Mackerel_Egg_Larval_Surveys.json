@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Mackerel and Horse Mackerel Egg & Larval Surveys",
+      "schema:name": "Mackerel and Horse Mackerel Egg & Larval Surveys",
+      "schema:url": "https://www.marine.ie/site-area/areas-activity/fisheries-ecosystems/mackerel-and-horse-mackerel-egg-larval-surveys#:~:text=survey%20carried%20out-,The%20international%20mackerel%20and%20horse%20mackerel%20egg%20surveys%20take%20place,Norway%20and%20the%20North%20Sea.",
+      "schema:description": "The international mackerel and horse mackerel egg surveys take place between February and the end of July every 3 years.  Fisheries Ecosystems Advisory Services (FEAS) are part of a consortium of eleven national laboratories from nine European countries that run the international mackerel and horse mackerel egg surveys.\r\nThe aim of the international mackerel and horse mackerel egg survey program is to estimate the spawning stock biomass (the total weight of all sexually mature fish in the population) of the North-east Atlantic mackerel and horse mackerel stocks. This data feeds into stock assessments as fisheries independent information. In addition, the data provides important information on the timing and location of spawning for mackerel and horse mackerel. The survey has been carried out every three years since its inception in 1977 and can therefore provide important information about the distribution and timing of spawning in relation to climate change.\r\nThe international mackerel and horse mackerel egg surveys take place every 3 years and cover the spawning grounds for both species in the NE Atlantic. Currently the survey area extends from southern Portugal to the Faroes, to the coast of Norway and the North Sea. Surveys take place between February and the end of July. A plankton sampler called a GULF VII is deployed from a survey vessel on a V-shaped tow. The tows take place to a maximum depth of 200m. The GULFs use a net with a mesh size of 250µ. Scientists extract, identify, count and stage the number of fish eggs from these plankton samples, and relate these to the number of eggs produced per female fish to obtain an estimate of the size of the spawning stock.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "http://doi.org/10.17895/ices.pub.7579"
+      ],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-11 36, -11 44.5, -3 44.5, -3 45.5, -4 45.5, -4 46, -5 46, -5 47, -6 47, -6 47.5, -8 47.5, -8 48, -12 48, -12 54.5, -14.174 54.545, -14.174 60.045, -13.331 60.036, -13.286 62.224, -4.023 62.207, -4 58.568, -6.911 58.527, -6.888 55.356, -7.37 55.388, -7.855 55.168, -8.288 55.161, -8.792 54.664, -8.141 54.65, -8.666 54.367, -8.483 54.29, -10.012 54.306, -9.864 53.623, -10.077 53.426, -9.261 53.156, -9.499 52.754, -9.941 52.561, -9.761 52.161, -10.375 51.889, -9.823 51.494, -9 51.572, -9 50, -7 50, -7 49.5, -5 49.5, -5 48, -4.5 48, -4.369 47.792, -3.853 47.792, -2.683 47.609, -2.478 47.29, -1.984 47.032, -2.147 46.886, -1.823 46.507, -1.13 46.257, -1.24 45.708, -1.067 45.516, -1.19 44.665, -1.447 43.655, -1.664 43.397, -2.129 43.293, -2.75 43.454, -3.161 43.354, -3.587 43.514, -4.574 43.39, -5.408 43.558, -7.235 43.569, -7.858 43.776, -8.3 43.404, -9.164 43.187, -9.291 42.927, -8.91 42.8, -9.017 42.517, -8.645 41.013, -9.07 39.583, -9.373 39.35, -9.484 38.708, -8.772 38.283, -8.786 37.532, -8.993 37.022, -8.623 37.126, -7.865 36.974, -7.068 37.205, -6.634 37.051, -6.031 36.183, -5.61 36, -11 36), (-1.23 45.802, -1.244 45.99, -1.349 45.922, -1.23 45.802))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Mackerel_and_Horse_Mackerel_Egg_Larval_Surveys/Mackerel_and_Horse_Mackerel_Egg_Larval_Surveys.json",
+      "schema:keywords": [
+        "ICES"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:description": "Ireland's Mackerel Egg Survey is part of Ireland's Data Collection Scheme which is carried out under Ireland's Operational Programme (OP), co-funded by the European Maritime and Fisheries Fund (EMFF) and by the Irish Government."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Mackerel_and_Horse_Mackerel_Egg_Larval_Surveys/Mackerel_and_Horse_Mackerel_Egg_Larval_Surveys.json",
+        "name": "Mackerel and Horse Mackerel Egg & Larval Surveys"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Mackerel_and_Horse_Mackerel_Egg_Larval_Surveys/Mackerel_and_Horse_Mackerel_Egg_Larval_Surveys_actions.json",
+      "schema:description": "every_2_to_5_years",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "testx",
+      "schema:name": "testx",
+      "schema:url": "",
+      "schema:description": "No abstract provided",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/testx/testx.json",
+      "schema:keywords": [],
+      "schema:funding": [],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/testx/testx.json",
+        "name": "testx"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/testx/testx_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

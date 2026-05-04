@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Researcher for a day",
+      "schema:name": "Researcher for a day",
+      "schema:url": "https://www.joniandolphin.it/wordpress/2017/",
+      "schema:description": "Jonan Dolphin Conservation - Researcher for a day",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2009-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (17.038 40.402)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Researcher_for_a_day/Researcher_for_a_day.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Researcher_for_a_day/Researcher_for_a_day.json",
+        "name": "Researcher for a day"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Researcher_for_a_day/Researcher_for_a_day_actions.json",
+      "schema:description": "opportunistically",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

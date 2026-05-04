@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Ecosystem Monitoring and Assessment Program",
+      "schema:name": "Ecosystem Monitoring and Assessment Program",
+      "schema:url": "https://www.fisheries.noaa.gov/about/alaska-fisheries-science-center",
+      "schema:description": "Ecosystem Monitoring and Assessment Program",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1999-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((-167.344 62.835, -167.256 59.623, -160.356 57.303, -165.19 55.254, -172.046 58.286, -171.343 62.654, -168.047 62.674, -167.344 62.835)), ((-164.268 63.937, -166.597 62.915, -171.123 64.168, -169.233 65.531, -167.915 64.53, -166.86 64.206, -164.268 63.937)), ((-156.094 71.843, -158.818 71.131, -162.51 70.627, -164.707 69.287, -167.036 69.163, -166.86 68.09, -165.278 66.964, -168.574 66.302, -168.838 71.202, -168.706 71.413, -168.882 71.856, -156.094 71.843)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ecosystem_Monitoring_and_Assessment_Program/Ecosystem_Monitoring_and_Assessment_Program.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ecosystem_Monitoring_and_Assessment_Program/Ecosystem_Monitoring_and_Assessment_Program.json",
+        "name": "Ecosystem Monitoring and Assessment Program"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ecosystem_Monitoring_and_Assessment_Program/Ecosystem_Monitoring_and_Assessment_Program_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

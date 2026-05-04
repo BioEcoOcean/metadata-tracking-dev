@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natura 2000 network in Italy",
+      "schema:name": "Natura 2000 network in Italy",
+      "schema:url": "",
+      "schema:description": "Natura 2000 network in Italy",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((13.403 46.073, 19.556 39.13, 15.161 36.633, 7.295 43.993, 13.403 46.073))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natura_2000_network_in_Italy/Natura_2000_network_in_Italy.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natura_2000_network_in_Italy/Natura_2000_network_in_Italy.json",
+        "name": "Natura 2000 network in Italy"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natura_2000_network_in_Italy/Natura_2000_network_in_Italy_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

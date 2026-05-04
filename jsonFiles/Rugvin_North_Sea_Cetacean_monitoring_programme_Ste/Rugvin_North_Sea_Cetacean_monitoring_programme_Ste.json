@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Rugvin North Sea Cetacean monitoring programme, Stena Line ferries",
+      "schema:name": "Rugvin North Sea Cetacean monitoring programme, Stena Line ferries",
+      "schema:url": "https://rugvin.nl/english/",
+      "schema:description": "Since 2005, the Rugvin Foundation has sailed monthly with the Stena Line ferries Hollandica and Britannica from Hoek van Holland to Harwich (UK). There are always two observers/observers on board. Due to the Corona pandemic, we were unfortunately only able to monitor sailing to a limited extent from 2020 to April 2022.\r\nThe most common cetacean in the monitoring area (and in Dutch waters) is the harbor porpoise ( Phocoena phocoena ). Over the years, the number of harbor porpoises spotted by Rugfin observers increased. The year 2010 was a temporary high with 403 porpoises. Of these, no fewer than 316 animals were observed in the month of April. In the years 2015 – 2018 the number of harbor porpoises increased sharply. See bar charts. In the early years, white-beaked dolphins ( Lagenorhynchus albirostris ) were also regularly observed. This species was not seen by the observers of Rugvin for a number of years, but in the last years 2015, 2017, 2018 and 2019 we noted a number of this dolphin species again. In addition, orcas, bottlenose dolphins, humpback whales and non-cetaceans such as basking sharks and seals (grey and common) have also been occasionally observed.  The observations are recorded for each year and can be found in the annual overviews and the maps and tables included in the annual report of the relevant year.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2005-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((1.548 52.008, 3.884 52.062, 4.138 52.015, 4.07 51.984, 3.986 51.981, 3.22 51.839, 1.358 51.812, 1.335 51.876, 1.257 51.907, 1.247 51.937, 1.277 51.961, 1.548 52.008))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "civil_society"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://rugvin.nl/noordzee/monitoringsresultaten-noordzee/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste.json",
+        "name": "Rugvin North Sea Cetacean monitoring programme, Stena Line ferries"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste/Rugvin_North_Sea_Cetacean_monitoring_programme_Ste_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

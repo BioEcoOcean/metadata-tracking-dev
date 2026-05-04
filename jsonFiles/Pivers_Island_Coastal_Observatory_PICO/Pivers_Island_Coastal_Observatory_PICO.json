@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Pivers Island Coastal Observatory (PICO)",
+      "schema:name": "Pivers Island Coastal Observatory (PICO)",
+      "schema:url": "https://sites.nicholas.duke.edu/johnson/research/pico/",
+      "schema:description": "The Pivers Island Coastal Observatory (PICO) is a time-series located in the second largest estuarine system on the US East Coast (Albemarle-Pamlico Sound system) with more than decade of weekly (or more frequent) sampling of core physical, chemical and biological oceanographic variables.  PICO provides unique insight into a coastal, mesotrophic ecosystem that are high intensity areas of marine ecology and biochemistry and that are impacted by a broad array of environmental change. Here we report on the first decade of observations focusing on the pulse and press of this system. Layered onto dramatic annual cycles in temperature, pH, chlorophyll, are major episodic disturbances (e.g., tropical cyclones) that dramatically impact this ecosystem and have lasting effects (>1 month) with variable recovery times. Longer term trends in pH and chlorophyll among other variables suggest an ecosystem that is in flux in response to changing climate.  These data and analyses provide a benchmark for future studies of the impact of changing climate and an oceanographic backbone to layer targeted observations and experiments of ecosystem structure and function. ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2010-06-23",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-76.671 34.718, -76.671 34.718, -76.671 34.718, -76.671 34.718)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pivers_Island_Coastal_Observatory_PICO/Pivers_Island_Coastal_Observatory_PICO.json",
+      "schema:keywords": [
+        "Climate Variability and Change",
+        "Coastal",
+        "coastal ecosystems"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "governmental"
+          ],
+          "schema:description": "NSF Ocean Sciences Research Initiation Grants\r\nDuke University"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pivers_Island_Coastal_Observatory_PICO/Pivers_Island_Coastal_Observatory_PICO.json",
+        "name": "Pivers Island Coastal Observatory (PICO)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pivers_Island_Coastal_Observatory_PICO/Pivers_Island_Coastal_Observatory_PICO_actions.json",
+      "schema:description": "daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

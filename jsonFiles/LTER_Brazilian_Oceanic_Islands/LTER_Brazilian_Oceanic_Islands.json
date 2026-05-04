@@ -1,0 +1,121 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "LTER: Brazilian Oceanic Islands",
+      "schema:name": "LTER: Brazilian Oceanic Islands",
+      "schema:url": "http://peldiloc.sites.ufsc.br/",
+      "schema:description": "Brazil has four tropical oceanic islands: St. Peter and St. Paul’s Archipelago, Fernando de Noronha Archipelago, Rocas Atoll and Trindade Island and Martin Vaz Archipelago. These islands are geographically highly isolated, experience less harmful human-driven impacts than the coastal area and encompass different levels of protection. Therefore, these more pristine islands represent a reservoir of marine biodiversity for the country and the whole world. However, the Brazilian oceanic islands remain unknown to most of the population. Our mission is to increase the awareness and interest among Brazil’s population, providing knowledge to support governmental decisions and thereby help to protect and preserve the diversity, manifoldness and health of the unique marine ecosystems of our oceanic islands.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2013-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-33.819 -3.861, -33.817 -3.868, -33.813 -3.858, -33.813 -3.872, -33.809 -3.875, -33.809 -3.873, -32.474 -3.875, -32.441 -3.847, -32.39 -3.809, -29.346 0.917, -29.339 -20.489, -29.331 -20.522, -29.321 -20.498, -29.303 -20.515)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Brazilian_Oceanic_Islands/LTER_Brazilian_Oceanic_Islands.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance by size/age/stage",
+          "schema:url": "https://goosocean.org/eov/fish/abundance/by_size_age_stage"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish biomass by size/age/stage",
+          "schema:url": "https://goosocean.org/eov/fish/biomass/by_size_age_stage"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish community composition",
+          "schema:url": "https://goosocean.org/eov/fish/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/coral/composition/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover",
+          "schema:url": "https://goosocean.org/eov/coral/cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/macroalgae/community_composition/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "civil_society"
+          ],
+          "schema:description": "National Council for Scientific and Technological Development (CNPq) (#441241/2016-6)"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Brazilian_Oceanic_Islands/LTER_Brazilian_Oceanic_Islands.json",
+        "name": "LTER: Brazilian Oceanic Islands"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Brazilian_Oceanic_Islands/LTER_Brazilian_Oceanic_Islands_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

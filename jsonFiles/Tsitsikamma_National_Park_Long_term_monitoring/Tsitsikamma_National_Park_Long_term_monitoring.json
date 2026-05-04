@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Tsitsikamma National Park Long term monitoring",
+      "schema:name": "Tsitsikamma National Park Long term monitoring",
+      "schema:url": "",
+      "schema:description": "Tsitsikamma National Park Long term monitoring",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2013-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Tsitsikamma_National_Park_Long_term_monitoring/Tsitsikamma_National_Park_Long_term_monitoring.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Tsitsikamma_National_Park_Long_term_monitoring/Tsitsikamma_National_Park_Long_term_monitoring.json",
+        "name": "Tsitsikamma National Park Long term monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Tsitsikamma_National_Park_Long_term_monitoring/Tsitsikamma_National_Park_Long_term_monitoring_actions.json",
+      "schema:description": "twice_per_year",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

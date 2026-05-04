@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Marine Monitoring Programme – Latvia",
+      "schema:name": "Marine Monitoring Programme – Latvia",
+      "schema:url": "",
+      "schema:description": "Latvian Institute of Aquatic Ecology, University of Daugavpils - Marine Monitoring Programme ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://www.lhei.lv/images/saturs/docs/Juras_monitoringa_programma_2014_2020.pdf"
+      ],
+      "schema:foundingDate": "1973-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((22.533 57.751, 24.851 57.751, 24.851 56.723, 22.533 56.723, 22.533 57.751))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Monitoring_Programme_Latvia/Marine_Monitoring_Programme_Latvia.json",
+      "schema:keywords": [
+        "HELCOM"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.lhei.lv/images/saturs/docs/Juras_monitoringa_programma_2014_2020.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Monitoring_Programme_Latvia/Marine_Monitoring_Programme_Latvia.json",
+        "name": "Marine Monitoring Programme – Latvia"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Monitoring_Programme_Latvia/Marine_Monitoring_Programme_Latvia_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

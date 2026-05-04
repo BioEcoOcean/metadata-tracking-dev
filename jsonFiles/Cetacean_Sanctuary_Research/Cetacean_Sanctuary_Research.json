@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Cetacean Sanctuary Research",
+      "schema:name": "Cetacean Sanctuary Research",
+      "schema:url": "https://whalesanddolphins.tethys.org/join-us/cetacean-sanctuary-research/csr-study-area/",
+      "schema:description": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThe activities of the Cetacean Sanctuary Research (CSR) are conducted in the heart of the “Pelagos Sanctuary”, a large marine area protected for whales and dolphins, listed as Specially Protected Area of Mediterranean Importance (SPAMI). The Project’s study area  extends seawards from Sanremo, where the cruises leave from. The borders are approximately capo Mele on the italian coast, Saint Raphael on the french coast and the northern part of the island of Corsica.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nA peculiar interplay of winds, currents and upwellings, together with the dramatic shape of the sea bottom, characterized by seamounts and deep canyons, create vertical mixing and lift nutrients from the depth; this makes the Ligurian-Corsican basin teem with life like probably no other area in the Mediterranean.\r\nThe proof is that the Sanctuary is home to eight cetacean species, i.e. all those regularly living in the Mediterranean, in higher numbers than in the continguous areas. Among those are large whales such as fin and sperm whales, several species of dolphins and other toothed whales, and many other large vertebrates such as turtles, devil rays, sea birds, tuna and swordfish.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1990-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((9.417 43.01, 9.332 42.896, 9.321 42.831, 9.355 42.77, 9.334 42.703, 9.285 42.676, 9.194 42.734, 9.103 42.719, 9.025 42.651, 8.923 42.635, 8.808 42.6, 8.784 42.557, 8.71 42.535, 8.674 42.464, 8.576 42.359, 8.616 42.346, 8.608 42.304, 8.664 42.299, 8.691 42.272, 6.953 42.207, 6.095 43.026, 6.183 43.108, 6.376 43.128, 6.666 43.181, 6.628 43.305, 6.743 43.407, 6.881 43.423, 6.969 43.546, 7.113 43.544, 7.145 43.637, 7.5 43.77, 8.095 43.91, 8.26 44.128, 8.413 44.196, 8.471 44.318, 8.738 44.437, 8.849 44.426, 8.938 44.392, 9.417 43.01))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Cetacean_Sanctuary_Research/Cetacean_Sanctuary_Research.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance",
+          "schema:url": "https://goosocean.org/eov/mammals/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals distribution",
+          "schema:url": "https://goosocean.org/eov/mammals/distribution"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://whalesanddolphins.tethys.org/wp-content/uploads/tethys_public_docs/CSR_ExpeditionBriefing_EN.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Cetacean_Sanctuary_Research/Cetacean_Sanctuary_Research.json",
+        "name": "Cetacean Sanctuary Research"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Cetacean_Sanctuary_Research/Cetacean_Sanctuary_Research_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

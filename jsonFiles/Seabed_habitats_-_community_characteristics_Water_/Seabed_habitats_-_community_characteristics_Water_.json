@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Seabed habitats - community characteristics, Water column variables",
+      "schema:name": "Seabed habitats - community characteristics, Water column variables",
+      "schema:url": "http://www.iber.bas.bg/?q=en/node/111",
+      "schema:description": "Institute of Biodiversity and Ecosystem Research at the Bulgarian Academy of Sciences\r\nThe Laboratory of Marine Ecology is based in the town of Sozopol just on the coast of the Black Sea. Recently, it possess a permanent staff of three persons. It is provided with upgraded equipment and renewed laboratory facilities necessary for carrying out investigations on the biodiversity and functioning of the coastal marine ecosystems.\r\nResearch Topics:\r\n\r\n\r\nfunctional monitoring of marine coastal ecosystems and wetlands;\r\n\r\n\r\nanthropogenic impact assessment;\r\n\r\n\r\ndevelopment of scientifically based management approaches of marine coastal zone and of wetlands ecosystems.\r\n\r\n",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2009-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((27.7 42.414, 27.7 42.416, 27.701 42.416, 27.703 42.419, 27.701 42.42, 27.699 42.42, 27.696 42.419, 27.694 42.42, 27.695 42.424, 27.698 42.424, 27.7 42.425, 27.702 42.424, 27.702 42.426, 27.699 42.428, 27.694 42.427, 27.693 42.425, 27.692 42.424, 27.691 42.421, 27.69 42.42, 27.689 42.418, 27.686 42.417, 27.685 42.415, 27.68 42.414, 27.68 42.435, 27.715 42.435, 27.715 42.414, 27.7 42.414))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Seabed_habitats_-_community_characteristics_Water_/Seabed_habitats_-_community_characteristics_Water_.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": "https://goosocean.org/eov/nutrients"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": "https://goosocean.org/eov/oxygen"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Particulate matter",
+          "schema:url": "https://goosocean.org/eov/particulate_matter"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Seabed_habitats_-_community_characteristics_Water_/Seabed_habitats_-_community_characteristics_Water_.json",
+        "name": "Seabed habitats - community characteristics, Water column variables"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Seabed_habitats_-_community_characteristics_Water_/Seabed_habitats_-_community_characteristics_Water__actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

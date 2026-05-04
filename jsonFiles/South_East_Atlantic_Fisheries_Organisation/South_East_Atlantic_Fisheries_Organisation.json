@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "South East Atlantic Fisheries Organisation",
+      "schema:name": "South East Atlantic Fisheries Organisation",
+      "schema:url": "http://www.seafo.org",
+      "schema:description": "South East Atlantic Fisheries Organisation",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2009-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/South_East_Atlantic_Fisheries_Organisation/South_East_Atlantic_Fisheries_Organisation.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/South_East_Atlantic_Fisheries_Organisation/South_East_Atlantic_Fisheries_Organisation.json",
+        "name": "South East Atlantic Fisheries Organisation"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/South_East_Atlantic_Fisheries_Organisation/South_East_Atlantic_Fisheries_Organisation_actions.json",
+      "schema:description": "twice_per_year",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

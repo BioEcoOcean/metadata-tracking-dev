@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "53°N Ocean Observatory",
+      "schema:name": "53°N Ocean Observatory",
+      "schema:url": "",
+      "schema:description": "No abstract provided",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1997-07-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": "https://goosocean.org/eov/nutrients"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Ocean sound",
+          "schema:url": "https://goosocean.org/eov/ocean_sound"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": "https://goosocean.org/eov/oxygen"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface currents",
+          "schema:url": "https://goosocean.org/eov/subsurface_currents"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Surface currents",
+          "schema:url": "https://goosocean.org/eov/surface_currents"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia",
+          "schema:description": "Various Projects"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory.json",
+        "name": "53°N Ocean Observatory"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/53_N_Ocean_Observatory/53_N_Ocean_Observatory_actions.json",
+      "schema:description": "every_2_to_5_years",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

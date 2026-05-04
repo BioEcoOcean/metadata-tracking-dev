@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natural Resources Wales (NRW) Aerial scoter monitoring",
+      "schema:name": "Natural Resources Wales (NRW) Aerial scoter monitoring",
+      "schema:url": "",
+      "schema:description": "Carmarthen Bay Special Protection Area (SPA) was classified as the UK`s first SPA in 2003 on the basis of holding at least 1% (16,000 individuals: Wetlands International 2006) of the biogeographic population of common scoter Melanitta nigra. Common Scoter feed on bivalves and other invertebrates such as polychaetes and amphipods, which are found in abundance in the shallow waters (<10m) in Carmarthen Bay. Common scoter are also listed as a Biodiversity Action Plan (BAP) species. CCW and subsequently NRW has supported ground based counts since 1996, following the Sea Empress oil spill. Aerial surveys have been developed as scoter often occur out of sight of land. Monitoring of scoter populations is used to assess numbers and distribution of common scoter in Carmarthen Bay and to investigate whether ground-based counts can provide an appropriate index of overall numbers of scoter.Aerial surveys are performed using the `distance` method (Camphuysen et al, 2004) based on statistical principles of distance sampling (Buckland et al, 2001). The surveys are carried out in winter and follow pre-determined transect lines running north-south through the bay. Transects are spaced 2km apart to minimise chances of double-counting birds flushed by the plane. Surveys are carried out by 2 observers using a Partenavia PN68 aircraft, flown at ground speed 200 km/h, altitude 75m. Surveys cannot be carried out in wind speeds greater than 24 km/h. Each flock or individual bird is recorded along with time of observation, number and species. Also distance is recorded to one of four distance bands as described in the standard operating procedures. All surveyors are experienced aerial surveyors and familiar with the target species and methods used. Multi-observer counts are used to compare intra and inter observer variability in counts.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1996-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-4.663 51.743, -4.606 51.749, -4.572 51.749, -4.518 51.747, -4.488 51.741, -4.464 51.743, -4.457 51.745, -4.423 51.749, -4.395 51.752, -4.36 51.749, -4.36 51.734, -4.345 51.717, -4.33 51.702, -4.293 51.674, -4.272 51.678, -4.257 51.678, -4.231 51.674, -4.229 51.648, -4.248 51.633, -4.287 51.618, -4.3 51.609, -4.289 51.588, -4.293 51.57, -4.311 51.56, -4.339 51.547, -4.421 51.546, -4.432 51.549, -4.492 51.605, -4.518 51.622, -4.695 51.616, -4.701 51.724, -4.663 51.743))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Aerial_scoter_monitori/Natural_Resources_Wales_NRW_Aerial_scoter_monitori.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance",
+          "schema:url": "https://goosocean.org/eov/birds/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/birds/community_composition/phylogenetic_diversity"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Aerial_scoter_monitori/Natural_Resources_Wales_NRW_Aerial_scoter_monitori.json",
+        "name": "Natural Resources Wales (NRW) Aerial scoter monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Aerial_scoter_monitori/Natural_Resources_Wales_NRW_Aerial_scoter_monitori_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

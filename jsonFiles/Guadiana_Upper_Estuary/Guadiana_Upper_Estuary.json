@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Guadiana Upper Estuary",
+      "schema:name": "Guadiana Upper Estuary",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/pt-30301/",
+      "schema:description": "Phytoplankton monitoring in GE began in 1996 and was motivated by an anticipated increase in cyanobacterial blooms caused by the construction of the Alqueva dam. Physical-chemical variables (e.g. temperature, salinity, intensity of photosynthetic available radiation, light extinction coefficient, dissolved oxygen, concentration of dissolved inorganic macronutrients, particulate suspended matter) and phytoplankton abundance, composition, and biomass were routinely monitored at different stations in the upper, middle, and lower estuary in the framework of projects funded by the Portuguěse Foundation of Science and Technology (FCT) and the European Union. Abundance of heterotrophic bacterioplankton and phytoplankton and bacterial production were less frequently determined. Water quality and phytoplankton are also regularly monitored by the Portuguěse Water Institute (INAG). Since 2008, water quality and hydrodynamics have been measured by an autonomous instrumented platform positioned at the estuary entrance (Garel et al., 2009)",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1996-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-5.595 39.023, -5.485 39.023, -5.485 38.959, -5.595 38.959, -5.595 39.023))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Guadiana_Upper_Estuary/Guadiana_Upper_Estuary.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Guadiana_Upper_Estuary/Guadiana_Upper_Estuary.json",
+        "name": "Guadiana Upper Estuary"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Guadiana_Upper_Estuary/Guadiana_Upper_Estuary_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

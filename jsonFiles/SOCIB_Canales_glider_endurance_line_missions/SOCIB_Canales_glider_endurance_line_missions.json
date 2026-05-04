@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "SOCIB Canales glider endurance line missions",
+      "schema:name": "SOCIB Canales glider endurance line missions",
+      "schema:url": "https://www.socib.es/?seccion=textes&id_textotextes=resumenEjecutivo",
+      "schema:description": "SOCIB is a Coastal Ocean Observing and Forecasting System located in the Balearic Islands, a new facility of facilities open to international access. SOCIB responds to a change of paradigm in the observation of our oceans and coasts, an observation that has evolved from being centered on a unique platform, the oceanographic ships with data availability being delayed in time, to an observation now based on multi-platform and integrated systems (using buoys, satellites, ships, autonomous underwater vehicles, HF radar, ARGO profilers, etc.), also assuring quasi real time quality controlled data availability for both researchers and society. This change of paradigm is very significant and allows being able to respond to the three key drivers identified by SOCIB back in 2009: (1) science priorities, (2) technology development, (3) response capacity to society needs.\r\nSOCIB is a multi-platform distributed and integrated system that provides streams of oceanographic data and modelling services to support operational oceanography in a European and international framework, therefore also contributing to the needs of marine and coastal research in a global change context. In line with EuroGOOS, operational oceanography is here understood in a wide sense, including both the systematic long-term measurements of the seas and their interpretation and dissemination, and also the sustained supply of multidisciplinary data to cover the needs of a wide range of scientific research and societal priorities. This allows a quantitative increase in our understanding of key questions on oceans and climate change, coastal ocean processes, ecosystem variability, sea level rise, etc. and also drives us towards a more science based coastal and ocean management. It is important to note that in its present format and financial status, SOCIB isl not be carrying out direct research activities (except in specific areas directly related to SOCIB objectives) but provides support for them. The research activities are being carried out by IMEDEA, COB/IEO and UIB, among other organisations, in close coordination to SOCIB.\r\nSOCIB is composed by three major subsystems: (1) an observing sub-system (Observing Facilities), (2) a forecasting and modelling sub-system (Forecasting and Modelling Facility) and (3) a data management sub-system (Data Centre Facility). Combined these three components form the Systems Operation and Support Division (SOS Division). The Engineering and Technology Development Division (ETD Division) provides the engineering and technical backbone to develop and operate the facilities of the SOS Division and is also responsible for the application, development and testing of new technologies for future observing systems and for developing new analytical tools for the effective management of new, high volumes, of observational data and modelling output. The third Division, the Strategic Issues and Applications for Society (SIAS Division), develops applications and operational tools for science-based management of the coastal and marine environment, within the general frame of sustainability science, thus supporting the development and transfer of strategic knowledge to meet the needs of society in the context of global change. It is important to consider that the sound management of the coastal zone is of utmost importance in the Balearic Islands and elsewhere to guarantee both the quality of life of residents and the competitiveness and sustainability of the economic activity in the Balearic Islands.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://repository.oceanbestpractices.org/handle/11329/303"
+      ],
+      "schema:foundingDate": "2010-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((2.397 39.502, 2.397 38.799, 0.148 38.799, 0.148 39.502, 2.397 39.502))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SOCIB_Canales_glider_endurance_line_missions/SOCIB_Canales_glider_endurance_line_missions.json",
+      "schema:keywords": [
+        "ICES",
+        "Ibiza channel",
+        "Mallorca channel"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "governmental",
+            "other"
+          ],
+          "schema:description": "The financial contributions for investments from the two institutional partners, the Spanish Ministry of Science and the Balearic Islands Government. CSIC through IMEDEA (CSIC-UIB), provides a significant in kind contribution to SOCIB."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.socib.es/?seccion=observingFacilities&facility=glider"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SOCIB_Canales_glider_endurance_line_missions/SOCIB_Canales_glider_endurance_line_missions.json",
+        "name": "SOCIB Canales glider endurance line missions"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SOCIB_Canales_glider_endurance_line_missions/SOCIB_Canales_glider_endurance_line_missions_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

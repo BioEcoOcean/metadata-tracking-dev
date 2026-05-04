@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Greenland Ecosystem Monitoring – MarineBasis Nuuk",
+      "schema:name": "Greenland Ecosystem Monitoring – MarineBasis Nuuk",
+      "schema:url": "https://gcrc.gl/research-projects/greenland-ecosystem-monitoring-marinebasis-nuuk/",
+      "schema:description": "Greenland Ecosystem Monitoring (GEM) is an integrated monitoring and long-term research program on ecosystems and the impact of climate change on the Arctic. Since 1994 the program has established a coherent and integrated understanding of the functioning of terrestrial, limnic and marine ecosystems in a highly variable climate. The program is based upon comprehensive, long-term interdisciplinary data collection carried out by Danish and Greenlandic monitoring and research institutions. The MarineBasis program collects physical, chemical and biological data from the Greenland coastal zone, primarily at the three main field stations: Nuuk and Disko in low-arctic Southwest Greenland and Zackenberg in high-arctic Northeast Greenland. The MarineBasis programme delivers baseline data that allows us to identify long-term trends in key parameters such as sea ice coverage, water temperature, salinity, CO2 uptake, nutrient concentrations, sinking flux, phytoplankton biomass and primary production, species composition of phytoplankton and zooplankton, macroalgal growth and the counting of marine mammals and seabirds (Nuuk). Data from the program is used by several international work groups under the Arctic Council such as CBMP, AMAP and CAFF. Work focuses on three fjord systems (Nuup Kangerlua, SW Greenland, Disko Fjord, W Greenland and Young Sound, NE Greenland) all influenced by glaciers and/or melt rivers connected to the Greenland Ice Sheet.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2005-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-51.785 64.164)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Greenland_Ecosystem_Monitoring_MarineBasis_Nuuk/Greenland_Ecosystem_Monitoring_MarineBasis_Nuuk.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance by size/age/stage",
+          "schema:url": "https://goosocean.org/eov/fish/abundance/by_size_age_stage"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance",
+          "schema:url": "https://goosocean.org/eov/birds/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance",
+          "schema:url": "https://goosocean.org/eov/mammals/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton community composition",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/community_composition"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://data.g-e-m.dk/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Greenland_Ecosystem_Monitoring_MarineBasis_Nuuk/Greenland_Ecosystem_Monitoring_MarineBasis_Nuuk.json",
+        "name": "Greenland Ecosystem Monitoring – MarineBasis Nuuk"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Greenland_Ecosystem_Monitoring_MarineBasis_Nuuk/Greenland_Ecosystem_Monitoring_MarineBasis_Nuuk_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

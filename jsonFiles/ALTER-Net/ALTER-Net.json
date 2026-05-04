@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "ALTER-Net",
+      "schema:name": "ALTER-Net",
+      "schema:url": "http://www.alter-net.info/",
+      "schema:description": "ALTER-Net",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((30.234 68.334, 28.652 59.889, 27.422 57.704, 21.797 57.704, 21.445 55.578, 24.082 52.59, 29.883 45.583, 28.125 43.197, 16.875 46.68, 10.195 45.583, 7.207 42.682, -1.582 36.173, -8.437 35.317, -12.656 37.02, -5.625 56.462, 10.371 66.93, 20.215 69.411, 30.234 68.334))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ALTER-Net/ALTER-Net.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "civil_society"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ALTER-Net/ALTER-Net.json",
+        "name": "ALTER-Net"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ALTER-Net/ALTER-Net_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "URDAIBAI 35 Time Series",
+      "schema:name": "URDAIBAI 35 Time Series",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/es-30102/",
+      "schema:description": "The Zooplankton Ecology Group of the University of the Basque Country initiated in 1997 a monitoring programme in the estuaries of Bilbao and Urdaibai (the latter also called estuary of Mundaka). Sampling is carried out monthly at the salinity sites of 35-34, 33, 30 and 26 (the last one only in Urdaibai) to obtain vertical profiles of temperature, salinity and dissolved oxygen, and to take samples for Chlorophyll a determination and zooplankton analysis. Water samples are obtained with oceanographic bottles and zooplankton samples by horizontal hauls with 200 µm plankton-nets, both at mid depth below the halocline.\r\nThe estuaries of Bilbao (43 23 N 3 W) and Urdaibai (43 22 N, 2 43 W) are two shallow meso-macrotidal systems located on the Basque coast (Bay of Biscay), at middle latitudes of the northeastern Atlantic. The estuary of Bilbao is an urban system constituted by a narrow (50 to 150 m), ca. 15 km long, 2 to 9 m deep man-made channel and a wider (ca. 3.8 km) and deeper (10 to 25 m) embayment in the lower end. Most of the estuary shows noticeable water-column stratification and a permanent salt wedge is found in the bottom layer, where salinities are usually =30. The water column is partially mixed at the outer estuary, partially mixed to stratified at the intermediate zone and stratified at the inner estuary. The estuary of Urdaibai is also a short (12.5 km) system, but shallower (mean depth of 3 m) than the estuary of Bilbao. The central channel is bordered by salt marshes at its upper (15 m wide) and middle reaches and by relatively extensive intertidal flats (mainly sandy) and sandy beaches at its lower reaches (ca. 1 km wide). The watershed area is relatively small in relation to the estuarine basin, and river inputs are usually low in relation to the tidal prism. As a consequence, most of the estuary is marine-dominated, with high-salinity waters in the outer half and a stronger, decreasing axial gradient of salinity towards the head.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1997-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-2.693 43.399)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/URDAIBAI_35_Time_Series/URDAIBAI_35_Time_Series.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/URDAIBAI_35_Time_Series/URDAIBAI_35_Time_Series.json",
+        "name": "URDAIBAI 35 Time Series"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/URDAIBAI_35_Time_Series/URDAIBAI_35_Time_Series_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

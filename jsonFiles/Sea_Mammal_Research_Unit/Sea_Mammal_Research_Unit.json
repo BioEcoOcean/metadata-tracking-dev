@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Sea Mammal Research Unit",
+      "schema:name": "Sea Mammal Research Unit",
+      "schema:url": "",
+      "schema:description": "Sea Mammal Research Unit",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((2.681 51.399, 1.099 50.875, -0.132 53.173, 1.494 53.383, 2.681 51.399)), ((-2.285 61.732, 2.461 60.63, -8.701 50.569, -13.843 52.536, -2.285 61.732)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sea_Mammal_Research_Unit/Sea_Mammal_Research_Unit.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "industry",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sea_Mammal_Research_Unit/Sea_Mammal_Research_Unit.json",
+        "name": "Sea Mammal Research Unit"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sea_Mammal_Research_Unit/Sea_Mammal_Research_Unit_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

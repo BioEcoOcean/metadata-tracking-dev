@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Marine Mammals Exploring the Oceans Pole to Pole - China",
+      "schema:name": "Marine Mammals Exploring the Oceans Pole to Pole - China",
+      "schema:url": "https://meop.net/groups/china.html",
+      "schema:description": "MEOP (Marine Mammals Exploring the Oceans Pole to Pole) is a consortium of international researchers dedicated to sharing animal-derived data and knowledge about the polar oceans. Collectively, MEOP demonstrates the power and cost-effectiveness of using marine mammals as data-collection platforms that can dramatically improve the ocean-observing system for biological and physical oceanographers.\r\nDeployment site: Kerguelen Islands\r\nSupporting institutions: the Chinese Arctic and Antarctic Administration (CAA)",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (70.476 -49.382, 77.729 -68.544, 77.731 -68.508)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_4/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_4.json",
+      "schema:keywords": [
+        "Kerguelen Islands"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_4/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_4.json",
+        "name": "Marine Mammals Exploring the Oceans Pole to Pole - China"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_4/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_4_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

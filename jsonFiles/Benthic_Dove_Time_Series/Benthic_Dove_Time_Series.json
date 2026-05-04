@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Benthic Dove Time Series",
+      "schema:name": "Benthic Dove Time Series",
+      "schema:url": "https://www.ncl.ac.uk/nes/about-us/facilities/marine/dove-marine-lab/",
+      "schema:description": "This time series was established in 1971. The benthic time series was supported and co-funded jointly with University of Liverpool between 2005 and 2015. The sampling was re-introduced in March 2021 after 6 years cessation.\r\nSamples were taken at two sites 2-4 times per year, \r\n\r\nStation P:Located 18.5km off the Northumberland coast, at a depth of 80m (55° 07? N, 01° 15? W).\r\nStation M1:Located 10.5km off the Northumberland coast at a depth of 55m.\r\n\r\nThe current sampling occurs in January, March, June, and September with 5 replicates at both sites, to allow for continuation and expansion into seasonal and natural variation. In the 1970s, more extensive sampling occurred with 30 grabs at each site.\r\nReplicate 0.1m2 grabs are sieved over a 0.5mm mesh and fixed in 4% buffered formaldehyde and later transferred to 70% IDA, and the PSA samples frozen. Physical samples (1971 – 2015) have not been stored after identification and processing. 2021 – Present samples are stored at the Dove Marine Laboratory",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://standards.iteh.ai/catalog/standards/cen/a9157b4a-3cd6-4dc3-8814-d47def8d01fd/en-iso-16665-2013",
+        "https://www.techstreet.com/standards/bs-en-15204-2006?product_id=1285507",
+        "https://standards.iteh.ai/catalog/standards/cen/492512d7-3349-48a7-b10b-7023cd724e82/en-17218-2019"
+      ],
+      "schema:foundingDate": "1971-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-1.254 55.075, -1.248 55.116)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Benthic_Dove_Time_Series/Benthic_Dove_Time_Series.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Benthic_Dove_Time_Series/Benthic_Dove_Time_Series.json",
+        "name": "Benthic Dove Time Series"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Benthic_Dove_Time_Series/Benthic_Dove_Time_Series_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

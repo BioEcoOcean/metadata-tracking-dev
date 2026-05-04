@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Irish Whale and Dolphin Group: Constant Effort Sightings Scheme",
+      "schema:name": "Irish Whale and Dolphin Group: Constant Effort Sightings Scheme",
+      "schema:url": "",
+      "schema:description": "No abstract provided",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://iwdg.ie/cms_files/wp-content/uploads/2019/04/Review_of_Inshore_Cetacean_Monitoring_Programme.pdf"
+      ],
+      "schema:foundingDate": "2010-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh.json",
+        "name": "Irish Whale and Dolphin Group: Constant Effort Sightings Scheme"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh/Irish_Whale_and_Dolphin_Group_Constant_Effort_Sigh_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

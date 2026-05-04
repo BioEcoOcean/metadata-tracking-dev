@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "NERC National Capability UK grey seal long term data",
+      "schema:name": "NERC National Capability UK grey seal long term data",
+      "schema:url": "",
+      "schema:description": "NERC National Capability UK grey seal long term data",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1978-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NERC_National_Capability_UK_grey_seal_long_term_da/NERC_National_Capability_UK_grey_seal_long_term_da.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "civil_society",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NERC_National_Capability_UK_grey_seal_long_term_da/NERC_National_Capability_UK_grey_seal_long_term_da.json",
+        "name": "NERC National Capability UK grey seal long term data"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NERC_National_Capability_UK_grey_seal_long_term_da/NERC_National_Capability_UK_grey_seal_long_term_da_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

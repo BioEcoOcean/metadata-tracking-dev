@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Irish Whale and Dolphin Group (IWDG): Shannon Dolphin Project",
+      "schema:name": "Irish Whale and Dolphin Group (IWDG): Shannon Dolphin Project",
+      "schema:url": "https://iwdg.ie/shannon-dolphin-project/",
+      "schema:description": "In 1993 boat surveys of the Shannon Estuary recorded 25 individual bottlenose dolphins through photo-identification.  Since then the population has been extensively studied revealing that there were at least 145 individuals present In 2015, they are resident within the estuary but move to the nearby bays of Tralee and Brando.  They are also genetically discrete from all other Irish bottlenose dolphin populations. Acoustic monitoring is also used to identify areas of importance within the estuary.\r\nThe project is based out of the Shannon Dolphin Centre in Kilrush, Co. Clare and is one of the longest running in Europe. It has facilitated many young researchers over the years to develop fieldwork and data handling skills while annually collecting photo-identification data on commercial dolphin watching boats and dedicated survey transects to estimate the population’s size, calving rates and distribution which help evaluate the potential effects caused by the Shannon Estuaries continued industrialisation.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1993-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-9.58 52.6)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_IWDG_Shannon_Dolphin/Irish_Whale_and_Dolphin_Group_IWDG_Shannon_Dolphin.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_IWDG_Shannon_Dolphin/Irish_Whale_and_Dolphin_Group_IWDG_Shannon_Dolphin.json",
+        "name": "Irish Whale and Dolphin Group (IWDG): Shannon Dolphin Project"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Whale_and_Dolphin_Group_IWDG_Shannon_Dolphin/Irish_Whale_and_Dolphin_Group_IWDG_Shannon_Dolphin_actions.json",
+      "schema:description": "opportunistically",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

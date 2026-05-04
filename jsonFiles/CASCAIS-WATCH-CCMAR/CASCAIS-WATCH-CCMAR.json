@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "CASCAIS-WATCH-CCMAR",
+      "schema:name": "CASCAIS-WATCH-CCMAR",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/pt-30201/",
+      "schema:description": "The Guadiana Lower Estuary sampling site is located between 37 13' 15.03\" N, 007 24' 49.86\" W and 37 07' 44.04\" N, 007 24' 06.36\" W, and includes two sampling stations, in the estuary mouth and in the plume (stations G1 and G2, respectively), in a water depth ranging from 5 to 30 m (Figure 1).The Guadiana site is a mesotidal estuary with an average amplitude of 2 m ranging from partially stratified to well-mixed, an average depth of 6,5 m and an area of 22 km2. It can be divided into three sub-areas: upper, middle and lower estuary (Chicharo et al., 2001). The lower estuarine area is influenced by extensive saltmarshes areas and the salinity is usually very close to that of seawater (>20).",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1996-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-7.408 37.175)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CASCAIS-WATCH-CCMAR/CASCAIS-WATCH-CCMAR.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CASCAIS-WATCH-CCMAR/CASCAIS-WATCH-CCMAR.json",
+        "name": "CASCAIS-WATCH-CCMAR"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CASCAIS-WATCH-CCMAR/CASCAIS-WATCH-CCMAR_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

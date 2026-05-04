@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Monitoreo ecológico de los manglares de la península de Baja California",
+      "schema:name": "Monitoreo ecológico de los manglares de la península de Baja California",
+      "schema:url": "",
+      "schema:description": "Monitoreo ecológico de los manglares de la península de Baja California",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-110.712 24.625, -110.152 24.625, -110.152 24.157, -110.712 24.157, -110.712 24.625))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Monitoreo_ecológico_de_los_manglares_de_la_penínsu/Monitoreo_ecológico_de_los_manglares_de_la_penínsu.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "civil_society",
+            "industry",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Monitoreo_ecológico_de_los_manglares_de_la_penínsu/Monitoreo_ecológico_de_los_manglares_de_la_penínsu.json",
+        "name": "Monitoreo ecológico de los manglares de la península de Baja California"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Monitoreo_ecológico_de_los_manglares_de_la_penínsu/Monitoreo_ecológico_de_los_manglares_de_la_penínsu_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Channel Islands National Park Kelp Forest Monitoring Program",
+      "schema:name": "Channel Islands National Park Kelp Forest Monitoring Program",
+      "schema:url": "https://www.nps.gov/im/medn/kelp-forest-communities.htm",
+      "schema:description": "The Kelp Forest Monitoring Program was established by Channel Islands National Park in 1982 to collect baseline information about the kelp forest ecosystem in the Park. Each year the program collects size and abundance data for 70 categories (taxa) of algae, invertebrates and fish that are indicators of ecosystem health. The current monitoring protocol was adopted in 1997. Oure goals:\r\n\r\nDetermine the status and health of the islands' kelp forests\r\nDocument the types of changes occurring in the marine environment\r\nDevelop management strategies needed to protect the kelp forest ecosystem\r\n",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "http://www.esapubs.org/archive/ecol/E094/245/"
+      ],
+      "schema:foundingDate": "2082-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((-118.992 33.51, -118.992 33.441, -119.081 33.441, -119.081 33.51, -118.992 33.51)), ((-119.314 34.1, -119.314 33.868, -120.473 33.868, -120.473 34.1, -119.314 34.1)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Channel_Islands_National_Park_Kelp_Forest_Monitori/Channel_Islands_National_Park_Kelp_Forest_Monitori.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Channel_Islands_National_Park_Kelp_Forest_Monitori/Channel_Islands_National_Park_Kelp_Forest_Monitori.json",
+        "name": "Channel Islands National Park Kelp Forest Monitoring Program"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Channel_Islands_National_Park_Kelp_Forest_Monitori/Channel_Islands_National_Park_Kelp_Forest_Monitori_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

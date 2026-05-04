@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Dogger Bank Mega-Epibenthos - Long term monitoring project",
+      "schema:name": "Dogger Bank Mega-Epibenthos - Long term monitoring project",
+      "schema:url": "https://dataportal.senckenberg.de/en/dataset/dogger-bank-mega-epibenthos-long-term-monitoring-project",
+      "schema:description": "Within our long term monitoring programme at the Dogger Bank (North Sea), a permanent station at the north-eastern tail end of the Dogger Bank was sampled yearly with a 2 m beam trawl since the year 1994. The sampling procedure was repeated every 3 h within a timeframe of 48 h. All species above a size of 1 cm were recorded quantitatively. The analysis of the dataset, consisting of thirteen sampling years, revealed rhythmic abundance fluctuations of one crustacean and two fish species, depending on the time of day. In order to check the accuracy of the results obtained, we further analysed the dataset for short-term effects of continuous trawling at the same track on the abundance of individual species. No direct effect on the abundance of particular species was detected, but the analysis revealed a periodic fluctuation of the mean number of individuals and the mean catch volume",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1991-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((4.1 54.2, 1.2 54.2, 1.2 55.3, 4.1 55.3, 4.1 54.2))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Dogger_Bank_Mega-Epibenthos_-_Long_term_monitoring/Dogger_Bank_Mega-Epibenthos_-_Long_term_monitoring.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.semanticscholar.org/paper/Abundance-analyses-of-mega%E2%80%90epibenthic-species-on-by-Sonnewald-T%C3%BCrkay/e3f0a2c5936d86a8b01adcd84de1c4c41071ef88"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Dogger_Bank_Mega-Epibenthos_-_Long_term_monitoring/Dogger_Bank_Mega-Epibenthos_-_Long_term_monitoring.json",
+        "name": "Dogger Bank Mega-Epibenthos - Long term monitoring project"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Dogger_Bank_Mega-Epibenthos_-_Long_term_monitoring/Dogger_Bank_Mega-Epibenthos_-_Long_term_monitoring_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Toninhas Project",
+      "schema:name": "Toninhas Project",
+      "schema:url": "https://projetotoninhas.org.br/",
+      "schema:description": "The porpoise is a species of shallow water, being found at depths of up to 50 meters, between Espírito Santo in Brazil and the San Matias Gulf in Argentina. In Babitonga Bay, in the north of Santa Catarina, lives the only resident population in an estuary, this specificity makes the place an open-air laboratory. The first sighting of porpoise in Babitonga Bay took place in 1996, when the General Coordinator of Toninhas Project, Marta Jussara Cremer, was doing her master's degree with the grey porpoises that live in Babitonga Bay. Surprised by the sighting of porpoises, since the existence of this species is atypical within estuaries, monitoring began to be carried out periodically. Since then, almost 20 years of research has been carried out by researchers from the University of Joinville - UNIVILLE, on various aspects of the biology and ecology of porpoises. In 2011, the Toninhas Project was contemplated for the first time with Petrobras' sponsorship, through the then called Petrobrás Environmental Program, which enabled a great advance in research actions, environmental education and institutional articulation aimed at the conservation of this cetacean and coastal ecosystems. The field activities of the Toninhas Project are mainly aimed at studying the population of Toninhas in Babitonga Bay, but the Project also operates in other regions of the Santa Catarina coast, such as the White Whale Environmental Protection Area (APA-BF).",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2011-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-48.34 -27.489, -48.604 -26.804, -48.516 -26.175, -48.538 -25.839, -47.922 -25.026, -46.362 -23.946, -45.835 -23.765, -45.22 -23.966, -45.417 -23.645, -44.868 -23.342, -44.451 -23.322, -43.22 -22.938, -42.012 -22.918, -42.012 -23.302, -44.077 -23.604, -44.868 -24.227, -45.923 -24.347, -47.527 -25.602, -48.054 -26.549, -47.659 -27.216, -48.186 -28.536, -48.779 -28.459, -48.34 -27.489))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Toninhas_Project/Toninhas_Project.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "industry"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Toninhas_Project/Toninhas_Project.json",
+        "name": "Toninhas Project"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Toninhas_Project/Toninhas_Project_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "NOAA NMFS SEFSC Abundance and distribution surveys of cetaceans in U.S. waters of the Gulf of Mexico",
+      "schema:name": "NOAA NMFS SEFSC Abundance and distribution surveys of cetaceans in U.S. waters of the Gulf of Mexico",
+      "schema:url": "",
+      "schema:description": "To meet the abundance and distribution data requirements of the Marine Mammal Protection Act, the Southeast Fisheries Science Centers conducts periodic aerial- and ship-based line-transect surveys of cetacean species that inhabit U.S waters off the Gulf of Mexico. Survey areas are defined by U.S. waters generally north of a line from the Texas-Mexico border to Key West, Florida. Aerial surveys generally cover waters from the shoreline to continental shelf break (200-m isobaths). Ship surveys usually cover waters from the 100-m isobath to the U.S. Exclusive Economic Zone (EEZ) boundary. Surveys were initiated in 1992 and were ongoing until 2009; in 2017 and 2018 surveys were conducted under the Gulf of Mexico Marine Assessment Program for Protected Species (GoMMAPPS). Ship surveys usually are conducted during the warm months of the year with a smaller number of cool/cold months surveys. Aerial surveys are uniformly distributed by seasons.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1992-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-97.427 31.091, -81.519 31.091, -81.519 24.527, -97.427 24.527, -97.427 31.091))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://seamap.env.duke.edu/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys.json",
+        "name": "NOAA NMFS SEFSC Abundance and distribution surveys of cetaceans in U.S. waters of the Gulf of Mexico"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys/NOAA_NMFS_SEFSC_Abundance_and_distribution_surveys_actions.json",
+      "schema:description": "every_2_to_5_years",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

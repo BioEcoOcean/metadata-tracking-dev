@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Pelagic Habitats - Community Characteristics",
+      "schema:name": "Pelagic Habitats - Community Characteristics",
+      "schema:url": "https://cdr.eionet.europa.eu/ReportekEngine/searchdataflow?dataflow_uris=http%3A%2F%2Frod.eionet.europa.eu%2Fobligations%2F611&years%3Aint%3Aignore_empty=&partofyear=&reportingdate_start%3Adate%3Aignore_empty=2020%2F01%2F01&reportingdate_end%3Adate%3Aignore_empty=&country=http%3A%2F%2Frod.eionet.europa.eu%2Fspatial%2F8&release_status=released&sort_on=reportingdate&sort_order=reverse&batch_size=",
+      "schema:description": "Institute of Oceanography and Fisheries - Pelagic habitats - community characteristics",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2021-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pelagic_Habitats_-_Community_Characteristics/Pelagic_Habitats_-_Community_Characteristics.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pelagic_Habitats_-_Community_Characteristics/Pelagic_Habitats_-_Community_Characteristics.json",
+        "name": "Pelagic Habitats - Community Characteristics"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Pelagic_Habitats_-_Community_Characteristics/Pelagic_Habitats_-_Community_Characteristics_actions.json",
+      "schema:description": "opportunistically",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

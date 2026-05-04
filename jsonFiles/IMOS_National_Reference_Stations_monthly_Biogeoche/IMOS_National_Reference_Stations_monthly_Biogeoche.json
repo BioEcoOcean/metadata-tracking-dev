@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "IMOS National Reference Stations monthly Biogeochemical sampling",
+      "schema:name": "IMOS National Reference Stations monthly Biogeochemical sampling",
+      "schema:url": "https://www.frontiersin.org/articles/10.3389/fmars.2019.00161/full#B43",
+      "schema:description": "Sustained observations allow for the tracking of change in oceanography and ecosystems, however, these are rare, particularly for the Southern Hemisphere. To address this in part, the Australian Integrated Marine Observing System (IMOS) implemented a network of nine National Reference Stations (NRS). The network builds on one long-term location, where monthly water sampling has been sustained since the 1940s and two others that commenced in the 1950s. In-situ continuously moored sensors and an enhanced monthly water sampling regime now collect more than 50 data streams. Building on sampling for temperature, salinity and nutrients, the network now observes dissolved oxygen, carbon, turbidity, currents, chlorophyll a and both phytoplankton and zooplankton. Additional parameters for studies of ocean acidification and bio-optics are collected at a sub-set of sites and all data is made freely and publically available.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0113652&type=printable"
+      ],
+      "schema:foundingDate": "2009-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (113.779 -21.99, 115.417 -32, 121.85 -33.933, 130.768 -12.4, 136.447 -35.832, 147.618 -19.308, 148.233 -42.597, 151.218 -34.118, 151.227 -34.119, 153.562 -27.345)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton community composition",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton community composition",
+          "schema:url": "https://goosocean.org/eov/zooplankton/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": "https://goosocean.org/eov/nutrients"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": "https://goosocean.org/eov/oxygen"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface currents",
+          "schema:url": "https://goosocean.org/eov/subsurface_currents"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Surface currents",
+          "schema:url": "https://goosocean.org/eov/surface_currents"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "governmental"
+          ],
+          "schema:description": "Data was sourced from Australia’s Integrated Marine Observing System (IMOS) – IMOS is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS). It is operated by a consortium of institutions as an unincorporated joint venture, with the University of Tasmania as Lead Agent."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche.json",
+        "name": "IMOS National Reference Stations monthly Biogeochemical sampling"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_National_Reference_Stations_monthly_Biogeoche/IMOS_National_Reference_Stations_monthly_Biogeoche_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

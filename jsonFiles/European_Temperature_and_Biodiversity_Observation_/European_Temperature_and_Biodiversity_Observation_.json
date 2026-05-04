@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "European Temperature and Biodiversity Observation Network",
+      "schema:name": "European Temperature and Biodiversity Observation Network",
+      "schema:url": "https://www.coastalwarming.com/european-network",
+      "schema:description": "This is the first large-scale temperature and biodiversity network implemented by us in 2010. It encompasses 22 rocky shores along the Atlantic coast of Europe, from Scotland to Morocco.\r\n​On each location (see map below), we deployed 20 autonomous temperature data-loggers at a wide variety of microhabitats.  We started by using robolimpets but then moved to the much-improved EnvLoggers, which we created specifically for this purpose. They have been continuously registering hourly temperatures in an autonomous way.\r\nQuantitative biodiversity data were collected in 2003-2005, in 2017-2019, and in 2022. As new developments by us are making it possible to semi-automate biodiversity surveys, they will become annual.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2003-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-10.149 52.205, -9.909 53.754, -9.745 31.469, -9.684 30.58, -9.287 43.057, -9.257 39.292, -8.858 41.844, -8.789 37.518, -8.2 37.098, -7.588 33.571, -6.856 33.971, -6.774 43.764, -5.895 35.914, -5.171 54.979, -4.736 48.537, -4.632 53.31, -4.448 43.386, -4.085 50.328, -2.526 47.291, -1.555 43.469, -1.015 45.631)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation_.json",
+      "schema:keywords": [
+        "Climate Variability and Change",
+        "biodiversity",
+        "intertidal"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental",
+          "schema:description": "Fundação Para a Ciência e a Tecnologia\r\nH2020"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation_.json",
+        "name": "European Temperature and Biodiversity Observation Network"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_Temperature_and_Biodiversity_Observation_/European_Temperature_and_Biodiversity_Observation__actions.json",
+      "schema:description": "every_6_to_10_years",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

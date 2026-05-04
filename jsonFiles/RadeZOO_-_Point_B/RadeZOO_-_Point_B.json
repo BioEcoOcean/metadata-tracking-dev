@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "RadeZOO -  Point B",
+      "schema:name": "RadeZOO -  Point B",
+      "schema:url": "http://obs-vlfr.fr/",
+      "schema:description": "One aim of the RadeZoo service is to save the Point B zooplankton time series from 1966 in high definition digital images. Another aim of the service is to analyzed, through collaborations, recent and old zooplankton samples from spatial or temporal surveys.  In addition to save historical data, we are giving networked access to the zooplankton images and counts through national and international data centers. This will let every interested scientist to work on the original digital image sample. Finally, we participate to the evolution of computer assisted plankton sorting through the definition of new protocoles and softwares. ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1966-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (7.316 43.68)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RadeZOO_-_Point_B/RadeZOO_-_Point_B.json",
+      "schema:keywords": [
+        "Villefranche-sur-Mer",
+        "imaging",
+        "zooplankton"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RadeZOO_-_Point_B/RadeZOO_-_Point_B.json",
+        "name": "RadeZOO -  Point B"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RadeZOO_-_Point_B/RadeZOO_-_Point_B_actions.json",
+      "schema:description": "daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

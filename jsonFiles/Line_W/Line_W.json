@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Line W",
+      "schema:name": "Line W",
+      "schema:url": "https://scienceweb.whoi.edu/linew/index.php",
+      "schema:description": "The Line W research program was conceived to document interannual changes in the Deep Western Boundary Current (DWBC) and Gulf Stream, to investigate the causes of the variability and investigate their consequences for the climate system. The study's approach centered around a sustained observational program that spanned the continental slope on a line running approximately from Woods Hole towards Bermuda and involved moored instruments, repeated hydrographic section work and analyses of remote sensing data: a study region called 'Line W.'  The field program produced a 10-year-long time series (Spring 2004-2014) of boundary current variability that was and continues to be being used together with companion programs at other latitudes in the Atlantic to characterize the Meridional Overturning Circulation in the North Atlantic Ocean. A time series of DWBC transport time for the full 2004-2014 period was constructed and used to document and diagnose modes of variability.  Daily profiles of subinertial velocity, temperature, salinity, and neutral density were constructed for each mooring site and cross-line DWBC transport time series were derived for specified water mass layers.  Notably, a statistically significant trend of decreasing equatorward transport was observed in several of the DWBC components as well as the current as a whole.  A peer-reviewed paper based on the Line W mooring data was published in 2017.  Another research focus was the time-averaged Gulf Stream structure and transport.   A peer-reviewed paper discussing this analysis was published in Deep-Sea Research.  Technical assessment of the prototype Articulating Profiler was also conducted and results presented at the 2019 Current, Waves and Turbulence Measurement conference.   ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2004-05-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-69.719 41.046, -64.116 34.994, -65.325 34.434, -70.642 40.564, -69.719 41.046))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Line_W/Line_W.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": "https://goosocean.org/eov/oxygen"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface currents",
+          "schema:url": "https://goosocean.org/eov/subsurface_currents"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia",
+          "schema:description": "U.S. National Science Foundation"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Line_W/Line_W.json",
+        "name": "Line W"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Line_W/Line_W_actions.json",
+      "schema:description": "sub_daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

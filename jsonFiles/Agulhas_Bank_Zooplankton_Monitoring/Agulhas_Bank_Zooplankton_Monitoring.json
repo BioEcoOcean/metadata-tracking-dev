@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Agulhas Bank Zooplankton Monitoring",
+      "schema:name": "Agulhas Bank Zooplankton Monitoring",
+      "schema:url": "",
+      "schema:description": "Agulhas Bank Zooplankton Monitoring",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://www.semanticscholar.org/paper/Copepod-biomass%2C-size-composition-and-production-in-Huggett-Verheye/297beafa4dbec34464a63ff5a7904a3d76fca63f"
+      ],
+      "schema:foundingDate": "1988-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((19.105 -34.371, 19.149 -34.434, 19.347 -34.443, 19.347 -34.57, 19.259 -34.615, 19.424 -34.615, 19.688 -34.805, 19.863 -34.769, 20.028 -34.841, 20.215 -34.669, 20.391 -34.579, 20.413 -36.111, 18.633 -36.031, 17.974 -35.039, 18.787 -34.353, 19.105 -34.371))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Agulhas_Bank_Zooplankton_Monitoring/Agulhas_Bank_Zooplankton_Monitoring.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Agulhas_Bank_Zooplankton_Monitoring/Agulhas_Bank_Zooplankton_Monitoring.json",
+        "name": "Agulhas Bank Zooplankton Monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Agulhas_Bank_Zooplankton_Monitoring/Agulhas_Bank_Zooplankton_Monitoring_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

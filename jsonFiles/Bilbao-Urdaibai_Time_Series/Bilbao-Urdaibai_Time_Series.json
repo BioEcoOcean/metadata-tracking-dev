@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Bilbao-Urdaibai Time Series",
+      "schema:name": "Bilbao-Urdaibai Time Series",
+      "schema:url": "https://www.ehu.eus/en/web/marineestuarineplankton/bilbao-urdaibai-time-series",
+      "schema:description": "Coastal marine systems offer many services that historically have attracted human populations, which, in turn, exert an increasing pressure on them. These ecosystems are characterized by their complex natural variability both at temporal (seasonal cycles, interannual and interdecadal oscillations) and spatial (thermohaline gradients, tidal and gravitational circulation) scales. In addition, they are affected by anthropogenic disturbances at local (littoral modification, exploitation of abiotic and biotic resources, pollution) and global (climate change) scales that modify their structure and function. In order to understand ongoing changes in these ecosystems and their causes, it is necessary to implement programs of systematic observations at time and space scales that are useful to interpret them properly. Time series are powerful tools to describe and interpret long-term changes in marine pelagic ecosystem and address predictive goals. Therefore, public institutions that are responsible for coastal ecosystems management are increasingly demanding studies based on time series, in order to ensure a suitable use for food supply, transport and recreation that is compatible with marine life conservation. This is evidenced by the recent creation of the GOOS (Global Ocean Observing System) by the IOC-UNESCO (Intergovernmental Oceanographic Commission), and the IGMETS (International Group for Marine Ecological Time Series), among other attempts to enhance the monitoring of marine ecosystems worldwide.\r\nThe group of Marine and Estuarine Plankton Ecology of the University of the Basque Country (UPV/EHU) started a scientific program to obtain and analyze time series from neritic and transitional plankton ecosystems of two nearby areas of the Basque coast with contrasting history of human pressure and conservation status, i.e. the estuary and port area of Bilbao, and the estuary of the Biosphere Reserve of Urdaibai. The project aim is to monitor short- and long-term natural and anthropogenic changes in water conditions and plankton communities. This effort is in agreement with worldwide scientific initiatives related to the study of climate change and marine environment conservation. Data collection was initiated in 1996, but it is carried out systematically with a monthly frequency since 1998. The approach selected to study the spatial variability was lagrangian, by sampling selected salinity zones instead of spatially fixed points.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://www.researchgate.net/publication/224744107_ICES_Zooplankton_Methodology_Manual"
+      ],
+      "schema:foundingDate": "1997-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-3.025 43.345, -3.009 43.319, -2.974 43.296, -2.924 43.255, -2.693 43.399, -2.684 43.364, -2.68 43.373, -2.666 43.355)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Bilbao-Urdaibai_Time_Series/Bilbao-Urdaibai_Time_Series.json",
+      "schema:keywords": [
+        "Bay of Biscay"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "governmental",
+            "other"
+          ],
+          "schema:description": "The Bilbao-Urdaibai Time Series program has no specific permanent financial support from public or private bodies. Funding has been obtained in competitive calls for research funds of the Spanish Government (MINECOR, MEC), the Basque Government (PIBA, GIC, ETORTEK), the UPV/EHU (GIU, UNESCO, EHU), the Aquitaine-Euskadi-Navarre Cooperative Program, and from contracts with private companies through specific university-company agreements (OTRI, EUSKOIKER)."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.ehu.eus/en/web/marineestuarineplankton/argitalpenak"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Bilbao-Urdaibai_Time_Series/Bilbao-Urdaibai_Time_Series.json",
+        "name": "Bilbao-Urdaibai Time Series"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Bilbao-Urdaibai_Time_Series/Bilbao-Urdaibai_Time_Series_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

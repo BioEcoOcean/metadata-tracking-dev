@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Line P monitoring program",
+      "schema:name": "Line P monitoring program",
+      "schema:url": "https://waterproperties.ca/linep/index.php",
+      "schema:description": "Line P, which stretches in space from the southern tip of Vancouver Island far offshore into the Alaskan Gyre and in time back to 1956, is an oceanographic monitoring program unique in the Pacific Ocean; no other scientific program goes as far offshore on a regular basis. As one of the longest deep-sea time series in the world, it is of international interest, allowing scientists to see trends in ocean and climate variables which influence both people and fisheries.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://www.waterproperties.ca/linep/sampling.php"
+      ],
+      "schema:foundingDate": "1956-09-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-144.756 49.696, -144.756 49.951, -124.98 48.72, -125.068 48.517, -144.756 49.696))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Line_P_monitoring_program/Line_P_monitoring_program.json",
+      "schema:keywords": [
+        "Ecosystems",
+        "ocean dynamics",
+        "phytoplankton",
+        "time series",
+        "zooplankton"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental",
+          "schema:description": "Government of Canada via Fisheries and Ocean Canada"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.waterproperties.ca/linep/publications.php"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Line_P_monitoring_program/Line_P_monitoring_program.json",
+        "name": "Line P monitoring program"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Line_P_monitoring_program/Line_P_monitoring_program_actions.json",
+      "schema:description": "twice_per_year",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "LTER Transetto Senigallia-Susak and TeleSenigallia pylon",
+      "schema:name": "LTER Transetto Senigallia-Susak and TeleSenigallia pylon",
+      "schema:url": "",
+      "schema:description": "LTER Transetto Senigallia-Susak and TeleSenigallia pylon",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia.json",
+        "name": "LTER Transetto Senigallia-Susak and TeleSenigallia pylon"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia/LTER_Transetto_Senigallia-Susak_and_TeleSenigallia_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "European ARMS program",
+      "schema:name": "European ARMS program",
+      "schema:url": "https://github.com/arms-mbon",
+      "schema:description": "The European ARMS programme (ARMS-MBON) is a network of Autonomous Reef Monitoring Structures (ARMS) placed in the vicinity of marine stations, ports, marinas, and Long-Term Ecological Research (LTER) sites distributed over Europe and polar regions. The aim of ARMS-MBON is to assess the status of, and changes in, hard-bottom communities of near-coast environments, using genetic methods supplemented with image analysis and visual inspection methods. \r\nARMS-MBON is part of GEO BONs Marine Biodiversity Observation Network (MBON) as well as the European Marine Omics Biodiversity Observation Network CALLED EMO BON (https://www.embrc.eu/emo-bon).\r\nARMS units are passive monitoring systems originally developed during the Census of Marine Life project for the collection of marine fauna on and near the sea floor. Similarly to settlement plates, the ARMS units are stacks of plates that mimic the complex structure of the sea bottom. They are deployed on marine substrates and colonised by marine species, and after a period of time they are recovered by a team and taken apart to see who moved in.  \r\nOne of our scientific goals is to identify newly arrived Non-Indigenous Species (NIS), facilitating an early warning system, and to track the migration of already known NIS in European continental waters. The data collected by the ARMS-MBON programme has the potential to be used for calculating Essential Biodiversity Variables (EBVs) on the distribution and abundance of benthic and non-indigenous species, as well as for continental-scale research on the community ecology and biogeography of benthic invertebrates.regio",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://github.com/arms-mbon/Documentation/tree/main/Handbook"
+      ],
+      "schema:foundingDate": "2018-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_ARMS_program/European_ARMS_program.json",
+      "schema:keywords": [
+        "benthic",
+        "marine invertebrates",
+        "metabarcoding"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "governmental"
+          ],
+          "schema:description": "ASSEMBLE Plus (http://www.assembleplus.eu/, grant no 730984)\r\nINTERREG project GEANS (https://northsearegion.eu/geans/)\r\nSwedish Agency for Marine and Water Management (grant no. 3181-2019)\r\nFlanders LifeWatch contribution (Research Foundation Flanders grant I000819N)\r\nAquanis 2.0 project (FONDATION Total)\r\nSwedish Research council (grant no. 2017-00634) \r\nEOSC NORDIC project (grant no. 857652)\r\nINTERREG EBB (EAPA_501/2016) and H2020 EOSC-Life (grant no. 824087)\r\nEuropean Marine Biological Resource Center (EMBRC)"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_ARMS_program/European_ARMS_program.json",
+        "name": "European ARMS program"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/European_ARMS_program/European_ARMS_program_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

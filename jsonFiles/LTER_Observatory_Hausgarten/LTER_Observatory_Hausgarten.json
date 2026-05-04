@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "LTER Observatory Hausgarten",
+      "schema:name": "LTER Observatory Hausgarten",
+      "schema:url": "https://www.awi.de/en/science/biosciences/deep-sea-ecology-and-technology/observatories/lter-observatory-hausgarten.html",
+      "schema:description": "Enabling the detection of expected changes in abiotic and biotic parameters in a transition zone between the northern North Atlantic and the central Arctic Ocean, the Alfred Wegener Institute established the LTER (Long-Term Ecological Research) observatory HAUSGARTEN in the Fram Strait.\r\nHAUSGARTEN observatory displays 21 permanent stations covering a water depth range of 250 to 5500 m water depth. Repeated sampling and the deployment of moorings and different free-falling systems which act as observation platforms has taken place since the beginning of the station in summer 1999. At regular intervals, a Remotely Operated Vehicle (ROV) is used for targeted sampling, the positioning and servicing of autonomous measuring instruments and the performance of in situ experiments. Our 3000 m depth-rated Autonomous Underwater Vehicle (AUV) allows the sensing and sampling in the water column as well as large-scale observations at the seafloor.\r\nSince 2014, HAUSGARTEN observatory is successively extended within the frame of the HGF infrastructure project FRAM (Frontiers in Arctic marine Monitoring).",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1999-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((10.459 79.072, -0.703 77.447, -10.107 78.438, -2.725 79.687, 10.459 79.072))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Observatory_Hausgarten/LTER_Observatory_Hausgarten.json",
+      "schema:keywords": [
+        "Central Arctic Ocean",
+        "Fram Strait",
+        "PANGAEA",
+        "northern North Atlantic"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.awi.de/en/science/biosciences/deep-sea-ecology-and-technology/observatories/lter-observatory-hausgarten.html"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Observatory_Hausgarten/LTER_Observatory_Hausgarten.json",
+        "name": "LTER Observatory Hausgarten"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Observatory_Hausgarten/LTER_Observatory_Hausgarten_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

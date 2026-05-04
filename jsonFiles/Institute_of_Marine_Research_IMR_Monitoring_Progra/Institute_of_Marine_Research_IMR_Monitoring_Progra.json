@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Institute of Marine Research (IMR) Monitoring Programme: Arendal Station 2",
+      "schema:name": "Institute of Marine Research (IMR) Monitoring Programme: Arendal Station 2",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/no-50401/",
+      "schema:description": "The Arendal sampling site (northern Skagerrak) is located at 58 23 N 8 49 E, approximately one nautical mile offshore from the Flodevigen Research Station (Institute of Marine Research, IMR) off southern Norway. The water depth at the site is 105 m. Sampling for hydrographic parameters and abundance of phytoplankton and zooplankton (biomass and species) has been carried out twice a month since January 1994. Zooplankton is sampled fortnightly with a WP-2 net (180 µm mesh) towed vertically from a depth of 50 m to the surface. Each sample is split in half, providing data on both species composition/abundance and biomass.The seasonal maximum in zooplankton biomass generally occurs in April/May, with a secondary, smaller peak in the zooplankton occurring in July/August. Large differences can be seen between years in the observed biomass of zooplankton, with maximum values in 2003 and minimum values in 1998. A general increase in biomass and abundance was observed from 1998 to 2003, but a lower abundance overall was observed in 2004-2007. The observed lower abundance in recent years is especially pronounced in the autumn peak (July/August). This is mainly caused by the reduced abundances of the copepods Oithona spp and Pseudocalanus spp in the period 2004-2007.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1994-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (8.817 58.383)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Institute_of_Marine_Research_IMR_Monitoring_Progra/Institute_of_Marine_Research_IMR_Monitoring_Progra.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/biomass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass",
+          "schema:url": "https://goosocean.org/eov/zooplankton/biomass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": "https://goosocean.org/eov/nutrients"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": "https://goosocean.org/eov/oxygen"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Institute_of_Marine_Research_IMR_Monitoring_Progra/Institute_of_Marine_Research_IMR_Monitoring_Progra.json",
+        "name": "Institute of Marine Research (IMR) Monitoring Programme: Arendal Station 2"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Institute_of_Marine_Research_IMR_Monitoring_Progra/Institute_of_Marine_Research_IMR_Monitoring_Progra_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

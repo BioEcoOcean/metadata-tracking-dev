@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Balearic Sperm Whale Project",
+      "schema:name": "Balearic Sperm Whale Project",
+      "schema:url": "https://www.asociaciontursiops.org/balearic-sperm-whale",
+      "schema:description": "The Balearic Islands are the study area of this project, developed by Tursiops Association in collaboration with St Andrews University. It has been active since 2003 and included ecovolunteer programs in 2013, which continues to the day. \r\nThis investigation pursues the study of the sperm whale population in the Balearic waters to establish management and conservational measures in order to protect this extraordinary cetacean, highly unknown in the Mediterranean. \r\nDuring the campaigns, we apply acoustic methods to detect and follow the individuals. Once visually spoted, with suitable conditions, we carry on fotoidentification, remote biopsy, and other sample recolection as faeces and sloughed skin. \r\n",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2003-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((4.933 41.055, 5.208 39.817, 4.274 38.668, 2.373 38.204, 0.286 38.763, -0.154 38.968, -0.363 39.496, 0.516 40.531, 0.923 40.681, 0.736 40.872, 1.956 41.261, 3.746 41.303, 4.933 41.055))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Balearic_Sperm_Whale_Project/Balearic_Sperm_Whale_Project.json",
+      "schema:keywords": [
+        "Marine Mammals",
+        "Science Education and Communication",
+        "scotland"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "civil_society",
+          "schema:description": "We have the unconditional suport of our volunteers, who take part in a research campaign and give us their donations. Moreover, we count on different entities, ONG and public administration's collaboration."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Balearic_Sperm_Whale_Project/Balearic_Sperm_Whale_Project.json",
+        "name": "Balearic Sperm Whale Project"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Balearic_Sperm_Whale_Project/Balearic_Sperm_Whale_Project_actions.json",
+      "schema:description": "opportunistically",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

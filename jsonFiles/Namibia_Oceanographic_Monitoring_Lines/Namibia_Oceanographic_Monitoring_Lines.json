@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Namibia Oceanographic Monitoring Lines",
+      "schema:name": "Namibia Oceanographic Monitoring Lines",
+      "schema:url": "http://www.mfmr.gov.na",
+      "schema:description": "Oceanographic monitoring stations sampled using the research vessel Mirabilis or other vessels of opportunity. Parameters samples include temperature, salinity, oxygen, phytoplankton and zooplankton.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1995-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (11.283 -18, 11.459 -18, 11.634 -18, 11.777 -18, 11.79 -20, 11.97 -20, 12.15 -20, 12.33 -20, 12.5 -20, 12.68 -20, 12.86 -20, 12.95 -23, 13 -20, 13.14 -23, 13.28 -26, 13.33 -23, 13.51 -23, 13.66 -26, 13.68 -23, 13.86 -23, 14.03 -26, 14.04 -23, 14.22 -26, 14.23 -23, 14.37 -23, 14.4 -26, 14.59 -26, 14.77 -26, 14.783 -28, 14.86 -26, 14.92 -26, 14.967 -28, 15.15 -28, 15.35 -28, 15.533 -28, 15.683 -28)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Namibia_Oceanographic_Monitoring_Lines/Namibia_Oceanographic_Monitoring_Lines.json",
+      "schema:keywords": [
+        "chemical oceanography",
+        "physical oceanography",
+        "phytoplankton",
+        "zooplankton"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Namibia_Oceanographic_Monitoring_Lines/Namibia_Oceanographic_Monitoring_Lines.json",
+        "name": "Namibia Oceanographic Monitoring Lines"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Namibia_Oceanographic_Monitoring_Lines/Namibia_Oceanographic_Monitoring_Lines_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

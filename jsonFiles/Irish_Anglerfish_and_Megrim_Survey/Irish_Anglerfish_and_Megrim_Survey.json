@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Irish Anglerfish and Megrim Survey",
+      "schema:name": "Irish Anglerfish and Megrim Survey",
+      "schema:url": "https://www.marine.ie/site-area/areas-activity/fisheries-ecosystems/irish-anglerfish-and-megrim-survey-iams",
+      "schema:description": "The Irish Anglerfish and Megrim Survey (IAMS) is carried out by Fisheries Ecosystems Advisory Services (FEAS). It has taken place in the 1st quarter each year since 2016 on the RV Celtic Explorer. It is coordinated with the Scottish Anglerfish and Megrim Survey (SIAMISS) and uses the same gear and fishing practices. \r\nThe main objective of the survey is to obtain biomass estimates for anglerfish (Lophius piscatorius and L. budegassa) and establish an abundance index for megrim (Lepidorhombus whiffiaginis and L. boscii) in areas 6a (south of 58°N) and 7 (west of 8°W). Secondary objectives are to collect data on the distribution and relative abundance of anglerfish, megrim and other commercially exploited species. The survey also collects maturity and other biological information for commercial fish species.\r\nThe trawl survey takes place in areas 6a and 7 at depths from around 150m to 1000m and uses a bottom trawl which is based on commercial anglerfish trawls. The survey operates 24 hours per day with 1-hour tows. The sampling protocol is focused on anglerfish and megrim but maturity data of other ‘commercial’ species are also collected. The beam trawl survey extends the existing RV Cefas Endeavour Q2 Beam Trawl Survey westwards. This survey also operates 24 hours per day using two 4m beam trawls with 30-minute tows.\r\nStation positions, heading and bottom depth were recorded at the moment the gear settled on the bottom and when the gear was hauled back. Tide and wind direction and speed, barometric pressure, heave, pitch and roll were recorded at the mid-point in the tow. Bottom depth and GPS position are also recorded in a SQL database at intervals of approximately 1 per second.\r\nCatch weights, length frequency distributions and biological data (sex, live weight, maturity, age) are captured. ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "http://doi.org/10.17895/ices.pub.7562"
+      ],
+      "schema:foundingDate": "2017-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-25.001 57.367, -5.272 57.367, -5.272 46.833, -25.001 46.833, -25.001 57.367))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Anglerfish_and_Megrim_Survey/Irish_Anglerfish_and_Megrim_Survey.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:description": "The IAMS survey is part of Ireland's Data Collection Scheme which is carried out under Ireland's Operational Programme (OP), co-funded by the European Maritime and Fisheries Fund (EMFF) and by the Irish Government."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://oar.marine.ie/handle/10793/1653"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Anglerfish_and_Megrim_Survey/Irish_Anglerfish_and_Megrim_Survey.json",
+        "name": "Irish Anglerfish and Megrim Survey"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Irish_Anglerfish_and_Megrim_Survey/Irish_Anglerfish_and_Megrim_Survey_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Oceans and Coasts Programme",
+      "schema:name": "Oceans and Coasts Programme",
+      "schema:url": "https://www.ncf-india.org/oceans-and-coasts",
+      "schema:description": "We work in India's oceanic islands and coasts with a broad mandate to understand the basic ecology and behaviour of these systems, how human communities interact with them, and the impact of disturbances — both regional and global — on this relationship.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1998-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Oceans_and_Coasts_Programme/Oceans_and_Coasts_Programme.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance by size/age/stage",
+          "schema:url": "https://goosocean.org/eov/fish/abundance/by_size_age_stage"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish biomass by size/age/stage",
+          "schema:url": "https://goosocean.org/eov/fish/biomass/by_size_age_stage"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish community composition",
+          "schema:url": "https://goosocean.org/eov/fish/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish community composition - trait diversity",
+          "schema:url": "https://goosocean.org/eov/fish/community_composition/trait_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish ecosystem functioning",
+          "schema:url": "https://goosocean.org/eov/fish/ecosystem_functioning"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/coral/composition/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral community composition - trait diversity",
+          "schema:url": "https://goosocean.org/eov/coral/composition/trait_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral condition",
+          "schema:url": "https://goosocean.org/eov/coral/condition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover",
+          "schema:url": "https://goosocean.org/eov/coral/cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral diversity",
+          "schema:url": "https://goosocean.org/eov/coral/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral ecosystem functioning",
+          "schema:url": "https://goosocean.org/eov/coral/ecosystem_functioning"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral ecosystem functioning - ecosystem disturbances",
+          "schema:url": "https://goosocean.org/eov/coral/ecosystem_functioning/ecosystem_disturbances"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral total habitable substrate",
+          "schema:url": "https://goosocean.org/eov/coral/total_habitable_substrate"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae areal extent",
+          "schema:url": "https://goosocean.org/eov/macroalgae/areal_extent"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae ecosystem functioning",
+          "schema:url": "https://goosocean.org/eov/macroalgae/ecosystem_functioning"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles community composition",
+          "schema:url": "https://goosocean.org/eov/turtles/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/turtles/community_composition/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles distribution",
+          "schema:url": "https://goosocean.org/eov/turtles/distribution"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles ecosystem functioning",
+          "schema:url": "https://goosocean.org/eov/turtles/ecosystem_functioning"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles ecosystem functioning - ecosystem disturbances",
+          "schema:url": "https://goosocean.org/eov/turtles/ecosystem_functioning/ecosystem_disturbances"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles species traits - movement",
+          "schema:url": "https://goosocean.org/eov/turtles/traits/movement"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass areal extent",
+          "schema:url": "https://goosocean.org/eov/seagrass/areal_extent"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass canopy cover",
+          "schema:url": "https://goosocean.org/eov/seagrass/canopy_cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass community composition",
+          "schema:url": "https://goosocean.org/eov/seagrass/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/seagrass/community_composition/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass community composition - interaction diversity",
+          "schema:url": "https://goosocean.org/eov/seagrass/community_composition/interaction_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass community composition - trait diversity",
+          "schema:url": "https://goosocean.org/eov/seagrass/community_composition/trait_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass composition",
+          "schema:url": "https://goosocean.org/eov/seagrass/composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover",
+          "schema:url": "https://goosocean.org/eov/seagrass/cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass diversity",
+          "schema:url": "https://goosocean.org/eov/seagrass/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass ecosystem functioning",
+          "schema:url": "https://goosocean.org/eov/seagrass/ecosystem_functioning"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass ecosystem functioning - ecosystem disturbances",
+          "schema:url": "https://goosocean.org/eov/seagrass/ecosystem_functioning/ecosystem_disturbances"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass shoot density / cover",
+          "schema:url": "https://goosocean.org/eov/seagrass/shoot_density_cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass species traits - morphology",
+          "schema:url": "https://goosocean.org/eov/seagrass/traits/morphology"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Inorganic carbon",
+          "schema:url": "https://goosocean.org/eov/inorganic_carbon"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine debris",
+          "schema:url": "https://goosocean.org/eov/marine_debris"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": "https://goosocean.org/eov/nutrients"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "civil_society",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Oceans_and_Coasts_Programme/Oceans_and_Coasts_Programme.json",
+        "name": "Oceans and Coasts Programme"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Oceans_and_Coasts_Programme/Oceans_and_Coasts_Programme_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

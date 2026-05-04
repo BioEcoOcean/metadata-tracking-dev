@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Kongsfjorden Rijpfjorden Observatory Program (KROP)",
+      "schema:name": "Kongsfjorden Rijpfjorden Observatory Program (KROP)",
+      "schema:url": "https://www.mare-incognitum.no/krop/",
+      "schema:description": "UiT The Arctic University of Norway until 2026 in collaboration with the Scottish Association for Marine Science (SAMS) - Kongsfjorden Rijpfjorden Observatory Program - Kongsfjorden Marine Observatory (KROP)\r\nThe collection of background oceanographic data over a longer time is of great importance. Time series stations in the fjords allow us to track the changes in the environment and the separate unique events from permanent changes.\r\nUnder the lead of Jørgen Berge (UiT/UNIS) and Finlo Cottier (SAMS), we are maintaining two long-term observatories. One is located in Rijpjorden (established in 2006 by UNIS & SAMS), the other one in Kongsfjorden (established 2002 by SAMS). The observatories consist of a set of standard instruments which are deployed every year (CTDs, ADCPs, sediment traps), as well as “guest instrumentation”, which we add upon request by collaborating researchers (e. g. AURAL hydrophones (NPI), RAS autonomous water samplers (FAABulous/AWI/APN), settlement plates (APN) and more).  For the instrumentation setup please refer to the mooring diagrams.\r\nAll collected data will be made freely available online soon. We are currently working with NORCE and Sigma2 in an effort to store the data for long-term availability and with a user friendly interface to explore them online. We will be using the NetCDF format where ever possible. Users will be able to create and download their own datasets online, using only the variables they are interested in. In the meantime, please contact Jørgen Berge if you wish to access and use data from the observatories.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2002-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (11.8 78.95, 22.17 80.26)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Kongsfjorden_Rijpfjorden_Observatory_Program_KROP/Kongsfjorden_Rijpfjorden_Observatory_Program_KROP.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Kongsfjorden_Rijpfjorden_Observatory_Program_KROP/Kongsfjorden_Rijpfjorden_Observatory_Program_KROP.json",
+        "name": "Kongsfjorden Rijpfjorden Observatory Program (KROP)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Kongsfjorden_Rijpfjorden_Observatory_Program_KROP/Kongsfjorden_Rijpfjorden_Observatory_Program_KROP_actions.json",
+      "schema:description": "opportunistically",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

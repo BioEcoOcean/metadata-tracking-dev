@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "EMO_BON",
+      "schema:name": "EMO_BON",
+      "schema:url": "https://www.embrc.eu/emo-bon",
+      "schema:description": "The European Marine Omics Biodiversity Observation Network (EMO BON) is an initiative from the ESFRI (European Strategy Forum on Research Infrastructures) research infrastructure European Marine Biological Resource Centre-European Research Infrastructure Consortium (EMBRC-ERIC). EMO BON is a coordinated, long-term, marine genomic biodiversity observation network. By joining together individual biological observation stations, EMO BON builds a modern biodiversity observation framework for Europe. Currently, EMO BON includes marine stations located from the Arctic to the Red Sea, which regularly sample for genomic marine biodiversity at the water column, soft and hard substrates. EMO BON generates high-quality genomic biodiversity data that will be made openly accessible and thereby support constructive dialogue towards a holistic understanding of our ocean.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://repository.oceanbestpractices.org/handle/11329/1738",
+        "https://repository.oceanbestpractices.org/handle/11329/1918"
+      ],
+      "schema:foundingDate": "2021-06-21",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-8.798 42.202, -8.667 41.147, -7.969 37.006, -4.217 50.25, -3.968 48.772, -3.015 43.339, -2.113 56.964, 2.808 51.433, 3.135 42.484, 5.22 60.27, 7.317 43.683, 11.103 58.875, 12.508 45.314, 14.25 40.8, 17.05 56.917, 17.126 68.926, 19.814 63.518, 25.279 35.347, 34.917 29.5)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/EMO_BON/EMO_BON.json",
+      "schema:keywords": [
+        "EMOBON"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "other",
+          "schema:description": "The EMO BON genomic observatory is funded and financed by the European Marine Biological Resource Centre - European Research Infrastructure Consortium (EMBRC-ERIC), which is part of the European Strategy Forum on Research Infrastructures (ESFRI)."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/EMO_BON/EMO_BON.json",
+        "name": "EMO_BON"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/EMO_BON/EMO_BON_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Fishery-dependent sampling fo Cambridge Bay Arctic char",
+      "schema:name": "Fishery-dependent sampling fo Cambridge Bay Arctic char",
+      "schema:url": "",
+      "schema:description": "Fishery-dependent sampling fo Cambridge Bay Arctic char",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-107.457 69.535, -104.81 69.535, -104.81 68.954, -107.457 68.954, -107.457 69.535))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic.json",
+        "name": "Fishery-dependent sampling fo Cambridge Bay Arctic char"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic/Fishery-dependent_sampling_fo_Cambridge_Bay_Arctic_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

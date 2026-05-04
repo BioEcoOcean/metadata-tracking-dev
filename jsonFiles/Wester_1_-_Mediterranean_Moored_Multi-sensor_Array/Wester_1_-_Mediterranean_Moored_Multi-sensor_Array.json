@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Wester 1 - Mediterranean Moored Multi-sensor Array",
+      "schema:name": "Wester 1 - Mediterranean Moored Multi-sensor Array",
+      "schema:url": "http://www.w1m3a.cnr.it",
+      "schema:description": "Wester 1 - Mediterranean Moored Multi-sensor Array",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://repository.oceanbestpractices.org/handle/11329/302"
+      ],
+      "schema:foundingDate": "2011-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (9.009 43.866)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array.json",
+        "name": "Wester 1 - Mediterranean Moored Multi-sensor Array"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array/Wester_1_-_Mediterranean_Moored_Multi-sensor_Array_actions.json",
+      "schema:description": "sub_daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

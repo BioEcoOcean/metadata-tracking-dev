@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "North Sea ecological time series LTER - Helgoland Roads",
+      "schema:name": "North Sea ecological time series LTER - Helgoland Roads",
+      "schema:url": "",
+      "schema:description": "The Helgoland Roads time series is one of the richest temporal marine data sets available. Running since 1962, it documents changes for phytoplankton, salinity, Secchi disc depths and macronutrients. Uniquely, the data have been carefully quality controlled and linked to relevant meta-data, and the pelagic time series is further augmented by zooplankton, intertidal macroalgae, macrozoobenthos and bacterioplankton data. ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (7.885 54.183)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Sea_ecological_time_series_LTER_-_Helgoland_/North_Sea_ecological_time_series_LTER_-_Helgoland_.json",
+      "schema:keywords": [
+        "PANGAEA"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://sci-hub.ru/https://doi.org/10.1007/s12237-009-9228-y"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Sea_ecological_time_series_LTER_-_Helgoland_/North_Sea_ecological_time_series_LTER_-_Helgoland_.json",
+        "name": "North Sea ecological time series LTER - Helgoland Roads"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Sea_ecological_time_series_LTER_-_Helgoland_/North_Sea_ecological_time_series_LTER_-_Helgoland__actions.json",
+      "schema:description": "daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

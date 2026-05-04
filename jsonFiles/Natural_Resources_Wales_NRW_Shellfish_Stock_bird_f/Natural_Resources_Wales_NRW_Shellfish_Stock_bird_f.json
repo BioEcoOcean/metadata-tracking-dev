@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natural Resources Wales (NRW) Shellfish Stock (bird food) Monitoring",
+      "schema:name": "Natural Resources Wales (NRW) Shellfish Stock (bird food) Monitoring",
+      "schema:url": "",
+      "schema:description": "The Burry Inlet Special Protection Area (SPA) supports nationally and internationally important populations of wildfowl and waders. It also supports an important cockle fishery. The removal of cockles and the associated disturbance caused by fishing them needs to be balanced with bird food requirements. The aim of monitoring of bird food stock on this site is to assess the food requirements of wading birds that over-winter in the SPA. The data are also used to contribute to casework in the area. In the future, these data may be combined with data gathered on bird foraging behaviour, together with site specific data on bird numbers and used in an individual behaviour based model to predict the food requirements of a bird population. Over 400 cockle survey stations (on a grid system) are surveyed annually, using GPS, 0.1m2 quadrats and a sieve of 2mm mesh. Cockles retained in the sieve were measured and counted; enabling the production of cockle density maps and estimates of the total cockle populations of each area. Mussel beds in the Inlet are also surveyed in a similar way, and all mussels over 10mm length in each 0.1m2 quadrat are measured and counted. This enabled the estimation of the total mussel populations of each bed. From 2007, samples of the shellfish were analysed to measure wet weight, ash free dry weight and shell length; providing sufficient data to determine length: weight relationships and thereby calculate estimates of total weight of shellfish in the Inlet. All work is carried out between September and October and is repeated on a yearly basis. Monitoring at each of the cockle and mussel stations has not been repeated since 2009",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2004-08-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-4.08 51.691, -4.077 51.624, -4.267 51.621, -4.267 51.691, -4.08 51.691))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Shellfish_Stock_bird_f/Natural_Resources_Wales_NRW_Shellfish_Stock_bird_f.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance",
+          "schema:url": "https://goosocean.org/eov/invertebrates/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition/phylogenetic_diversity"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.ukdmos.org/search-directory"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Shellfish_Stock_bird_f/Natural_Resources_Wales_NRW_Shellfish_Stock_bird_f.json",
+        "name": "Natural Resources Wales (NRW) Shellfish Stock (bird food) Monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Shellfish_Stock_bird_f/Natural_Resources_Wales_NRW_Shellfish_Stock_bird_f_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

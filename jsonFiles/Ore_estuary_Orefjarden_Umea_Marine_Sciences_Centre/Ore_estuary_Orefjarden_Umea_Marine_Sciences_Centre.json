@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Ore estuary (Orefjarden), Umea Marine Sciences Centre (LTER) - Sweden",
+      "schema:name": "Ore estuary (Orefjarden), Umea Marine Sciences Centre (LTER) - Sweden",
+      "schema:url": "https://deims.org/",
+      "schema:description": "Umeå Marine Sciences Centre produces long term marine time series in the coastal and off-shore environments of the Gulf of Bothnia. The Ore estuary is proposed as the primary study area for the LTER initiative. This is a particularly intensively studied brackish water body with records back to the 1980´s. The estuary is 71.2 km^2 with an average depth of 10 m and maximum depth of 32 m. Salinity is between 1-3 g/kg. The Ore river discharge into the estuary and long term ecological time series i available also from the river. The watershed is dominated by boreal forest and mires.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://deims.org/fa9e4d17-3c60-4295-a9e3-64d4b7c1ab09"
+      ],
+      "schema:foundingDate": "1985-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((19.856 63.596, 19.869 63.588, 19.885 63.538, 19.898 63.475, 19.79 63.46, 19.747 63.465, 19.76 63.472, 19.752 63.493, 19.726 63.508, 19.724 63.521, 19.749 63.539, 19.793 63.56, 19.831 63.566, 19.856 63.596))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ore_estuary_Orefjarden_Umea_Marine_Sciences_Centre/Ore_estuary_Orefjarden_Umea_Marine_Sciences_Centre.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ore_estuary_Orefjarden_Umea_Marine_Sciences_Centre/Ore_estuary_Orefjarden_Umea_Marine_Sciences_Centre.json",
+        "name": "Ore estuary (Orefjarden), Umea Marine Sciences Centre (LTER) - Sweden"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ore_estuary_Orefjarden_Umea_Marine_Sciences_Centre/Ore_estuary_Orefjarden_Umea_Marine_Sciences_Centre_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

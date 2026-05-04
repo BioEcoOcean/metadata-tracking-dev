@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Coastal and marine birds of Tasmania",
+      "schema:name": "Coastal and marine birds of Tasmania",
+      "schema:url": "",
+      "schema:description": "Coastal and marine birds of Tasmania",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1992-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_and_marine_birds_of_Tasmania/Coastal_and_marine_birds_of_Tasmania.json",
+      "schema:keywords": [
+        "Coastal",
+        "Nesting",
+        "Shorebirds",
+        "Tasmania",
+        "Terns",
+        "sea level rise"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "civil_society"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_and_marine_birds_of_Tasmania/Coastal_and_marine_birds_of_Tasmania.json",
+        "name": "Coastal and marine birds of Tasmania"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_and_marine_birds_of_Tasmania/Coastal_and_marine_birds_of_Tasmania_actions.json",
+      "schema:description": "every_2_to_5_years",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natural Resources Wales (NRW) Lagoon soft sediment survey",
+      "schema:name": "Natural Resources Wales (NRW) Lagoon soft sediment survey",
+      "schema:url": "",
+      "schema:description": "Saline lagoons are an Annex 1 feature of Special Areas of Conservation (SPA). Monitoring is carried out at three lagoons across Special Areas of Conservation (SAC); Cemlyn Lagoon, Morfa Gwyllt lagoon and Pickleridge lagoon. Abundance of benthic invertebrates and granulometry are collected at three fixed stations in both Cemlyn lagoon and Pickleridge lagoon. Due to the size and depth of Morfa Gwyllt lagoon, sampling is carried out at 4 random stations within the main body of the lagoon. Temperature is also continuously recorded within the lagoons by the deployment of loggers.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2006-03-08",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-5.188 51.703, -4.509 53.41)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Lagoon_soft_sediment_s/Natural_Resources_Wales_NRW_Lagoon_soft_sediment_s.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance",
+          "schema:url": "https://goosocean.org/eov/invertebrates/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.ukdmos.org/search-directory"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Lagoon_soft_sediment_s/Natural_Resources_Wales_NRW_Lagoon_soft_sediment_s.json",
+        "name": "Natural Resources Wales (NRW) Lagoon soft sediment survey"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Lagoon_soft_sediment_s/Natural_Resources_Wales_NRW_Lagoon_soft_sediment_s_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

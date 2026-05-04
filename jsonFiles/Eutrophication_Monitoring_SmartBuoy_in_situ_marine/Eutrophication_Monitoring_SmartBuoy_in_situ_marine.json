@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Eutrophication Monitoring & SmartBuoy in situ marine monitoring",
+      "schema:name": "Eutrophication Monitoring & SmartBuoy in situ marine monitoring",
+      "schema:url": "https://www.cefas.co.uk/data-and-publications/dois/cefas-smartbuoy-monitoring-network/",
+      "schema:description": "SmartBuoys are autonomous marine monitoring systems making high frequency measurements of physical, chemical and biological parameters (Greenwood et al., 2010). They have been deployed as part of the UK marine eutrophication monitoring programme.\r\nSea surface temperature is measured using an FSI or Aanderaa conductivity/temperature sensor. Measurements are made every second in a burst duration of between five and ten minutes. A burst average is calculated. Temperature data are from one metre below sea surface at all sites plus 25m, 31m and 85m at North Dogger, 35m and 45m at Oyster Grounds. Resolution 0.01°C; Accuracy 0.1°C. Temperature sensors are calibrated annually at Cefas against certified platinum resistance thermometers. Data are subject to a full quality assurance procedure which assigns flags to poor quality data (e.g. for sensor malfunction, drift).\r\nSmartBuoy data is primarily used for eutrophication monitoring and feeds into OSPAR and MSFD assessments. Buoys have also been deployed as part of short term (up to 3 years) research contracts. Data have been collected using data buoys since November 2000 at a variety of locations in the North Sea, Irish Sea and Celtic Sea.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2001-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-8.604 49.402, -7.022 50.569, -6.6 51.043, -6.573 51.136, -6.562 51.138, -6.177 51.126, -6.082 51.25, -3.643 53.45, -3.362 53.535, -3.162 51.227, 1.028 51.526, 1.056 53.531, 1.638 52.216, 1.759 52.65, 2.079 51.982, 2.083 51.98, 2.083 51.984, 2.11 51.955, 2.28 55.683, 2.333 52, 2.335 52, 2.46 52.312, 2.504 52.143, 2.774 52.556, 2.808 53.166, 2.817 53.167, 2.896 52.873, 4.039 54.414, 4.042 54.414, 4.303 52.301, 4.367 52.276, 4.404 52.255)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Eutrophication_Monitoring_SmartBuoy_in_situ_marine/Eutrophication_Monitoring_SmartBuoy_in_situ_marine.json",
+      "schema:keywords": [
+        "Cefas"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental",
+          "schema:description": "These deployments form part of the National Marine Monitoring Programme (NMMP) funded by the UK Government's Department for Environment, Food and Rural Affairs (Defra)."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://data.cefas.co.uk/view/66"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://data.cefas.co.uk/search/1/smartbuoy"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://obis.org/dataset/230754a0-ccea-4c10-92a8-568f91d48647"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Eutrophication_Monitoring_SmartBuoy_in_situ_marine/Eutrophication_Monitoring_SmartBuoy_in_situ_marine.json",
+        "name": "Eutrophication Monitoring & SmartBuoy in situ marine monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Eutrophication_Monitoring_SmartBuoy_in_situ_marine/Eutrophication_Monitoring_SmartBuoy_in_situ_marine_actions.json",
+      "schema:description": "opportunistically",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

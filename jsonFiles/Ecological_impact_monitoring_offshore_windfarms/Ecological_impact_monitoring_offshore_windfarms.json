@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Ecological impact monitoring offshore windfarms",
+      "schema:name": "Ecological impact monitoring offshore windfarms",
+      "schema:url": "https://odnature.naturalsciences.be/msfd/nl/monitoring/2020/",
+      "schema:description": "Royal Belgian Institute of Natural Science (RBINS), Research Institute for Nature and Forest (INBO), Institute for Agriculture, Fishery and Food research (ILVO) &Marine Biology Research Group, Ghent University - Ecological impact monitoring offshore windfarms",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2005-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((2.884 51.547, 2.908 51.558, 2.962 51.534, 2.938 51.523, 2.928 51.52, 2.884 51.547)), ((3.005 51.56, 2.996 51.555, 2.979 51.544, 2.952 51.559, 2.962 51.564, 2.97 51.57, 2.979 51.575, 2.99 51.579, 2.997 51.576, 3.003 51.582, 3.011 51.577, 3.004 51.571, 3.018 51.564, 3.005 51.56)), ((2.825 51.691, 2.823 51.689, 2.827 51.688, 2.794 51.633, 2.792 51.636, 2.774 51.645, 2.81 51.706, 2.839 51.689, 2.838 51.687, 2.825 51.691)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ecological_impact_monitoring_offshore_windfarms/Ecological_impact_monitoring_offshore_windfarms.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ecological_impact_monitoring_offshore_windfarms/Ecological_impact_monitoring_offshore_windfarms.json",
+        "name": "Ecological impact monitoring offshore windfarms"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ecological_impact_monitoring_offshore_windfarms/Ecological_impact_monitoring_offshore_windfarms_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

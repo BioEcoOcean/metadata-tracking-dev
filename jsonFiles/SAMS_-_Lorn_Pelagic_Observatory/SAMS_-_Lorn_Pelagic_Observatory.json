@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "SAMS - Lorn Pelagic Observatory",
+      "schema:name": "SAMS - Lorn Pelagic Observatory",
+      "schema:url": "https://marine.gov.scot/sma/content/lorn-pelagic-observatory",
+      "schema:description": "The Scottish Association for Marine Science (SAMS) - Lorn Pelagic Observatory\r\nThe Firth of Lorn and Loch Linnhe comprise a fjordic system of several basins in which a multi-layer flow is interrupted by a series of sills. The Firth of Lorn is the outer basin, exchanging with the water on the western Scottish continental shelf and in particular with that in the Scottish Coastal Current (Simpson and Hill, 1986; Hill and Simpson, 1988). SAMS’s ‘Lorn Pelagic Observatory’ (LPO) studies conditions at the head of this basin, and, for the present purpose, comprises the station LY1 in the Lynn of Lorn and the adjacent sea-lochs Etive and Creran.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1970-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-5.5 56.5)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SAMS_-_Lorn_Pelagic_Observatory/SAMS_-_Lorn_Pelagic_Observatory.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://pureadmin.uhi.ac.uk/ws/portalfiles/portal/2498185/Tett_2016_LPO_pelagic"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SAMS_-_Lorn_Pelagic_Observatory/SAMS_-_Lorn_Pelagic_Observatory.json",
+        "name": "SAMS - Lorn Pelagic Observatory"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SAMS_-_Lorn_Pelagic_Observatory/SAMS_-_Lorn_Pelagic_Observatory_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natural Resources Wales (NRW) Intertidal Monitoring Surveys",
+      "schema:name": "Natural Resources Wales (NRW) Intertidal Monitoring Surveys",
+      "schema:url": "",
+      "schema:description": "Monitoring of intertidal habitats and species across Special Areas of Conservation (SAC) in Wales is undertaken under the Habitat and Species Directive. Each sample station is monitored for one of the following SAC sub-features; mudflats and sandflats, bedrock reef, Sabellaria reef, rockpools, tide-swept reef, underboulders, Zostera beds and nationally rare or scarce species. Work is undertaken to enable reporting on a range of external obligations under the Habitats Directive, Water Framework Directive and the inter-agency agreement on Common Standards Monitoring. It also informs management decisions on individual SAC sites. Monitoring methodologies for each of the sub-features are described in individual reports, available as part of the CCW Marine Monitoring Report / NRW Evidence Report series. Confidence in certain methods and their data is high, whilst the objectives of some surveys are to improve confidence in the method and data. Monitoring is on-going, having started in July 2004. Access to sites is largely on foot with some boat access in difficult locations. Sample stations are visited at least every 6 years, whilst many sites where there are particular pressures are visited annually.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2004-07-05",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((-5.16 51.48, -5.179 51.749, -4.035 51.805, -4.031 51.544, -5.16 51.48)), ((-3.778 53.317, -3.756 52.14, -4.575 52.11, -4.575 53.295, -3.778 53.317)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Intertidal_Monitoring_/Natural_Resources_Wales_NRW_Intertidal_Monitoring_.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.ukdmos.org/search-directory"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Intertidal_Monitoring_/Natural_Resources_Wales_NRW_Intertidal_Monitoring_.json",
+        "name": "Natural Resources Wales (NRW) Intertidal Monitoring Surveys"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Intertidal_Monitoring_/Natural_Resources_Wales_NRW_Intertidal_Monitoring__actions.json",
+      "schema:description": "every_2_to_5_years",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

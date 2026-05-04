@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natural Resources Wales (NRW) Grey Seal Monitoring",
+      "schema:name": "Natural Resources Wales (NRW) Grey Seal Monitoring",
+      "schema:url": "",
+      "schema:description": "Sites are viewed either from vantage points from the cliffs or approached by sea using a small RIB or surf ski. Seal abundance, estimated age, sex and behavioural categories are recorded along with environmental conditions. Grey seals are listed as an Annex II Species under the Habitats and Species Directive. They are vulnerable to disturbance at certain stages in the lifecycle, therefore pupping/nursery and moulting sites are treated as a sensitive feature by NRW and the exact location in Wales will only be given out to trusted partners under licence to NRW. Monitoring areas show randomly placed 5km squares in the vicinity of the sites.In North Wales, earlier studies have concentrated on a census of the seal population and pup production. However in later visits photo-id using pelage photography techniques were also being used to evaluate seal movements and distribution. Field observation on disturbance have also been made. Due to a lack of funding regular monitoring of the majority of sites has been suspended, however annual or biannual visits continue in at Bardsey Island, The Skerries and Carmel Head.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1974-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-5.333 51.87, -5.26 51.736, -5.256 51.92, -5.018 52.024, -4.785 52.751, -4.697 52.796, -4.691 52.879, -4.686 53.31, -4.609 53.423, -4.596 52.933, -4.566 53.403, -4.533 52.783, -4.483 52.79, -4.321 52.891, -4.253 53.384, -4.035 53.316, -3.2 53.376)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance",
+          "schema:url": "https://goosocean.org/eov/mammals/abundance"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.ukdmos.org/search-directory"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring.json",
+        "name": "Natural Resources Wales (NRW) Grey Seal Monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring/Natural_Resources_Wales_NRW_Grey_Seal_Monitoring_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

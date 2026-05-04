@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Finland's Marine Strategy Monitoring: Abundance and distribution of harbour porpoises",
+      "schema:name": "Finland's Marine Strategy Monitoring: Abundance and distribution of harbour porpoises",
+      "schema:url": "",
+      "schema:description": "Finnish Environment Insitute - Abundance and distribution of harbour porpoises",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2001-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (19.648 59.836, 19.767 59.801, 19.994 59.715, 20.159 59.634, 20.2 59.471, 20.223 59.53, 20.249 59.594, 20.325 59.379, 20.437 59.3, 20.559 59.388, 20.626 59.62, 20.674 59.472, 20.792 59.634, 20.917 59.645, 20.925 59.55, 21.112 59.571, 21.254 59.522, 21.409 59.463, 21.591 59.397, 21.742 59.5, 21.837 59.568, 21.992 59.508, 22.169 59.442, 22.2 59.534, 22.234 59.608)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_Abundance_and/Finland_s_Marine_Strategy_Monitoring_Abundance_and.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_Abundance_and/Finland_s_Marine_Strategy_Monitoring_Abundance_and.json",
+        "name": "Finland's Marine Strategy Monitoring: Abundance and distribution of harbour porpoises"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Finland_s_Marine_Strategy_Monitoring_Abundance_and/Finland_s_Marine_Strategy_Monitoring_Abundance_and_actions.json",
+      "schema:description": "sub_daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

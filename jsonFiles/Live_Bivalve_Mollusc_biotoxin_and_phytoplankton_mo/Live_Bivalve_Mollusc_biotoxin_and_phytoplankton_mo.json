@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Live Bivalve Mollusc biotoxin and phytoplankton monitoring programme (England and Wales)",
+      "schema:name": "Live Bivalve Mollusc biotoxin and phytoplankton monitoring programme (England and Wales)",
+      "schema:url": "https://www.food.gov.uk/business-guidance/biotoxin-and-phytoplankton-monitoring",
+      "schema:description": "Live Bivalve Mollusc biotoxin and phytoplankton monitoring programme (England and Wales)",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://www.cefas.co.uk/media/52581/20180516-c7473-ew-biotoxin-shellfish-sampling-and-transport-protocol-final-version-19.pdf"
+      ],
+      "schema:foundingDate": "2001-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-1.362 55.764, 2.307 52.843, 2 51.317, 0.879 50.569, -6.218 49.639, -6.812 50.064, -5.757 50.903, -6.218 51.836, -5.229 52.643, -4.966 53.553, -3.955 54.699, -1.362 55.764))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Live_Bivalve_Mollusc_biotoxin_and_phytoplankton_mo/Live_Bivalve_Mollusc_biotoxin_and_phytoplankton_mo.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Live_Bivalve_Mollusc_biotoxin_and_phytoplankton_mo/Live_Bivalve_Mollusc_biotoxin_and_phytoplankton_mo.json",
+        "name": "Live Bivalve Mollusc biotoxin and phytoplankton monitoring programme (England and Wales)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Live_Bivalve_Mollusc_biotoxin_and_phytoplankton_mo/Live_Bivalve_Mollusc_biotoxin_and_phytoplankton_mo_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

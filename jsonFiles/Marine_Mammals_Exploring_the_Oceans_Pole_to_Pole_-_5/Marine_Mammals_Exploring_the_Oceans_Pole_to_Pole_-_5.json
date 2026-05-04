@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Marine Mammals Exploring the Oceans Pole to Pole - France",
+      "schema:name": "Marine Mammals Exploring the Oceans Pole to Pole - France",
+      "schema:url": "https://meop.net/groups/france.html",
+      "schema:description": "MEOP (Marine Mammals Exploring the Oceans Pole to Pole) is a consortium of international researchers dedicated to sharing animal-derived data and knowledge about the polar oceans. Collectively, MEOP demonstrates the power and cost-effectiveness of using marine mammals as data-collection platforms that can dramatically improve the ocean-observing system for biological and physical oceanographers.\r\nThe Oceanographic data collected by Antarctic seals (Southern Elephant and Weddell seals mainly) are collected as part of the SO-MEMO (Observing System - Mammals as samplers of the Ocean Environment, PI. C. Guinet, CEBC-CNRS-ULR). Further data oceanographic are collected from sea turtle equipped in the French Guiana by Dr. D. Chevallier of the CNRS-UDS of the Département Ecologie, Physiologie et Ethologie of the Pluridisciplinary Institute Hubert Curien (IPHC).\r\nDeployment sites: Kerguelen Islands (C. Guinet), Adelie Land (J.-B. Charrassin, collaboration avec M. Hindell), French Guiana (D. Chevallier)\r\nSupporting institutions: The SO-MEMO is supported by CNRS, CNES, IPEV, and the Total Fondation. Logistic and funding support was also provided by CORIOLIS, SHOM and the program BOUSSOLE to calibrate the CTD tags prior their deployments on seals.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2003-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((-34.311 -76.45, -34.338 -75.372, -32.929 -75.317, -32.902 -76.45, -34.311 -76.45)), ((140.8 -65.85, 140.8 -67.115, 139.493 -67.115, 139.471 -65.85, 140.8 -65.85)), ((71.56 -48.496, 71.56 -50.192, 66.348 -50.192, 66.348 -48.496, 71.56 -48.496)), ((-60.179 -44.364, -60.179 -42.336, -57.994 -42.277, -57.974 -44.344, -60.179 -44.364)), ((57.455 -30.958, 59.597 -30.935, 59.597 -32.524, 57.501 -32.593, 57.455 -30.958)), ((-51.997 5.256, -51.99 4.752, -52.564 4.738, -52.592 5.256, -51.997 5.256)), ((-124.401 38.406, -124.38 37.326, -125.543 37.326, -125.584 38.426, -124.401 38.406)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_5/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_5.json",
+      "schema:keywords": [
+        "Adelie Land",
+        "French Guiana",
+        "Kerguelen Islands"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental",
+          "schema:description": "SNO-MEMO\r\nIPEV\r\nCNES-TOSCA"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_5/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_5.json",
+        "name": "Marine Mammals Exploring the Oceans Pole to Pole - France"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_5/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_5_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

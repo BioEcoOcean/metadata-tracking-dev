@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Tara Oceans",
+      "schema:name": "Tara Oceans",
+      "schema:url": "https://oceans.taraexpeditions.org/en/m/about-tara/les-expeditions/tara-oceans/",
+      "schema:description": "Our future depends on the ocean and, wherever we live on this planet, we all need to understand and protect the ocean. The first foundation in France to be recognised as promoting the public interest dedicated to the ocean, founded by Agnès Troublé called agnès b. in 2003 and chaired by Etienne Bourgois, the Tara Ocean Foundation is leading a scientific revolution around this ecosystem. With its associated scientific consortia, it is developing innovative and original open ocean science which, in the future, will enable us to predict anticipate and better understand climate risks and better protect biodiversity. It uses this high level scientific expertise and these sea voyages to raise awareness and educate young people and the public in general, to mobilise political decision makers at the highest level and to enable developing countries to access this new knowledge about the Ocean. In order to rise to the challenges of the century, our actions are built on a public – private – citizen partnership.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "http://www.nature.com/articles/sdata201523"
+      ],
+      "schema:foundingDate": "2009-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Tara_Oceans/Tara_Oceans.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Tara_Oceans/Tara_Oceans.json",
+        "name": "Tara Oceans"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Tara_Oceans/Tara_Oceans_actions.json",
+      "schema:description": "opportunistically",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

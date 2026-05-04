@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "LTER Gulf of Alaska Ecosystem Observatory (GEO)",
+      "schema:name": "LTER Gulf of Alaska Ecosystem Observatory (GEO)",
+      "schema:url": "https://nga.lternet.edu/research/gulf-of-alaska-ecosystem-observatory-geo/",
+      "schema:description": "Moored dataloggers in the Gulf of Alaska now collect high-resolution biological, physical, and chemical data year-round. Although co-located and multi-disciplinary time series data are rare for any continental shelf, understanding time-dependent marine processes and ecosystems requires measurements like these.\r\n ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2019-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-148.69 59.014)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO.json",
+      "schema:keywords": [
+        "Gulf of Alaska",
+        "moorings"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "civil_society",
+            "governmental"
+          ],
+          "schema:description": "The National Science Foundation (NSF)\r\nNorth Pacific Research Board (NPRB)\r\nThe Alaska Ocean Observing System (AOOS)\r\nThe Exxon Valdez Oil Spill Trustee Council through Gulf Watch Alaska\r\nThe M.J. Murdock Charitable Trust"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO.json",
+        "name": "LTER Gulf of Alaska Ecosystem Observatory (GEO)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO/LTER_Gulf_of_Alaska_Ecosystem_Observatory_GEO_actions.json",
+      "schema:description": "sub_daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

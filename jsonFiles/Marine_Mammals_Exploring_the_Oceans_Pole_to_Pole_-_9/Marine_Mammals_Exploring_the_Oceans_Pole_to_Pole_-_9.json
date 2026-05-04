@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Marine Mammals Exploring the Oceans Pole to Pole - UK",
+      "schema:name": "Marine Mammals Exploring the Oceans Pole to Pole - UK",
+      "schema:url": "https://meop.net/groups/uk.html",
+      "schema:description": "Our project grew from the desire for better understanding the physical environment in the Atlantic part of the Southern Ocean and to improve our knowledge of the behaviour and habits of pinnipeds roaming the sub-polar and polar seas. We started with the SEaOS (Southern Elephant seals as Oceanographic Samplers) , which was followed by the SAVEX (South Atlantic Variability EXperiment) project, which formed the UK portion of the international MEOP program during the last International Polar Year to generate cross-disciplinary understanding of polar ecosystems. Both projects involved Southern elephant seals which were tagged on South Georgia (2004, 2005, 2008, and 2009) and the Falkland Islands (2010). We also focused our efforts on the Antarctic shelf in the Weddell (2007, 2009 and 2011) and Amundsen Seas (2014) by tagging Southern elephant seals and Weddell seals.\r\nDeployment sites: Georgia Island, Weddell Antarctic coast, Amundsen bay\r\nSupporting institutions: Natural Environment Research Council (UK)",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((-106.855 -73.048, -106.04 -73.073, -106.04 -73.864, -106.88 -73.888, -106.855 -73.048)), ((-45.629 -60.717, -30.53 -60.717, -30.53 -75.161, -45.629 -75.161, -45.629 -60.717)), ((-60.691 -54.148, -60.691 -51.149, -36.544 -51.149, -36.544 -54.148, -38.198 -54.148, -38.198 -54.177, -38.277 -54.177, -38.277 -54.148, -60.691 -54.148)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_9/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_9.json",
+      "schema:keywords": [
+        "Amundsen bay",
+        "Georgia Island",
+        "Weddell Antarctic coast"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_9/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_9.json",
+        "name": "Marine Mammals Exploring the Oceans Pole to Pole - UK"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_9/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_9_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

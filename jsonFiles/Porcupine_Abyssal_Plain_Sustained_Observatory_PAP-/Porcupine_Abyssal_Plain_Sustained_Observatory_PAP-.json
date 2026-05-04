@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Porcupine Abyssal Plain Sustained Observatory (PAP-SO)",
+      "schema:name": "Porcupine Abyssal Plain Sustained Observatory (PAP-SO)",
+      "schema:url": "https://projects.noc.ac.uk/pap/",
+      "schema:description": "Since 1985, this environmental study site in the Northeast Atlantic has become a major focus for international and interdisciplinary scientific research and monitoring including water column biogeochemistry, physics and benthic biology. Since 2002, a mooring has been in place with sensors taking a diverse set of biogeochemical and physical measurements of the upper 1000m of the water column.\r\nSome of these data are transmitted in near real-time via satellite. The PAP site is now part of the EuroSITES network of European Deep ocean observatories which will integrate and enhance nine time-series sites and carry out science missions to develop new sensors and techniques for observing the changing oceans. The name ‘Porcupine’ is taken from the naval survey vessel HMS Porcupine which was engaged on scientific expeditions in the NE Atlantic and Mediterranean in 1869 and 1870. She make the first ever deep ocean dredge for living creatures in 1869 resulting in the naming of the Porcupine Bank off the west coast of Ireland. The Porcupine Abyssal Plain is the deep flat region to the south of the Porcupine Bank.\r\nThe PAP observatory is situated in the Northeast Atlantic away from the continental slope and Mid Atlantic Ridge. The site is an open ocean time-series representing processes in the North Atlantic Drift Region and accessible from many EU ports. Physical setting: The PAP observatory lies south of the main stream of the North Atlantic Current and is subject to return flows from this coming from the West and Northwest. An intermittent stream of cyclonic and anticyclonic mesoscale eddies cross the site extending sometimes several thousand metres into the water column. The winter condition at the site is of a mixed layer as deep as 800m driven by convective overturning although throughout the winter there are short periods of stability during which the mixed layer may only be a few tens of metres thick.\r\n ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1985-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "LINESTRING (-17.133 48.583, -15.867 48.583, -15.867 49.417, -17.133 49.417, -17.133 48.583)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Porcupine_Abyssal_Plain_Sustained_Observatory_PAP-/Porcupine_Abyssal_Plain_Sustained_Observatory_PAP-.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": "https://goosocean.org/eov/oxygen"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://projects.noc.ac.uk/pap/cruise-reports"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://projects.noc.ac.uk/pap/publications"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Porcupine_Abyssal_Plain_Sustained_Observatory_PAP-/Porcupine_Abyssal_Plain_Sustained_Observatory_PAP-.json",
+        "name": "Porcupine Abyssal Plain Sustained Observatory (PAP-SO)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Porcupine_Abyssal_Plain_Sustained_Observatory_PAP-/Porcupine_Abyssal_Plain_Sustained_Observatory_PAP-_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

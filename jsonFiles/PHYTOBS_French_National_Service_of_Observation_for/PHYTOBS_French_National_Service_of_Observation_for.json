@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "PHYTOBS French National Service of Observation for Phytoplankton in coastal waters",
+      "schema:name": "PHYTOBS French National Service of Observation for Phytoplankton in coastal waters",
+      "schema:url": "https://www.phytobs.fr/",
+      "schema:description": "PHYTOBS is a network that monitors the diversity of microphytoplankton in the hydrological context of the French coasts and their anthropization gradient. The SNO PHYTOBS allows the analysis of the responses of phytoplankton communities to environmental changes, the evaluation of the quality of the coastal environment through indicators, the definition of ecological niches, the detection of phenological variations and supports scientific questions in providing network data. SNO PHYTOBS also plays a key role in networking the scientific community, allowing the transmission of knowledge and the strengthening of skills. Workshops and scientific meetings are organized each year, involving PHYTOBS and its partners. The PHYTOBS network provides validated and qualified data to the scientific community and partners, with the aim of improving knowledge on the biomass, abundance and composition of marine microphytoplankton in coastal waters and lagoons as well as on their hydrological context. Two historical networks are at the origin of PHYTOBS. REPHY (Marine Phytoplankton and Coastal Water Hydrology and Monitoring and Observation Network) run by Ifremer since 1984, and SOMLIT (Coastal Environment Observation Service), run by INSU -CNRS since 1995. Monitoring started in 1987 on some sites and later on others.\r\n ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1987-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-4.43 48.36, -4.298 48.11, -3.968 48.772, -3.95 47.833, -3.094 47.535, -2.538 47.458, -1.308 46.084, -1.233 44.633, -1.205 45.8, -1.159 44.674, -1.131 46.055, -0.328 49.354, 1.475 50.231, 1.549 50.753, 3.014 42.873, 3.057 42.875, 3.145 42.488, 3.664 43.435, 5.288 43.238, 7.317 43.683)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PHYTOBS_French_National_Service_of_Observation_for/PHYTOBS_French_National_Service_of_Observation_for.json",
+      "schema:keywords": [
+        "ILICO-RI",
+        "Ifremer"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.seanoe.org/data/00740/85178/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PHYTOBS_French_National_Service_of_Observation_for/PHYTOBS_French_National_Service_of_Observation_for.json",
+        "name": "PHYTOBS French National Service of Observation for Phytoplankton in coastal waters"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PHYTOBS_French_National_Service_of_Observation_for/PHYTOBS_French_National_Service_of_Observation_for_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

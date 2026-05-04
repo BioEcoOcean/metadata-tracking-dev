@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "MALCY-D0144 Water Column Habitats",
+      "schema:name": "MALCY-D0144 Water Column Habitats",
+      "schema:url": "",
+      "schema:description": "Sub-programmes: MALCY-D0144-02 Phytoplankton; MALCY-D0144-03 Zooplankton\r\nStations: Amathus station; Larnaca station; Cape Greco; Latsi\r\nThe Cyprus water column habitats monitoring programme addresses the state of the physicochemical conditions of the water column of Cyprus waters, and abundance and biomass of phytoplankton and zooplankton. Moreover, the programme assesses trends in their abundance and biomass with time, as groups with fast turnover times at the base of the food web. This programme establishes many baseline-level values against which the eutrophication and hydrographical changes monitoring programmes will weigh their results. It addresses several MSFD biodiversity and food-web indicators of Ecological Objectives 05 and 07 adopted by the Contracting Parties of UNEP/MAP (2013).\r\nThe physicochemical parameters of the water column include master-variables that control the productivity of the food web and the habitability of the water column. Establishing baseline values at suitable reference stations can already be achieved from existing data for coastal waters (UNEP/MAP, WFD, and Nitrates Directive monitoring) as well as territorial waters for some parameters (MedITS). Expansion beyond the coastal zone will allow the firm establishment of baseline conditions for these master-variables that are only otherwise known from occasional research studies in the region.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://standards.iteh.ai/catalog/standards/cen/d9020a71-2bd3-478f-867f-46ea3a0c0620/en-15204-2006",
+        "https://standards.iteh.ai/catalog/standards/cen/bcc87031-164e-45b9-933a-7db83d4658f4/en-16695-2015",
+        "https://helcom.fi/action-areas/monitoring-and-assessment/monitoring-guidelines/combine-manual/"
+      ],
+      "schema:foundingDate": "2017-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (32.243 35.48, 33.386 34.501, 33.847 34.413, 34.516 34.581)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MALCY-D0144_Water_Column_Habitats/MALCY-D0144_Water_Column_Habitats.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": "https://goosocean.org/eov/nutrients"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": "https://goosocean.org/eov/oxygen"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.moa.gov.cy/moa/dfmr/dfmr.nsf/All/BD5130E0B1F55ABD42257D96004106BC/$file/DFMR_MonitProg_EN_v2.pdf?OpenElement"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MALCY-D0144_Water_Column_Habitats/MALCY-D0144_Water_Column_Habitats.json",
+        "name": "MALCY-D0144 Water Column Habitats"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MALCY-D0144_Water_Column_Habitats/MALCY-D0144_Water_Column_Habitats_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

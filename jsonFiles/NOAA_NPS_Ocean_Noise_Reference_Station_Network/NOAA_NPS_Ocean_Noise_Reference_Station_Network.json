@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "NOAA/NPS Ocean Noise Reference Station Network",
+      "schema:name": "NOAA/NPS Ocean Noise Reference Station Network",
+      "schema:url": "https://www.pmel.noaa.gov/acoustics/noaanps-ocean-noise-reference-station-network",
+      "schema:description": "The U.S. National Oceanic and Atmospheric Administration’s (NOAA’s) Ocean Noise Reference Station (NRS) Network was established in partnership with the National Park Service (NPS) to document baseline levels and multi-year trends in ocean ambient sound in 12 discrete environments throughout the U.S. Exclusive Economic Zone (EEZ). Using time-series data collected within four National Marine Sanctuaries (NMS), two National Parks, and six other habitats throughout the U.S. EEZ, the NRS network provides data to compare long-term changes and trends in the low-frequency underwater ambient sound field. Monitoring these biological areas of interest is of high importance; these environments are home to a variety of endangered marine animals but are at the same time exposed to increased human use including recreational/commercial shipping and fishing as well as renewable energy efforts.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2014-06-11",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-170.72 -14.269, -157.667 22.333, -156.602 72.49, -145.13 50.25, -125.518 47.763, -123.435 37.881, -119.58 33.9, -86.994 28.006, -78 29.334, -70.13 42.404, -66.25 40.13, -64.651 17.785)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Ocean sound",
+          "schema:url": "https://goosocean.org/eov/ocean_sound"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network.json",
+        "name": "NOAA/NPS Ocean Noise Reference Station Network"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_NPS_Ocean_Noise_Reference_Station_Network/NOAA_NPS_Ocean_Noise_Reference_Station_Network_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

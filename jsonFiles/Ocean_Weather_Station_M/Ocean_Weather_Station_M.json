@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Ocean Weather Station M",
+      "schema:name": "Ocean Weather Station M",
+      "schema:url": "https://www.uib.no/en/rg/fysos/57998/station-m",
+      "schema:description": "The weather-ship MIKE (66°N, 2°E) was occupied in 1948. From the very first day water samples were taken all the way to the bottom at more than 2000 meters. These time series have made it possible to look at long time trends. The figure below shows that in 1985 a warming below 1000m commenced and is still going on. The explanation is probably that less dense water has formed in the Greenland Sea, which in turn has changed the deep circulation in the Nordic Seas and the Arctic.\r\nThe weather-ship was withdrawn in 2010, and now we try to maintain it by moored instruments and sporadic visits to obtain water samples necessary to monitor the CO2 trends.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1948-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (2 66)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ocean_Weather_Station_M/Ocean_Weather_Station_M.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ocean_Weather_Station_M/Ocean_Weather_Station_M.json",
+        "name": "Ocean Weather Station M"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Ocean_Weather_Station_M/Ocean_Weather_Station_M_actions.json",
+      "schema:description": "daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Caribbean Coastal Ocean Observing System (CariCOOS)",
+      "schema:name": "Caribbean Coastal Ocean Observing System (CariCOOS)",
+      "schema:url": "http://caricoos.org",
+      "schema:description": "CARICOOS facilitates de accessibility of coral reef monitoring data for the U.S. Caribbean. As part of this effort, long-term data from two principal monitoring programs in the region, the Puerto Rico Coral Reef Monitoring Program and the USVI Territorial Coral Reef Monitoring Program, were translated following Darwin Core Standards and published in OBIS. The Puerto Rico Long-Term Coral Reef Monitoring Program (PRCRMP) database compilation includes raw biological data (by transect) from reef locations around the Puerto Rican archipelago. Substrate cover by sessile-benthic categories and fish, and motile megabenthic invertebrate taxonomic composition and densities have been characterized in these stations, with variable sampling event frequencies between 1999 to 2021. At present, 42 permanent stations are surveyed biannually (21 per year). The PRCRMP database was made possible with support from the National Oceanic and Atmospheric Administration Coral Reef Conservation Program. The TCRMP is a central component of coral reef management and research in the US Virgin Islands since its inception in 2001. The program consists of annual to semi-annual assessments of coral health, benthic community structure, fish community structure, and physical dynamics at 33 sites down to 65 m (220 ft) depth. The TCRMP is funded by and coordinated with the NOAA Coral Reef Conservation Program, NOAA Protected Species, and the USVI Department of Planning and Natural Resources and collaborates with the VI NSF-Experimental Program to Stimulate Competitive Research (EPSCoR), and NOAA National Marine Fisheries.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2006-01-10",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-67.951 18.098, -67.938 18.099, -67.937 18.072, -67.489 18.382, -67.488 18.382, -67.484 18.377, -67.33 18.002, -67.276 18.166, -67.275 18.165, -67.274 18.163, -67.271 18.347, -67.27 18.347, -67.267 18.351, -67.253 18.172, -67.248 18.147, -67.233 17.991, -67.201 18.234, -67.192 18.189, -67.051 17.939, -67.049 17.935, -66.998 17.888, -66.96 17.898, -66.888 17.936, -66.874 17.937, -66.756 17.965, -66.753 17.961, -66.747 17.96, -66.609 17.904, -66.528 17.895, -66.374 18.49, -66.303 17.935, -66.214 17.915, -66.052 18.462, -65.63 18.385, -65.59 18.09, -65.567 18.355, -65.566 18.335, -65.531 18.36, -65.488 18.081, -65.332 18.328, -65.328 18.305, -65.277 18.276, -65.197 18.139, -65.082 18.341, -65.077 18.186, -65.034 18.357, -65.002 18.202, -64.991 18.318, -64.986 18.345, -64.984 18.344, -64.96 18.188, -64.957 18.189, -64.946 18.281, -64.934 18.374, -64.9 17.691, -64.898 18.279, -64.895 17.734, -64.872 18.263, -64.868 18.295, -64.862 17.637, -64.861 18.313, -64.832 18.295, -64.815 17.777, -64.814 17.774, -64.764 18.314, -64.759 17.785, -64.759 18.244, -64.704 18.338, -64.699 17.762, -64.652 17.711, -64.609 17.785, -64.599 17.807, -64.597 17.763, -64.572 17.743, -64.547 17.721, -64.45 17.824)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Caribbean_Coastal_Ocean_Observing_System_CariCOOS/Caribbean_Coastal_Ocean_Observing_System_CariCOOS.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance",
+          "schema:url": "https://goosocean.org/eov/fish/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish biomass by size/age/stage",
+          "schema:url": "https://goosocean.org/eov/fish/biomass/by_size_age_stage"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral condition",
+          "schema:url": "https://goosocean.org/eov/coral/condition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover",
+          "schema:url": "https://goosocean.org/eov/coral/cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral diversity",
+          "schema:url": "https://goosocean.org/eov/coral/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral ecosystem structure - live cover fraction",
+          "schema:url": "https://goosocean.org/eov/coral/ecosystem_structure/live_coral_fraction"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral total habitable substrate",
+          "schema:url": "https://goosocean.org/eov/coral/total_habitable_substrate"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental",
+          "schema:description": "The PRCRMP and TCRMP databases were made possible with financial support from the National Oceanic and Atmospheric Administration Coral Reef Conservation Program, the Puerto Rico Department of Natural and Environmental Resources, the University of Puerto Rico Department of Marine Sciences, the USVI Department of Planning and Natural Resources, the VI NSF-Experimental Program to Stimulate Competitive Research (EPSCoR), NOAA National Marine Fisheries, NOAA’s Integrated Ocean Observing System, and the Caribbean Coastal and Ocean Observing System."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www1.usgs.gov/obis-usa/ipt/resource?r=prcrmp_database"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.gbif.org/dataset/fd7167be-cf97-4dff-a151-db071bfde91b"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Caribbean_Coastal_Ocean_Observing_System_CariCOOS/Caribbean_Coastal_Ocean_Observing_System_CariCOOS.json",
+        "name": "Caribbean Coastal Ocean Observing System (CariCOOS)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Caribbean_Coastal_Ocean_Observing_System_CariCOOS/Caribbean_Coastal_Ocean_Observing_System_CariCOOS_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

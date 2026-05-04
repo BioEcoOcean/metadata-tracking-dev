@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "ECHO",
+      "schema:name": "ECHO",
+      "schema:url": "https://www.menkab.it/eng/echo-menkab/",
+      "schema:description": "In a world where light is not the protagonist of the surrounding environment, animals have adapted to exploit unique mechanisms , which involve highly specialized acoustic systems. The vocalizations emitted by the large marine mammals that inhabit our seas are an integral part of the marine environment and concern large predators, such as sperm whales and dolphins, but also passing guests, such as the killer whales sighted in Genoa or the Caribbean humpback whale sighted in Savona .Today research, by means of acoustics and photo identification, allows researchers from all over the world to discover how the geographical boundaries, for these animals, are much less defined, if not non-existent, than ours. Thus the scientific studies of the Menkab team of researchers have made it possible to create ECHO - EXHIBIT , an online exhibition to present the Mediterranean cetaceans to the public, through photos and videos and graphics, also made with the participation of Artescienza.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2009-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (8.583 44.191)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ECHO/ECHO.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ECHO/ECHO.json",
+        "name": "ECHO"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/ECHO/ECHO_actions.json",
+      "schema:description": "opportunistically",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

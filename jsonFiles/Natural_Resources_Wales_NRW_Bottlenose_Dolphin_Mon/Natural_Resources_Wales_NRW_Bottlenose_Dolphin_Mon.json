@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natural Resources Wales (NRW) Bottlenose Dolphin Monitoring",
+      "schema:name": "Natural Resources Wales (NRW) Bottlenose Dolphin Monitoring",
+      "schema:url": "",
+      "schema:description": "Cardigan Bay Special Area of Conservation (SAC) was designated in 2004 for the protection of bottlenose dolphins. Monitoring of the dolphins was established to estimate the bottlenose dolphin abundance, range and distribution, populations, structure and dynamics to assess their favourable conservation status. Distance sampling is carried out from R.V. Dunbar Castle 2 using a double platform method, with a minimum of 5 observers positioned at various point on the boat. A grid of systematically spaced lines is used as the basis for the monitoring. The grid is divided into 2 strata, inshore and offshore. The outer limits of the offshore and inshore boundaries are 23km and 11km from the coast respectively. It is known that the density of bottlenose dolphins is higher in near shore waters. Transects for study are selected at random. Any mammals seen are recorded with an estimate of numbers, distance and angle from the point of observation. Distances are calibrated against objects of known ranges at periods throughout the survey. Where conditions allow photo-identification is also carried out. At all times at least one of the observers is an experience observer. The work is carried out by the Sea Watch Foundation between April and October.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2005-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-4.161 52.309, -4.185 52.289, -4.256 52.246, -4.288 52.235, -4.306 52.224, -4.329 52.216, -4.349 52.213, -4.358 52.214, -4.388 52.201, -4.412 52.188, -4.435 52.173, -4.455 52.166, -4.468 52.158, -4.496 52.149, -4.524 52.142, -4.617 52.142, -4.653 52.138, -4.682 52.131, -4.688 52.114, -4.696 52.103, -4.71 52.11, -4.723 52.117, -4.742 52.106, -4.757 52.084, -4.77 52.077, -4.964 52.261, -4.397 52.468, -4.161 52.309))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Bottlenose_Dolphin_Mon/Natural_Resources_Wales_NRW_Bottlenose_Dolphin_Mon.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance",
+          "schema:url": "https://goosocean.org/eov/mammals/abundance"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.ukdmos.org/search-directory"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Bottlenose_Dolphin_Mon/Natural_Resources_Wales_NRW_Bottlenose_Dolphin_Mon.json",
+        "name": "Natural Resources Wales (NRW) Bottlenose Dolphin Monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Bottlenose_Dolphin_Mon/Natural_Resources_Wales_NRW_Bottlenose_Dolphin_Mon_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Santa Barbara Coastal Long Term Ecological Research program",
+      "schema:name": "Santa Barbara Coastal Long Term Ecological Research program",
+      "schema:url": "https://sbclter.msi.ucsb.edu/",
+      "schema:description": "The Santa Barbara Coastal Long Term Ecological Research (SBC LTER) site is an interdisciplinary program established in 2000 to understand the ecology of coastal kelp forest ecosystems. Our research is focused on the nearshore waters of southern California, where ocean currents and climate are highly variable with season and longer-term cycles, including the El Niño-Southern Oscillation and the Pacific Decadal Oscillation. SBC’s principal study domain is a 10,000 square kilometer area of the northern portion of the Southern California Bight that includes the Santa Barbara Channel and the steep coastal watersheds, small estuaries and sandy beaches that border the Channel.\r\nSBC LTER is based at the University of California, Santa Barbara (UCSB) Marine Science Institute, and is part of the National Science Foundation's (NSF) Long Term Ecological Research (LTER) Network, a program established by the NSF in 1980 to support research on long-term ecological phenomena.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2000-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-120.059 34.464, -119.85 34.402, -119.638 34.391, -119.515 34.393, -119.46 34.368, -119.295 33.996, -119.8 34.059, -120.372 34.459, -120.059 34.464))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc.json",
+      "schema:keywords": [
+        "SBC LTER",
+        "Santa Barbara Coastal LTER"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental",
+          "schema:description": "National Science Foundation, Awards OCE-9982105, OCE-0620276, OCE-1232779, OCE-1831937"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc.json",
+        "name": "Santa Barbara Coastal Long Term Ecological Research program"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Santa_Barbara_Coastal_Long_Term_Ecological_Researc/Santa_Barbara_Coastal_Long_Term_Ecological_Researc_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

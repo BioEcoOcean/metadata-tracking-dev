@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Phytoplankton monitoring",
+      "schema:name": "Phytoplankton monitoring",
+      "schema:url": "https://www.marine.ie/site-area/areas-activity/marine-environment/phytoplankton-monitoring",
+      "schema:description": "We monitor phytoplankton under a national programme which has been in place since the 1980s. During this period, phytoplankton scientists have developed an understanding of phytoplankton populations and dynamics around the Irish coastline, especially in relation to those that cause shellfish toxicity. Particular emphasis is put on harmful species; however the importance of phytoplankton as an indicator of water quality is also studied and is a key component of the Water Framework Directive. \r\nLocal Sea-Fisheries Protection Authority Sea fishery officers or other assigned personnel take samples from designated sampling areas. These are sent to our labs (either Bantry or Galway) where analysis is carried out. The presence of harmful or toxic species are then reported on our Marine Institute website. Staff in each of these regional labs are highly trained in phytoplankton identification and ecology, and the programme is one of the few worldwide to carry ISO 17025 Quality accreditation.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1986-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-10.272 52.14, -10.212 51.74, -10.13 51.741, -10.107 53.605, -10.086 53.465, -10.067 53.485, -10.063 53.69, -10.056 53.479, -10.05 53.477, -10.035 53.575, -9.999 51.726, -9.997 53.572, -9.969 51.738, -9.953 53.818, -9.904 53.803, -9.903 53.608, -9.887 53.635, -9.869 51.758, -9.869 53.375, -9.865 53.627, -9.864 53.624, -9.864 53.624, -9.858 53.385, -9.83 51.655, -9.827 53.312, -9.827 53.401, -9.825 53.25, -9.814 51.771, -9.809 51.644, -9.799 53.918, -9.789 53.237, -9.785 53.273, -9.779 53.281, -9.779 51.656, -9.765 53.3, -9.755 53.237, -9.743 53.266, -9.737 53.288, -9.729 53.253, -9.714 53.27, -9.703 52.602, -9.702 53.292, -9.653 53.878, -9.65 53.879, -9.647 53.319, -9.647 53.319, -9.631 53.262, -9.613 53.225, -9.586 53.92, -9.586 51.651, -9.584 53.916, -9.574 53.925, -9.343 53.551, -8.433 54.616, -8.428 54.611, -8.419 54.609, -8.419 54.609, -8.413 54.615, -8.385 54.615, -8.353 54.61, -8.353 54.61, -8.301 54.634, -8.29 54.629, -7.755 55.192, -7.709 55.188, -7.704 55.185, -7.696 55.16, -7.691 55.118, -7.69 55.15)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Phytoplankton_monitoring/Phytoplankton_monitoring.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Phytoplankton_monitoring/Phytoplankton_monitoring.json",
+        "name": "Phytoplankton monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Phytoplankton_monitoring/Phytoplankton_monitoring_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

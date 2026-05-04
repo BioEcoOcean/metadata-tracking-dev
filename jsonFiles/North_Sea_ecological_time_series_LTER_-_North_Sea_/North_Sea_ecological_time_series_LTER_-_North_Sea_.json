@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "North Sea ecological time series LTER - North Sea benthos",
+      "schema:name": "North Sea ecological time series LTER - North Sea benthos",
+      "schema:url": "https://www.awi.de/en/science/long-term-observations/biology/north-sea.html",
+      "schema:description": "The North Sea has undergone considerable change in recent years, with several reported regime shifts in the last decades, the most recent of which is thought to have occurred in the final years of the last century. As biological evidence corroborating this most recent regime shift is still rare, we investigated the reaction of the copepod community of the Helgoland Roads sampling site to this perceived shift. We observed that the densities of calanoid copepods have declined to values which are roughly 25% of the peak densities in the mid 1980s and link the decrease to the decreasing nutrient inputs into the North Sea. The initial increase in the densities of non-calanoid copepods seems to have reversed, and currently most of the copepods of the community in the southern North Sea are below their long-term average. These strong declines in densities could have major consequences for recruitment of higher trophic levels.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1969-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (7 54.465)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Sea_ecological_time_series_LTER_-_North_Sea_/North_Sea_ecological_time_series_LTER_-_North_Sea_.json",
+      "schema:keywords": [
+        "German Bight",
+        "PANGAEA"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Sea_ecological_time_series_LTER_-_North_Sea_/North_Sea_ecological_time_series_LTER_-_North_Sea_.json",
+        "name": "North Sea ecological time series LTER - North Sea benthos"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Sea_ecological_time_series_LTER_-_North_Sea_/North_Sea_ecological_time_series_LTER_-_North_Sea__actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

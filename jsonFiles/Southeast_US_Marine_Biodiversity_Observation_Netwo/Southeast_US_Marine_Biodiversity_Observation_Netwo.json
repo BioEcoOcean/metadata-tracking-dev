@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Southeast US Marine Biodiversity Observation Network (SE US MBON)",
+      "schema:name": "Southeast US Marine Biodiversity Observation Network (SE US MBON)",
+      "schema:url": "https://marinebon.github.io/pages/sfmbon/",
+      "schema:description": "The Southeast US Marine Biodiversity Observation Network (SE US MBON) effort is structured to assess ecosystem integrity, advance protection of marine resources, and promote conservation. Specifically, we focus on the integration of ground and satellite observations related to biodiversity to inform ecosystem-based management in and around the Florida Keys National Marine Sanctuary (FKNMS). This includes supporting the regional NOAA Integrated Ecosystem Assessment, the NOAA Southeast Fisheries Science Center, the FKNMS, the Rookery Bay National Estuarine Research Reserve, and the State of Florida Fish and Wildlife Commission (FWC) as specific end users of the SE US MBON. The project is led by the College of Marine Science, University of South Florida, in close partnership with NOAA Atlantic Oceanographic and Meteorological Lab, the FKNMS, the US Integrated Ocean Observing System (IOOS; specifically GCOOS and SECOORA), the FWC Fish and Wildlife Research Institute, the University of Miami, and the Oregon State University. The project has carried out oceanographic surveys of the Florida Keys since 2014 every two months, circumnavigating the FKNMS and south Florida. The project has also contributed to the development of the satellite-derived seascapes served through NOAA CoastWatch, data formatting standards with the Ocean Biodiversity Information System (OBIS), and the biology and ecosystems Essential Ocean Variables (EOV/GOOS) and Essential Climate Variables (ECV/GCOS). https://marinebon.github.io/pages/sfmbon/",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2014-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-82.818 27.972, -82.71 27.613, -82.498 27.169, -82.276 26.824, -82.172 26.608, -82.124 26.434, -82.056 26.448, -81.947 26.497, -81.778 25.974, -81.715 25.825, -81.629 25.86, -81.511 25.802, -81.388 25.706, -81.344 25.668, -81.27 25.668, -81.221 25.539, -81.183 25.502, -81.11 25.385, -81.164 25.297, -81.133 25.22, -81.053 25.174, -81.024 25.101, -80.704 25.142, -80.489 25.208, -80.327 25.354, -80.18 25.518, -80.127 25.73, -80.054 25.736, -80.046 25.582, -80.102 25.36, -80.187 25.172, -80.34 25.001, -80.664 24.727, -80.809 24.707, -81.17 24.597, -81.395 24.545, -81.708 24.48, -81.935 24.672, -82.095 25.042, -82.265 25.435, -82.536 25.97, -82.761 26.597, -83.159 26.731, -83.371 26.968, -83.567 27.187, -83.571 27.785, -83.02 27.772, -82.818 27.972))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southeast_US_Marine_Biodiversity_Observation_Netwo/Southeast_US_Marine_Biodiversity_Observation_Netwo.json",
+      "schema:keywords": [
+        "In-situ sampling coastal",
+        "biodiversity",
+        "ecosystem integrity",
+        "marine resources",
+        "ocean observations",
+        "satellite observations"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "governmental"
+          ],
+          "schema:description": "US NOAA, US IOOS, NASA"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southeast_US_Marine_Biodiversity_Observation_Netwo/Southeast_US_Marine_Biodiversity_Observation_Netwo.json",
+        "name": "Southeast US Marine Biodiversity Observation Network (SE US MBON)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Southeast_US_Marine_Biodiversity_Observation_Netwo/Southeast_US_Marine_Biodiversity_Observation_Netwo_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

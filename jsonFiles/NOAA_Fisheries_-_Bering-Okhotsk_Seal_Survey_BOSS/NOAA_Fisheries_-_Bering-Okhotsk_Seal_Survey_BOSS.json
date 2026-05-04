@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "NOAA Fisheries - Bering-Okhotsk Seal Survey (BOSS)",
+      "schema:name": "NOAA Fisheries - Bering-Okhotsk Seal Survey (BOSS)",
+      "schema:url": "https://www.fisheries.noaa.gov/inport/item/67181",
+      "schema:description": "US surveys were conducted of the Bering Sea pack ice for bearded, spotted, ribbon, and ringed seals using digital cameras and thermal imagers mounted in the belly ports of two fixed-wing aircraft from 6 April to 23 May 2012 and 4 April to 9 May 2013. U.S. flights were flown at a target altitude of 1,000 ft (300 m) to maximize the area surveyed while maintaining the required imaging resolution and minimizing the chance of disturbance to seals and other wildlife. A NOAA Twin Otter (N56RF) aircraft housed three FLIR SC645 thermal imagers, which recorded continuous data in the 7.5-13.0 µm wavelength. Each thermal imager was paired with a Canon Mark III 1Ds digital single-lens reflex camera fitted with a 100-mm Zeiss lens. All six instruments were mounted in an open-air belly port. The combined thermal swath width was approximately 1,500 ft (470 m) at an altitude of 1,000 ft. A contracted Aero Commander aircraft carried two sets of paired thermal imagers (SC645) and digital SLR cameras (Nikon D3X) and surveyed a maximum swath width of approximately 900 ft (280 m). Color cameras collected images at a 1-1.2 second interval. In 2013 the two aircraft flew a total of 36 surveys covering more than 17,000 nmi (32,090 km) of trackline and collected about 913,000 images. Combined with the 2012 survey effort, the U.S. BOSS team covered 31,000 nmi of trackline and collected 1.8 million images.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2012-04-06",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-181.318 65.911, -156.709 65.911, -156.709 55.379, -181.318 55.379, -181.318 65.911))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS.json",
+        "name": "NOAA Fisheries - Bering-Okhotsk Seal Survey (BOSS)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS/NOAA_Fisheries_-_Bering-Okhotsk_Seal_Survey_BOSS_actions.json",
+      "schema:description": "every_6_to_10_years",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

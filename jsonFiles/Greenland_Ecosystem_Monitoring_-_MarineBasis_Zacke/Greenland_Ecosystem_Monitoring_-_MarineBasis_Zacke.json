@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Greenland Ecosystem Monitoring  - MarineBasis Zackenberg",
+      "schema:name": "Greenland Ecosystem Monitoring  - MarineBasis Zackenberg",
+      "schema:url": "https://gcrc.gl/research-projects/greenland-ecosystem-monitoring-marinebasis-zackenberg/",
+      "schema:description": "Greenland Ecosystem Monitoring (GEM) is an integrated monitoring and long-term research program on ecosystems and the impact of climate change on the Arctic. Since 1994 the program has established a coherent and integrated understanding of the functioning of terrestial, limnic and marine ecosystems in a highly variable climate. The program is based upon comprehensive, long-term interdisciplinary data collection carried out by Danish and Greenlandic monitoring and research institutions. \r\nThe MarineBasis program collects physical, chemical and biological data from the Greenland coastal zone, primarily at the three main field stations: Nuuk and Disko in low-arctic Southwest Greenland and Zackenberg in high-arctic Northeast Greenland. The MarineBasis program delivers baseline data that allows us to identify long-term trends in key parameters such as sea ice coverage, water temperature, salinity, CO2 uptake, nutrient concentrations, sinking flux, phytoplankton biomass and primary production, species composition of phytoplankton and zooplankton, macroalgal growth and the counting of marine mammals and seabirds (Nuuk). Data from the program is used by several international work groups under the Arctic Council such as CBMP, AMAP and CAFF. Work focuses on three fjord systems (Nuup Kangerlua, SW Greenland, Disko Fjord, W Greenland and Young Sound, NE Greenland) all influenced by glaciers and/or melt rivers connected to the Greenland Ice Sheet.\r\nMarineBasis Zackeberg is located in Young Sound (74°18′N, 20°18′W), a sill fjord with depths of up to 330 m. The long-term marine monitoring program was initiated in 2002, while marine studies have been conducted in the area since 1994. MarineBasis Zackenberg is funded by the Danish Ministry of Climate, Energy and Utilities.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2002-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-20.734 74.444)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Greenland_Ecosystem_Monitoring_-_MarineBasis_Zacke/Greenland_Ecosystem_Monitoring_-_MarineBasis_Zacke.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton community composition",
+          "schema:url": "https://goosocean.org/eov/phytoplankton/community_composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton abundance",
+          "schema:url": "https://goosocean.org/eov/zooplankton/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea ice",
+          "schema:url": "https://goosocean.org/eov/sea_ice"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://data.g-e-m.dk/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Greenland_Ecosystem_Monitoring_-_MarineBasis_Zacke/Greenland_Ecosystem_Monitoring_-_MarineBasis_Zacke.json",
+        "name": "Greenland Ecosystem Monitoring  - MarineBasis Zackenberg"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Greenland_Ecosystem_Monitoring_-_MarineBasis_Zacke/Greenland_Ecosystem_Monitoring_-_MarineBasis_Zacke_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "CoastNet - Portuguese Coastal Monitoring Network",
+      "schema:name": "CoastNet - Portuguese Coastal Monitoring Network",
+      "schema:url": "https://coastnet.pt/team/",
+      "schema:description": "The Portuguese Coastal Monitoring Network (CoastNet) is a Research Infrastructure (RI) included in the Portuguese Roadmap of Research Infrastructures, designed to improve the understanding of Portuguese coastal ecosystems’ functioning through the development of a coastal monitoring system.\r\nCoastNet provides data visualization capacity and free access to in-situ datasets. This RI also provides multiple services such as: on-demand environmental quality assessments, advanced training research, innovation, public and private consultancy, laboratory support and data collection.\r\nThe physical, chemical and biological attributes collected in three Portuguese estuaries (Mondego, Tagus and Mira) and adjacent coastal areas, will contribute to an integrated assessment of long-term trends in coastal communities.\r\nThe CoastNet RI is assessing and monitor environmental conditions from selected Portuguese coastal systems, ultimately contributing to the sustainable exploitation of resources and biodiversity conservation.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2018-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-9.233 38.694, -9.087 38.762, -9.021 38.877, -8.836 40.145, -8.772 40.124, -8.769 37.728, -8.721 37.667, -8.711 40.144)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CoastNet_-_Portuguese_Coastal_Monitoring_Network/CoastNet_-_Portuguese_Coastal_Monitoring_Network.json",
+      "schema:keywords": [
+        "CoastNet"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental",
+          "schema:description": "The project CoastNet (PINFRA/22128/2016) is funded by:\r\nFundação para a Ciência e a Tecnologia (FCT); Portugal 2020; Lisboa 2020; Alentejo 2020; and European Union."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://geoportal.coastnet.pt/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CoastNet_-_Portuguese_Coastal_Monitoring_Network/CoastNet_-_Portuguese_Coastal_Monitoring_Network.json",
+        "name": "CoastNet - Portuguese Coastal Monitoring Network"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/CoastNet_-_Portuguese_Coastal_Monitoring_Network/CoastNet_-_Portuguese_Coastal_Monitoring_Network_actions.json",
+      "schema:description": "daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

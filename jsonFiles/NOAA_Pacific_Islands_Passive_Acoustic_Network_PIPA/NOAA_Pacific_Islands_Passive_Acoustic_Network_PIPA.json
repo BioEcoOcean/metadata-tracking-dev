@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "NOAA Pacific Islands Passive Acoustic Network (PIPAN)",
+      "schema:name": "NOAA Pacific Islands Passive Acoustic Network (PIPAN)",
+      "schema:url": "",
+      "schema:description": "The Pacific Islands Passive Acoustic Network (PIPAN) is designed to provide long-term monitoring of cetaceans in remote regions or areas of special interest. PIPAN sites are currently monitored using bottom-mounted passive acoustic data recorders called HARPs (high-frequency acoustic recording packages). HARPs are generally deployed at each site once or twice per year, recording sounds from 10 Hz to 100 kHz, and sometimes higher frequencies. They must be recovered to retrieve the data. The resulting data record includes vocalizations from both odontocetes and mysticetes, as well as ambient sounds (wind, rain, other organisms) and human-generated noises, such as echosounders, ships, and sonar.\r\nTo date, PIPAN includes HARPs in 13 locations across the Pacific Islands region, including several that were deployed as early as 2006. We have HARPs off the Kona coast of Hawaii Island (a 12-year record!), at Pearl and Hermes Atoll in the Northwestern Hawaiian Islands, at Wake Atoll, and off Saipan, Tinian, and Pagan in the Mariana Islands (see map). These long-term data sets allow us to assess the occurrence, seasonality, and long-term changes in distribution of species, as well as any changes in vocal behavior or distribution in response to increasing human sound sources or changing environmental conditions.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2005-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Pacific_Islands_Passive_Acoustic_Network_PIPA/NOAA_Pacific_Islands_Passive_Acoustic_Network_PIPA.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Pacific_Islands_Passive_Acoustic_Network_PIPA/NOAA_Pacific_Islands_Passive_Acoustic_Network_PIPA.json",
+        "name": "NOAA Pacific Islands Passive Acoustic Network (PIPAN)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Pacific_Islands_Passive_Acoustic_Network_PIPA/NOAA_Pacific_Islands_Passive_Acoustic_Network_PIPA_actions.json",
+      "schema:description": "sub_daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

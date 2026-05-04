@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Mediterranean Ocean Observing System for the Environment (ILICO - MOOSE)",
+      "schema:name": "Mediterranean Ocean Observing System for the Environment (ILICO - MOOSE)",
+      "schema:url": "https://www.moose-network.fr/motivations",
+      "schema:description": "Infrastructure de Recherche Littorale et Côtière (ILICO): Mediterranean Ocean Observing System for the Environment (MOOSE) has been set up as an interactive, distributed and integrated observatory system of the NW Mediterranean Sea to detect and identify long-term environmental anomalies and to define efficient indicators of the health of the NW Mediterranean basin. \r\nThe offshore areas in the North-Western Mediterranean are interesting for observing the impact of climatic and anthropogenic forcing on: 1) the circulation of water masses in relation to the formation of dense waters, 2) biological production and export of associated matter (nutrients, major elements C, N, Si), 3) acidification and sequestration of anthropogenic carbon, 4) biodiversity and 5) the variability of atmospheric inputs on the biological CO2 pump. In this context, the long-term observation strategy makes it possible to detect seasonal and interannual anomalies as well as decadal variations affecting these offshore areas. \r\nObservations are carried out monthly on 3 offshore sites (DYFAMED, ANTARES, MOLA) whose logistics are managed by the laboratories and nearby OSUs (IMEV, PYHTEAS/MIO, OOB). DYFAMED is a unique series in the Mediterranean. This site is located off Villefranche, positioned to the east of the northern “gyre” (50 km from Nice). It currently represents the longest time series of physical and biogeochemical measurements in the Mediterranean (start of monthly monitoring in 1991). ANTARES  is located off Toulon to the north of the gyre, at the entrance to the Gulf of Lion, 20 miles from the coast. Monthly monitoring started in 2010. MOLA is located off Banyuls at the exit of the Gulf of Lion. This monitoring started in 2010. ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://www.moose-network.fr/fr/les-protocoles-de-mesures/equipes-impliquees-analyses/"
+      ],
+      "schema:foundingDate": "1991-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (3.32 42.27, 6.1 42.48, 7.52 43.25)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Mediterranean_Ocean_Observing_System_for_the_Envir_2/Mediterranean_Ocean_Observing_System_for_the_Envir_2.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": "https://goosocean.org/eov/nutrients"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": "https://goosocean.org/eov/oxygen"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.frontiersin.org/articles/10.3389/fmars.2019.00324/full"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Mediterranean_Ocean_Observing_System_for_the_Envir_2/Mediterranean_Ocean_Observing_System_for_the_Envir_2.json",
+        "name": "Mediterranean Ocean Observing System for the Environment (ILICO - MOOSE)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Mediterranean_Ocean_Observing_System_for_the_Envir_2/Mediterranean_Ocean_Observing_System_for_the_Envir_2_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

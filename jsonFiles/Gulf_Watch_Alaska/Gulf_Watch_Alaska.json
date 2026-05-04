@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Gulf Watch Alaska",
+      "schema:name": "Gulf Watch Alaska",
+      "schema:url": "http://gulfwatchalaska.org",
+      "schema:description": "Gulf Watch Alaska’s long-term monitoring program tracks marine ecosystem changes at multiple scales to develop a better understanding of relationships between living organisms and their environment.  The monitoring program is comprised of three components: Environmental Drivers, Nearshore Ecosystems, and Pelagic Ecosystems. Each of the components and the projects that make up the components are described under the links to the right. In addition, the program supports a Science Synthesis component that works closely with all monitoring projects to integrate findings, analyze the studies across projects and components, and develop a greater understanding of ecosystem effects across the northern Gulf of Alaska. Findings from this program are shared and utilized by the scientific community, resource management agencies and decisionmakers, spill-affected communities, and the public.\r\nExplore the projects under Environmental Drivers,  Nearshore Ecosystems, and Pelagic Ecosystems to learn more about the long-term trends and recent changes in the Gulf of Alaska.\r\nGulf Watch Alaska is the long-term ecosystem-monitoring program of the Exxon Valdez Oil Spill Trustee Council for the marine ecosystem affected by the 1989 oil spill. The Trustee Council began funding the program in 2012; however, many of the studies have a much longer time series. The current five-year program began in February 2017 and is the second 5-year increment of a program anticipated to span a 20-year period. The current program includes 11 projects within three monitoring components: Environmental Drivers, Pelagic Ecosystem, and Nearshore Ecosystem. We coordinate with our sister programs studying Prince William Sound Pacific herring, and receive support from the data management program.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2012-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_Watch_Alaska/Gulf_Watch_Alaska.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "civil_society",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_Watch_Alaska/Gulf_Watch_Alaska.json",
+        "name": "Gulf Watch Alaska"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_Watch_Alaska/Gulf_Watch_Alaska_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Editing details for LTER North Sea Benthos Observatory",
+      "schema:name": "Editing details for LTER North Sea Benthos Observatory",
+      "schema:url": "https://www.senckenberg.de/en/institutes/senckenberg-am-meer/marine-research/marine-research-divisions/marine-biology/marine-biology-research/",
+      "schema:description": "Long-term studies carried out in the North Sea revealed that benthic communities in the entire southern North Sea (südlich 58° N) have changed. A 1.5 to 4 fold increase in biomass was found since the 1970 as well as a drecrease in long-living species and an increase in small short-living “opportunistic” species. Eutrophication and intensive beam trawl fishery are found to be the major reasons for the changes in the benthic system. Beside these anthropogenic impacts climate change affects the North Sea benthos as shown by our studies off the island of Norderney and at the Dogger Bank. The studies sites reach from coastal regions such as the East-Frisian Wadden Sea and the Jade Bay towards the open North Sea(German Bight, Dogger Bank, Skagerrak and Kattegatt) to deep-sea areas (Arctic Ocean, Mediterranean Sea, South Atlantic).",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1970-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((3.5 55.75, 8.2 55.75, 8.2 53.45, 3.5 53.45, 3.5 55.75))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Editing_details_for_LTER_North_Sea_Benthos_Observa/Editing_details_for_LTER_North_Sea_Benthos_Observa.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Editing_details_for_LTER_North_Sea_Benthos_Observa/Editing_details_for_LTER_North_Sea_Benthos_Observa.json",
+        "name": "Editing details for LTER North Sea Benthos Observatory"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Editing_details_for_LTER_North_Sea_Benthos_Observa/Editing_details_for_LTER_North_Sea_Benthos_Observa_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

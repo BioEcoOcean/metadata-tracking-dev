@@ -1,0 +1,184 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natural Resources Wales (NRW) Skomer Marine Conservation Zone Monitoring",
+      "schema:name": "Natural Resources Wales (NRW) Skomer Marine Conservation Zone Monitoring",
+      "schema:url": "https://naturalresources.wales/skomer?lang=en",
+      "schema:description": "Skomer Marine Conservation Zone was designated in 2013 in response to the Marine and Coastal Access Act. Previously it was the Skomer Marine Nature Reserve (MNR), designated in 1990. It was the first and only MNR in Wales and is situated around the island of Skomer and the Marloes Peninsula in south west Wales. Within the MNR, the focus has been on developing a range of projects to monitor the health of the Reserve. Large scale surveys developed in the 1970`s and 1980`s provided the foundation for the monitoring.The next step of the programme was to map survey sites to enable accurate relocation each year. New sites continue to be mapped to allow for the expansion of the projects. The sites cover a wide variety of habitats and species from Inter-tidal lichens, benthic rock and sediment, mobile species (e.g. Seals and territorial fish) and Plankton. Following on from the site mapping, time series data is collected using a wide variety of methods. The majority of the monitoring involves human observation and the development of a series of reliable photographic images. Sediment communities are sampled by Day grab and suction sampler, together with photographic and video samples of sediment surface organisms. The data collected provides information and details of the life histories of particular species over time, the stability of communities, the variations in species abundance and the effect of known events (e.g. the Sea Empress Oil Spill) on species or communities. In addition to biotic data, environmental data is also collected along side the biota with a view to separating `natural` change from anthropogenic change. Finally, commercial and recreational activities are recorded to monitor changes in user activity. Monitoring contributes to reporting on the MNR as well as Pembrokeshire Marine Special Area of Conservation (SAC), within which the reserve lies. For more details or a full list of monitoring projects contact the Skomer MNR team for the latest project status report",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1975-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-5.227 51.721, -5.227 51.72, -5.228 51.719, -5.231 51.718, -5.231 51.717, -5.235 51.717, -5.3 51.727, -5.309 51.729, -5.313 51.732, -5.316 51.734, -5.317 51.737, -5.316 51.741, -5.315 51.742, -5.312 51.744, -5.308 51.746, -5.305 51.747, -5.303 51.747, -5.3 51.748, -5.226 51.739, -5.227 51.738, -5.23 51.737, -5.231 51.738, -5.232 51.738, -5.233 51.738, -5.235 51.737, -5.236 51.738, -5.237 51.738, -5.237 51.737, -5.238 51.737, -5.239 51.738, -5.24 51.737, -5.241 51.737, -5.242 51.738, -5.244 51.736, -5.245 51.736, -5.245 51.737, -5.246 51.738, -5.247 51.738, -5.25 51.738, -5.251 51.738, -5.252 51.738, -5.252 51.739, -5.253 51.739, -5.254 51.739, -5.253 51.738, -5.252 51.737, -5.252 51.736, -5.252 51.735, -5.253 51.735, -5.253 51.734, -5.254 51.733, -5.251 51.733, -5.25 51.733, -5.25 51.732, -5.248 51.732, -5.247 51.733, -5.245 51.733, -5.245 51.732, -5.246 51.731, -5.244 51.731, -5.244 51.73, -5.245 51.73, -5.244 51.729, -5.243 51.729, -5.242 51.729, -5.241 51.729, -5.241 51.728, -5.241 51.727, -5.24 51.727, -5.239 51.727, -5.239 51.726, -5.237 51.726, -5.233 51.725, -5.232 51.725, -5.232 51.724, -5.23 51.724, -5.228 51.723, -5.228 51.722, -5.225 51.722, -5.227 51.721))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Skomer_Marine_Conserva/Natural_Resources_Wales_NRW_Skomer_Marine_Conserva.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/fish/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/macroalgae/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance",
+          "schema:url": "https://goosocean.org/eov/mammals/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/seagrass/community_composition/taxonomic_phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton/community_composition/taxonomic_phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Particulate matter",
+          "schema:url": "https://goosocean.org/eov/particulate_matter"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://cdn.cyfoethnaturiol.cymru/media/686217/eng-report-072-skomer-marine-nature-reserve-project-status-report-2013"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://cdn.cyfoethnaturiol.cymru/media/686213/eng-report-070-skomer-marine-nature-reserve-annual-report-2013"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.ukdmos.org/search-directory"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Skomer_Marine_Conserva/Natural_Resources_Wales_NRW_Skomer_Marine_Conserva.json",
+        "name": "Natural Resources Wales (NRW) Skomer Marine Conservation Zone Monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Skomer_Marine_Conserva/Natural_Resources_Wales_NRW_Skomer_Marine_Conserva_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

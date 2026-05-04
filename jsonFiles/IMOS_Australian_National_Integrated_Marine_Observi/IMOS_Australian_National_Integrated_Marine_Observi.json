@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "IMOS (Australian National Integrated Marine Observing System)",
+      "schema:name": "IMOS (Australian National Integrated Marine Observing System)",
+      "schema:url": "http://imos.org.au/",
+      "schema:description": "IMOS (Australian National Integrated Marine Observing System)",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_Australian_National_Integrated_Marine_Observi/IMOS_Australian_National_Integrated_Marine_Observi.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_Australian_National_Integrated_Marine_Observi/IMOS_Australian_National_Integrated_Marine_Observi.json",
+        "name": "IMOS (Australian National Integrated Marine Observing System)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IMOS_Australian_National_Integrated_Marine_Observi/IMOS_Australian_National_Integrated_Marine_Observi_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

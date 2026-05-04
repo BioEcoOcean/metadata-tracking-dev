@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "BAS Ecosystems  (long-term observation programme; multi-dataset)",
+      "schema:name": "BAS Ecosystems  (long-term observation programme; multi-dataset)",
+      "schema:url": "https://www.bas.ac.uk/team/science-teams/ecosystems/#project",
+      "schema:description": "BAS Ecosystems (long-term observation programme; multi-dataset)",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "9999-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/BAS_Ecosystems_long-term_observation_programme_mul/BAS_Ecosystems_long-term_observation_programme_mul.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/BAS_Ecosystems_long-term_observation_programme_mul/BAS_Ecosystems_long-term_observation_programme_mul.json",
+        "name": "BAS Ecosystems  (long-term observation programme; multi-dataset)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/BAS_Ecosystems_long-term_observation_programme_mul/BAS_Ecosystems_long-term_observation_programme_mul_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

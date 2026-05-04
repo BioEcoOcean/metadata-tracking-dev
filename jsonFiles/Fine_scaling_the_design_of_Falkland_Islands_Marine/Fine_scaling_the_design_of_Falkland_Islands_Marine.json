@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Fine scaling the design of Falkland Islands Marine Management Areas",
+      "schema:name": "Fine scaling the design of Falkland Islands Marine Management Areas",
+      "schema:url": "https://www.south-atlantic-research.org/research/marine-science/fine-scaling-the-design-of-falkland-islands-marine-management-areas/",
+      "schema:description": "Fine scaling the design of Falkland Islands Marine Management Areas",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2002-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-61.611 -53.891, -56.492 -53.891, -56.492 -55.041, -61.611 -55.041, -61.611 -53.891))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fine_scaling_the_design_of_Falkland_Islands_Marine/Fine_scaling_the_design_of_Falkland_Islands_Marine.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "civil_society",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fine_scaling_the_design_of_Falkland_Islands_Marine/Fine_scaling_the_design_of_Falkland_Islands_Marine.json",
+        "name": "Fine scaling the design of Falkland Islands Marine Management Areas"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Fine_scaling_the_design_of_Falkland_Islands_Marine/Fine_scaling_the_design_of_Falkland_Islands_Marine_actions.json",
+      "schema:description": "twice_per_year",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

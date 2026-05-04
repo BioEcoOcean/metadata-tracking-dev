@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "NOAA Aerial Survey of Arctic Marine Mammals (ASAMM)",
+      "schema:name": "NOAA Aerial Survey of Arctic Marine Mammals (ASAMM)",
+      "schema:url": "https://www.fisheries.noaa.gov/alaska/marine-mammal-protection/aerial-surveys-arctic-marine-mammals",
+      "schema:description": "The Aerial Surveys of Arctic Marine Mammals (ASAMM) project was a continuation of the Bowhead Whale Aerial Survey Project (BWASP) and Chukchi Offshore Monitoring in Drilling Area (COMIDA) marine mammal aerial survey project. BWASP was conducted from 1979 to 2010 and targeted the autumn migration of bowhead whales through the western Beaufort Sea, although line transect data on all marine mammals sighted were collected. COMIDA surveys were conducted in the Chukchi Sea Planning Area in the northeastern Chukchi Sea from 1979 to 1991 and 2008 to 2010 to monitor marine mammal distribution, relative density, and behavior during the open-water (ice-free) months, from mid-June or early July to the end of October.  BWASP and COMIDA surveys were funded or conducted by the Minerals Management Service (now BOEM) and the Bureau of Land Management, and starting in 2008, the Marine Mammal Laboratory began co-managing the projects with BOEM.  In 2011, these projects were merged into ASAMM. Survey protocols remained consistent from1982-2019.\r\nThe goal of ASAMM was to document the distribution and relative abundance of bowhead, gray, fin, humpback, killer, minke, and right whales, belugas, and other marine mammals in areas of potential oil and natural gas exploration, development, and production activities in the Alaskan Beaufort and northeastern Chukchi seas.\r\nData from the ASAMM surveys provides important historic context to relate variation in marine mammal distribution or abundance to other variables, such as physical oceanographic conditions, indices of potential prey density, and anthropogenic activities if information on these variables is available.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://www.fisheries.noaa.gov/resource/data/2019-aerial-surveys-arctic-marine-mammals"
+      ],
+      "schema:foundingDate": "1979-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-174.074 57.688, -174.016 76.141, -115.125 76.127, -115.183 70.319, -116.511 70.183, -117.031 70.006, -116.453 69.627, -115.241 69.303, -115.183 68.974, -116.8 68.87, -119.629 69.283, -120.495 69.486, -122.4 69.627, -122.92 69.486, -124.161 69.262, -126.124 69.303, -126.904 69.787, -127.394 70.006, -128.174 70.045, -128.895 69.787, -130.454 69.667, -132.533 68.974, -135.506 69.18, -135.968 68.808, -140.76 69.647, -143.416 70.025, -144.571 69.986, -145.783 69.966, -147.804 70.241, -149.825 70.455, -153.866 70.57, -156.667 70.743, -158.63 70.666, -159.784 70.416, -161.459 70.104, -162.296 70.065, -163.047 69.344, -163.162 68.995, -165.269 68.808, -166.338 68.64, -166.338 68.28, -165.414 68.044, -163.624 67.409, -162.094 67.276, -159.553 66.78, -159.958 66.39, -161.228 65.994, -164.115 65.923, -164.923 66.111, -166.251 65.852, -166.857 65.71, -165.905 65.255, -166.684 64.963, -165.125 64.545, -163.48 64.693, -162.296 64.816, -160.593 64.866, -161.141 64.47, -161.141 64.245, -160.362 63.816, -161.084 63.611, -161.632 63.431, -162.469 63.067, -163.739 63.093, -164.49 63.041, -164.721 62.91, -165.241 62.433, -165.702 62.056, -165.991 61.702, -165.818 61.317, -165.298 60.758, -165.01 60.417, -164.115 60.332, -162.44 60.189, -162.123 59.813, -161.834 59.404, -162.007 58.841, -161.372 58.632, -160.679 58.871, -159.813 58.871, -158.341 58.991, -156.493 59.109, -157.908 58.025, -158.081 57.749, -174.074 57.688))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM.json",
+      "schema:keywords": [
+        "Alaska",
+        "Amundsen Gulf",
+        "Beaufort Sea",
+        "Bering Sea",
+        "Chukchi Sea"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental",
+          "schema:description": "U.S. Bureau of Ocean Energy Management (formerly Minerals Management Service)"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.fisheries.noaa.gov/resource/data/2019-aerial-surveys-arctic-marine-mammals"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM.json",
+        "name": "NOAA Aerial Survey of Arctic Marine Mammals (ASAMM)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM/NOAA_Aerial_Survey_of_Arctic_Marine_Mammals_ASAMM_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

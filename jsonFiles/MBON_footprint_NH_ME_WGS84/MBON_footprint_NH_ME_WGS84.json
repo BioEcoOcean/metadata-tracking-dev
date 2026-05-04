@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "MBON_footprint_NH_ME_WGS84",
+      "schema:name": "MBON_footprint_NH_ME_WGS84",
+      "schema:url": "",
+      "schema:description": "No abstract provided",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((-70.39 43.049, -70.561 42.857, -70.762 42.956, -70.605 43.131, -70.39 43.049)), ((-70.161 43.669, -70.063 43.724, -69.946 43.683, -70.038 43.495, -70.195 43.542, -70.203 43.63, -70.161 43.669)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MBON_footprint_NH_ME_WGS84/MBON_footprint_NH_ME_WGS84.json",
+      "schema:keywords": [],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MBON_footprint_NH_ME_WGS84/MBON_footprint_NH_ME_WGS84.json",
+        "name": "MBON_footprint_NH_ME_WGS84"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MBON_footprint_NH_ME_WGS84/MBON_footprint_NH_ME_WGS84_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Coastal Observing System for Northern and Arctic Seas (COSYNA)",
+      "schema:name": "Coastal Observing System for Northern and Arctic Seas (COSYNA)",
+      "schema:url": "https://www.awi.de/en/expedition/observatories/water-cosyna.html",
+      "schema:description": "The coastal areas of the North Sea are densely populated. As a result, changes in the biological diversity and environmental conditions not only impact the unique local ecosystems; they also directly affect the people living there. AWI researchers have taken up the challenge of investigating the status quo and documenting essential changes in coastal systems. Since 2012 the Helmholtz-Zentrum Geesthacht Centre for Materials and Coastal Research (HZG), in cooperation with the AWI and further partners, has operated the Coastal Observation System for Northern and Arctic Seas (COSYNA), one goal of which is to develop a new modelling system.\r\nAs part of this initiative, the AWI maintains two underwater monitoring systems near Helgoland and Svalbard – referred to as underwater nodes. Each node is essentially like a “data extension cord” on the seafloor, which up to ten measuring units can be plugged into. This approach allows us to e.g. monitor water temperature, algae concentrations and the seafloor live, all year round. The data is then provided directly online.\r\n\r\nThe Helgoland node is located at 59 ° 11'N / 8 ° 52.79E – roughly 600 metres north of the island at a depth of ca. 10 m.\r\nThe Svalbard node system is located near Ny-Ålesund (AWIPEV) at 78 ° 92'N / 11 ° 9'E – by the “Old Pier” at a depth of 11 m.\r\n\r\nThe systems are completely remote controlled and are connected to land by fibre optic cables. Here the AWI also employs a FerryBox system, and its research divers attend to the maintenance. Visiting researchers with approved research projects can also install their own equipment – with the help of the research divers. ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-olci/product-types/level-2-water"
+      ],
+      "schema:foundingDate": "2009-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (7.916 54.207, 11.9 78.92)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_Observing_System_for_Northern_and_Arctic_S/Coastal_Observing_System_for_Northern_and_Arctic_S.json",
+      "schema:keywords": [
+        "FerryBox",
+        "Glider",
+        "Remote sensing"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "governmental"
+          ]
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_Observing_System_for_Northern_and_Arctic_S/Coastal_Observing_System_for_Northern_and_Arctic_S.json",
+        "name": "Coastal Observing System for Northern and Arctic Seas (COSYNA)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Coastal_Observing_System_for_Northern_and_Arctic_S/Coastal_Observing_System_for_Northern_and_Arctic_S_actions.json",
+      "schema:description": "sub_daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natural Resources Wales (NRW) Benthic Rock Monitoring",
+      "schema:name": "Natural Resources Wales (NRW) Benthic Rock Monitoring",
+      "schema:url": "",
+      "schema:description": "The establishment of a programme of monitoring work for statutory sites in Wales that contain subtidal habitat features. This work focuses mainly on reefs and has been established to gather data in order to assess the sites and features for their favourable conservation status. Monitoring of benthic rock takes place in four of the five marine Special Areas of Conservation (SACs) around the Welsh coast that have `reefs` listed as Annex I `features`. 30 sites across the marine SACs have been set up. Detailed information about each of the sites can be found in the CCW Marine Monitoring Report `Across Wales Diving Monitoring Project Volume 1: Field Report`. This document is updated annually. A variety of methodologies has been designed for monitoring subtidal reef across the SACs, these include: diver quadrats and transects, capture of information on images and digital video and the collection of data from loggers. Detailed information about each of the methodologies can be found in the CCW Marine Monitoring Report 25b `Across Wales Diving Monitoring Project Volume 2: Standard operating procedures` (draft). The project was set up between Feb 2004 and April 2006 as a developmental trial for establishing (i) Methods, (ii) Recording protocols. (iii) Deployment strategies, (iv) Repeatability, (v) Site marking and relocation, (vi) Quality Control for site monitoring. From February 2007 onwards, monitoring of the sites has continued on an annual basis.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1998-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((-5.68 51.751, -4.875 51.776, -4.866 51.666, -5.673 51.658, -5.68 51.751)), ((-4.098 52.722, -4.81 52.713, -4.821 52.947, -4.11 52.944, -4.098 52.722)), ((-4.234 53.184, -4.238 53.398, -3.961 53.354, -3.944 53.253, -4.234 53.184)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Benthic_Rock_Monitorin/Natural_Resources_Wales_NRW_Benthic_Rock_Monitorin.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/fish/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/macroalgae/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/seagrass/community_composition/taxonomic_phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton/community_composition/taxonomic_phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.ukdmos.org/search-directory"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Benthic_Rock_Monitorin/Natural_Resources_Wales_NRW_Benthic_Rock_Monitorin.json",
+        "name": "Natural Resources Wales (NRW) Benthic Rock Monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Benthic_Rock_Monitorin/Natural_Resources_Wales_NRW_Benthic_Rock_Monitorin_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

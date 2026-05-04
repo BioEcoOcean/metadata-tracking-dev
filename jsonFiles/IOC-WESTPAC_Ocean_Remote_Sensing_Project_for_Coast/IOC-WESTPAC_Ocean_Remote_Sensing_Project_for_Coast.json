@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "IOC-WESTPAC Ocean Remote Sensing Project for Coastal Habitat Mapping",
+      "schema:name": "IOC-WESTPAC Ocean Remote Sensing Project for Coastal Habitat Mapping",
+      "schema:url": "http://iocwestpac.org/ocean-remote-sensing/134.html",
+      "schema:description": "Coastal habitats having high productivity provide numerous ecological services such as foods, protection from strong waves through buffering effect, fixation of CO2 through photosynthesis, fostering biodiversity etc. However, increasing human impacts and climate change decrease or degrade coastal habitats. The WESTPAC region is developing most rapidly in the world. In the developing WESTPAC region, it is necessary to grasp present spatial distributions of habitats as a baseline data with standardized mapping methods. Remote sensing is one of the most effective methods for mapping. European Space Agency (ESA) provides non-commercial satellite images with ultra-high spatial resolution optical sensors (10 m), Sentinel-2, similar to LANDSAT8 OLI with high spatial resolution optical sensors (30 m). These images of LANDSAT8 OLI and Sentinel 2 are provided free of charge through the web service. Using images, it may be possible to make habitat maps in the WESTPAC region. Because satellite images are archived, these images permit to obtain habitat distributions at past time. Thus, it is possible to analyze temporal spatial changes in habitat distributions. The project selected standardized mapping methods for WESTPAC region. Detected changes provide insights on alters in environmental setting such as human impacts and climate change. This project has developed mapping methods of coastal habitats suitable for the WESTPAC region to deliver our understanding of habitat distributions at selected areas to local people and stakeholders with the standardized remote sensing methods. Today, the project is also pursuing contributions to integrated coastal area management, blue carbon estimation and assessment of ecosystem services, by providing coastal habitat maps and related geographical information such as aquaculture facilities. The project cooperates in Northwest Pacific Ocean Action Plan (NOWPAP) which is a regional programme of UNEP through seagrass mapping in NOWPAP region overlapping WESTPAC one and will participate in GOOS Bio and UN Decade of Ocean Science.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://repository.dl.itc.u-tokyo.ac.jp/record/54364/files/CMS430101.pdf"
+      ],
+      "schema:foundingDate": "2011-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast.json",
+      "schema:keywords": [
+        "Coastal",
+        "mapping",
+        "seagrass"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast.json",
+        "name": "IOC-WESTPAC Ocean Remote Sensing Project for Coastal Habitat Mapping"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast/IOC-WESTPAC_Ocean_Remote_Sensing_Project_for_Coast_actions.json",
+      "schema:description": "twice_per_year",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Gravelines Station",
+      "schema:name": "Gravelines Station",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/fr-30101/",
+      "schema:description": "The French Research Institute for Exploitation of the Sea (IFREMER) has established a monthly time series of zooplankton species since 1978 at Gravelines, a station located in the western port of Dunkirk at the lower end of the southern bight of the North sea. This ecological survey is done in the framework of a research programme designed to observe environmental evolution on the site of a nuclear power plants. The Gravelines station is located in the entrance of the channel inflow into the power plant and is not impacted by the power plant water discharge.Zooplankton samples were collected monthly with a standard WP2 net from 1978 to 1991 and then with a small conical net (opening diameter 34 cm, 113 cm length, 200 µm mesh size) from 1992 to 2007. Since 2008 the sampling is carried out with a standard WP2 net, bi-monthly from March to September and monthly from October to February. Since 2010 complementary samples are collected with a Bongo net (opening diameter 60cm, 500 µm mesh size) for gelatinous zooplankton and ichtyoplankton identification. The monitoring at Gravelines station also includes the following parameters measured on a weekly basis: temperature, ammonium, nitrate, Chlorophyll a and phaeopigment concentrations, as well as phytoplankton abundance. This survey is conducted by IFREMER with financial support from the EDF (Electricite de France).",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://archimer.ifremer.fr/doc/00383/49458/"
+      ],
+      "schema:foundingDate": "1975-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (2.151 51.022)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gravelines_Station/Gravelines_Station.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:description": "EDF (Electricite de France)"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://archimer.ifremer.fr/doc/00383/49458/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gravelines_Station/Gravelines_Station.json",
+        "name": "Gravelines Station"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gravelines_Station/Gravelines_Station_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

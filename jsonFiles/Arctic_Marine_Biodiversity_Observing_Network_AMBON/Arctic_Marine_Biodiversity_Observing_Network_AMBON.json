@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Arctic Marine Biodiversity Observing Network (AMBON)",
+      "schema:name": "Arctic Marine Biodiversity Observing Network (AMBON)",
+      "schema:url": "https://ambon-us.org/",
+      "schema:description": "The goal of the Arctic Marine Biodiversity Observing Network (AMBON) project is to build an operational marine biodiversity observation network (AMBON) for the US Chukchi Sea continental shelf. The purpose of a MBON is to gather new and continued biodiversity information, provide open access to data, and to facilitate decision making by a large variety of stakeholders. The AMBON projects covers marine biodiversity from microbes to whales. The project builds on existing data and time series with the goal to continue sampling and also to close current gaps in taxonomic coverage (e.g. microbes) in biodiversity observation on the Chukchi shelf. The project also will integrate with past and ongoing research programs on the US Arctic shelf to develop an Arctic biodiversity observation network of shared information and open data access. Beyond the Chukchi Sea, AMBON will network across the pan-Arctic and on a global scale with other biodiversity observing networks. As a demonstration project, AMBON aims to develop good practices of a biodiversity network that can be translated on a national level to other regions and ecosystems.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2014-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-169.49 66.913, -169.392 68.559, -169.734 68.983, -169.343 70.307, -168.22 71.551, -166.316 72.353, -163.093 72.5, -159.578 72.338, -156.99 71.994, -156.111 71.302, -156.648 71.302, -157.283 70.907, -159.187 70.923, -161.238 70.291, -161.824 70.373, -162.898 69.706, -163.728 69, -166.121 68.789, -166.609 68.307, -163.582 67.16, -164.07 66.913, -169.49 66.913))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Arctic_Marine_Biodiversity_Observing_Network_AMBON/Arctic_Marine_Biodiversity_Observing_Network_AMBON.json",
+      "schema:keywords": [
+        "Alaska"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "industry",
+            "governmental"
+          ],
+          "schema:description": "US National Oceanographic and Atmospheric Administration, US Bureau of Ocean and Energy Management, Shell Exploration and Production Company, National Science Foundation"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Arctic_Marine_Biodiversity_Observing_Network_AMBON/Arctic_Marine_Biodiversity_Observing_Network_AMBON.json",
+        "name": "Arctic Marine Biodiversity Observing Network (AMBON)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Arctic_Marine_Biodiversity_Observing_Network_AMBON/Arctic_Marine_Biodiversity_Observing_Network_AMBON_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

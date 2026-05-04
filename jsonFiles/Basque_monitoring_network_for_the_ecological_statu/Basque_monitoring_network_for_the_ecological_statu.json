@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Basque monitoring network for the ecological status assessment",
+      "schema:name": "Basque monitoring network for the ecological status assessment",
+      "schema:url": "",
+      "schema:description": "The study area is located in the South-eastern part of the Bay of Biscay (North-east Atlantic). It has a narrow continental shelf (between 7 and 20 km). The coast is mountainous, with cliffs (20-150 m high), which extend over 70% of the 150 km of the coastal area (the remainder are beaches or low coast). It is a temperate sea (annual range of temperatures, at the surface: 11º - 23ºC), with high wave exposure (in winter, waves can reach 15 m), due to its long (>4,000 km) fetch. The area is mesotidal, with mean tidal range of 1.5 m at neap tides and 4 m at spring tides; the maximum annual tidal range exceeds 4.5 m. There are small rivers (mean flow range: 2-36 m3 s-1) flowing into 12 small estuaries (length between 2 and 22 km). \r\n The Basque Water Agency has monitored the Basque coastal and estuarine quality since January 1995. The monitoring network comprises sampling of both physico-chemical (water, sediment and biota) and biological components (phytoplankton, macroalgae, macroinvertebrates and fishes). The monitoring series data include 32 coastal and estuarine stations sampled, from 1995 to 2014, with 19 additional stations sampled since 2002. From these 51 stations, 48 are distributed amongst the 18 water bodies (management units) of the Basque Country (14 estuarine and 4 coastal), and 3 are considered as reference coastal stations. As such, they constitute a monitoring network reporting to different European directives (mainly the Water Framework Directive, WFD, 2000/60/EC) and serve to take managerial decisions to reduce or remove human pressures affecting the ecological status of these aquatic systems. These decisions are taken at the level of the management units, which are discrete and significant elements of a water body, showing similar level of human pressures, after the WFD. Also, this network serves to study the natural environmental variability over the area. In the case of fish communities, this network is complemented with additional stations in the Nerbioi estuary, managed by the “Consorcio de Aguas Bilbao-Bizkaia”, since 1989.\r\nSampling and analysing methods within this monitoring network have been described elsewhere. Water in estuaries is sampled at high and low tide (except for phytoplankton abundance, which is sampled only at high tide); however, sampling coastal stations is made irrespective of the tide.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1995-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-3.122 43.347, -3.113 43.332, -3.082 43.383, -3.045 43.36, -3.027 43.338, -3.021 43.399, -2.998 43.316, -2.974 43.295, -2.955 43.437, -2.946 43.408, -2.944 43.398, -2.939 43.27, -2.924 43.396, -2.803 43.447, -2.8 43.5, -2.702 43.441, -2.694 43.394, -2.684 43.365, -2.666 43.341, -2.585 43.403, -2.505 43.357, -2.499 43.36, -2.49 43.373, -2.443 43.322, -2.421 43.32, -2.402 43.336, -2.364 43.293, -2.357 43.292, -2.352 43.327, -2.3 43.4, -2.256 43.296, -2.252 43.279, -2.245 43.292, -2.243 43.317, -2.18 43.316, -2.136 43.305, -2.132 43.283, -2.12 43.276, -1.978 43.317, -1.969 43.314, -1.955 43.339, -1.932 43.338, -1.931 43.322, -1.921 43.326, -1.918 43.453, -1.904 43.323, -1.892 43.36, -1.802 43.397, -1.791 43.352, -1.79 43.37, -1.762 43.344)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu.json",
+      "schema:keywords": [
+        "Coastal",
+        "Ecosystems",
+        "Environmental state",
+        "Human activities",
+        "In-situ sampling coastal"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental",
+          "schema:description": "Basque Water Agency (URA) through a convention with AZTI"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu.json",
+        "name": "Basque monitoring network for the ecological status assessment"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Basque_monitoring_network_for_the_ecological_statu/Basque_monitoring_network_for_the_ecological_statu_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

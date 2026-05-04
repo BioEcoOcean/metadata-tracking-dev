@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "The IOW Baltic Sea Time Series",
+      "schema:name": "The IOW Baltic Sea Time Series",
+      "schema:url": "http://doi.io-warnemuende.de/doi/2020/msr-2020-0115/msr-2020-0115.pdf",
+      "schema:description": "The IOW Baltic Sea Time Series, established in 1979 within the framework of the Helsinki Commission (HELCOM), records long-term changes in plankton abundance, frequency and biodiversity in relation to climatic and anthropogenic forcing. Monitored sites extend from the Western Belt Sea and the Arkona Sea to the Bornholm and the Eastern Gotland Basin along a pronounced salinity and depth gradient that exert a strong influence on the local plankton. A periodical inflow of marine water and an outflow of Baltic brackish water cause particularly strong variability in the plankton composition of the Western areas. IOW conducts five cruises/year collecting physical, chemical and biological core data during February, March, May, August, and November. Integrated surface samples for phytoplankton biomass and Chlorophyll a concentration from the upper 10 m are taken on 10 stations. Zooplankton abundance/biomass is monitored on 9 stations with sampling depth adjusted to the seasonal stratification.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1979-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (11.647 54.297, 14.05 55, 14.17 54.38, 15.983 55.25, 19.238 56.428)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_IOW_Baltic_Sea_Time_Series/The_IOW_Baltic_Sea_Time_Series.json",
+      "schema:keywords": [
+        "HELCOM"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://doi.io-warnemuende.de/doi/2020/msr-2020-0115/msr-2020-0115.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_IOW_Baltic_Sea_Time_Series/The_IOW_Baltic_Sea_Time_Series.json",
+        "name": "The IOW Baltic Sea Time Series"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_IOW_Baltic_Sea_Time_Series/The_IOW_Baltic_Sea_Time_Series_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

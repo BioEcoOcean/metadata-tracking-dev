@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "North Pacific Continuous Plankton Recorder Survey",
+      "schema:name": "North Pacific Continuous Plankton Recorder Survey",
+      "schema:url": "https://meetings.pices.int/projects/CPR#3",
+      "schema:description": "Basic CPR methodology: The CPR is towed behind the ship at a depth of about 7 m. The plankton are collected continuously but then sectioned into 18.5 km samples (10 nautical miles), and in the Pacific we normally process every 4th sample (because of funding limitations) while the Atlantic processes alternate samples. We identify and count the zooplankton and larger hard shelled phytoplankton. The phytoplankton data are semi-quantitative and are only a part of the community as not all cells are preserved by formalin, and many are too small to be retained by the 270 µm mesh.\r\nAll abundances given are 'per sample'. A sample is roughly 3 cubic metres of filtered seawater. Mesozooplankton biomass (if given) is a derived index of total dry weight based on the abundance of each taxon multiplied by a taxon specific dry weight value and summed for all mesozooplankton taxa in the sample.\r\nAcknowledgment to be used in any reports/publications (but please check prior to final publication for amendments):\r\nPacific CPR data collection is supported by a consortium for the North Pacific CPR survey coordinated by the North Pacific Marine Science Organisation (PICES) and comprising the North Pacific Research Board (NPRB), Exxon Valdez Oil Spill Trustee Council (EVOS TC), Canadian Department of Fisheries and Oceans (DFO) and the Marine Biological Association (MBA).\r\nPlease send a copy of any publications/reports arising from the use of Pacific CPR data to Clare Ostle claost@mba.ac.uk",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2000-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTILINESTRING ((-125.004 48.345, -129.584 50.92, -134.256 53.223, -141.01 55.93, -146.745 57.726, -150.724 58.677, -152.019 59.036, -152.343 59.344, -152.296 59.696), (-125.031 48.155, -135.671 50.063, -148.623 51.954, -160.28 53.274, -164.768 54.287, -175.453 54.341, -185.075 54.07, -194.188 52.802, -201.682 50.771, -211.118 44.352, -215.744 41.543))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Pacific_Continuous_Plankton_Recorder_Survey/North_Pacific_Continuous_Plankton_Recorder_Survey.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Pacific_Continuous_Plankton_Recorder_Survey/North_Pacific_Continuous_Plankton_Recorder_Survey.json",
+        "name": "North Pacific Continuous Plankton Recorder Survey"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/North_Pacific_Continuous_Plankton_Recorder_Survey/North_Pacific_Continuous_Plankton_Recorder_Survey_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

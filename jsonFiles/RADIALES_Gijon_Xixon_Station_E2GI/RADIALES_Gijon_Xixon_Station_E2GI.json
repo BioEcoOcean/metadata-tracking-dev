@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "RADIALES Gijon/Xixon Station E2GI",
+      "schema:name": "RADIALES Gijon/Xixon Station E2GI",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/es-50103/",
+      "schema:description": "The RADCAN project as part of the former project RADIALES of the Spanish Institute of Oceanography, operational since 1991, constitutes an observatory of the marine ecosystem in the continental shelf and adjacent oceanic waters of the Bay of Biscay (Northern Spain). Essential Ocean Variables are systematically measured in this project  (physical (temperature, salinity, currents, energy exchange between the atmosphere and the ocean, waves), biogeochemical (nutrients and oxygen) and biological related to the planktonic communities (microbial plankton, phytoplankton, zooplankton and ichthyoplankton)) in 3 sections in front of the coasts of Santander, Gijón and Cudillero. Each section includes the sampling of oceanographic stations (CTD and water sampling rosette) covering coastal, neritic and oceanic domains. Sampling and analysis are carried out carried out following standard protocols on a monthly basis with the sampling design aimed to obtain an historical time-series of oceanographic data that, treated statistically, allows extracting the different components of natural and anthropogenic variability and its tendencies. The AGL buoy located in oceanic waters of the Radial de Santander provides information at higher frequencies of variability to these monthly samplings. The AGL buoy together with its oceanographic station (2800 m depth) forms the OceanSITES ocean reference station SATS (Santander Atlantic time-series). In the new phase of the RADCAN project (2022-2025), in addition to maintaining these time-series observations, the project will focus on the promotion of new autonomous measurements of biogeochemical or biological ocean essential variables as well as in the functional diversity of plankton in relation to the main environmental variability factors.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2001-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-5.578 43.675)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Gijon_Xixon_Station_E2GI/RADIALES_Gijon_Xixon_Station_E2GI.json",
+      "schema:keywords": [
+        "Climate Variability and Change",
+        "Ecosystems",
+        "ocean dynamics",
+        "phytoplankton",
+        "time series",
+        "zooplankton"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:description": "RADCAN long-term ecosystem research project is funded by the Spanish Institute of Oceanography. It allows the development of other projects with short-term objectives (financed with external funding) using as base its sampling, analysis and database infrastructure. Besides, the information derived from the project will continue to contribute to the ocean ecosystem monitoring required by the application of various environmental management policies, especially those related to the EU Marine Strategy Framework Directive (MSFD)."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.seriestemporales-ieo.net/"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://seriestemporales-ieo.shinyapps.io/Zooplancton21/"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://seriestemporales-ieo.shinyapps.io/Clorofila21/"
+          }
+        },
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://seriestemporales-ieo.shinyapps.io/Nutrientes21/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Gijon_Xixon_Station_E2GI/RADIALES_Gijon_Xixon_Station_E2GI.json",
+        "name": "RADIALES Gijon/Xixon Station E2GI"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/RADIALES_Gijon_Xixon_Station_E2GI/RADIALES_Gijon_Xixon_Station_E2GI_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

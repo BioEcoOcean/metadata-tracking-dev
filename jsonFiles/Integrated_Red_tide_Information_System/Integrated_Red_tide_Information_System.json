@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Integrated Red tide Information System",
+      "schema:name": "Integrated Red tide Information System",
+      "schema:url": "https://optics.marine.usf.edu/projects/IRIS.html",
+      "schema:description": "Red tides or harmful algal blooms (HABs) of the toxic Karenia brevis occur in the Gulf of Mexico nearly every year, and it is important to know the location, intensity, size, and potential transport pathways of red tides in a timely fashion so that governmental agencies and other groups as well as the general public can be better informed.\r\nThe IRIS is designed for this purpose. It integrates satellite observations, numerical models, and water sampling to provide information on the location, intensity, spatial extent, and surface transport of red tides and other types of discolored waters. The information is updated daily through a user-friendly web portal, where a user can bring all data layers to Google Earth to navigate and to add other data layers.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2000-02-24",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-83.5 28, -85.5 28, -85.5 29.5, -88.5 29.5, -88.5 28, -91 28, -91 30.5, -88.5 30.5, -88.5 31, -85.5 31, -85.5 30.2, -82.5 30.2, -82.5 28.2, -81.5 28.2, -81.5 26, -80.3 26, -80.3 27.5, -79 27.5, -79 25.5, -80 25.5, -80 24, -83 24, -83 26, -83.5 26, -83.5 28))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Integrated_Red_tide_Information_System/Integrated_Red_tide_Information_System.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Integrated_Red_tide_Information_System/Integrated_Red_tide_Information_System.json",
+        "name": "Integrated Red tide Information System"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Integrated_Red_tide_Information_System/Integrated_Red_tide_Information_System_actions.json",
+      "schema:description": "daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

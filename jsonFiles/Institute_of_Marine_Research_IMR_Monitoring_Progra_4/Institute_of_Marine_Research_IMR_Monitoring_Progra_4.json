@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Institute of Marine Research (IMR) Monitoring Programme: Svinøy Transect - East and West",
+      "schema:name": "Institute of Marine Research (IMR) Monitoring Programme: Svinøy Transect - East and West",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/no-50102/",
+      "schema:description": "The Institute of Marine Research (IMR) Monitoring Programme samples two fixed transects in the Norwegian Sea: the Svinøy transect (15 stations) and the Gimsoy transect (ten stations). Additionally, the Norwegian Sea is surveyed in May and July/August, both surveys covering approximately 50-100 stations. Data are stored at the TINDOR database at IMR, with annual reports made to the Ministry of Fisheries and in the IMR Annual Report on Marine Ecosystems. The Svinøy transect is split into two sections: West (13) and East (14) . Each section is sampled four to ten times each year with a WP-2 net from 200 m depth to the surface.Along the Svinøy transect, zooplankton biomass starts to increase in March/April in the western section and slightly earlier in February in the eastern section. The development (timing) of zooplankton biomass in spring at the Svinøy transect does not otherwise indicate any shifts in seasonality over the sampling period 1997-2007. Although the seasonal cycle of biomass at both sites is almost identical, annual anomalies between sites reveal a lagged synchrony. Both sites are currently in a period of lower-than-average biomass, a trend coherent with other zooplankton biomass data from the Norwegian Sea.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1995-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (1.567 63.517)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Institute_of_Marine_Research_IMR_Monitoring_Progra_4/Institute_of_Marine_Research_IMR_Monitoring_Progra_4.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass",
+          "schema:url": "https://goosocean.org/eov/zooplankton/biomass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Institute_of_Marine_Research_IMR_Monitoring_Progra_4/Institute_of_Marine_Research_IMR_Monitoring_Progra_4.json",
+        "name": "Institute of Marine Research (IMR) Monitoring Programme: Svinøy Transect - East and West"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Institute_of_Marine_Research_IMR_Monitoring_Progra_4/Institute_of_Marine_Research_IMR_Monitoring_Progra_4_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

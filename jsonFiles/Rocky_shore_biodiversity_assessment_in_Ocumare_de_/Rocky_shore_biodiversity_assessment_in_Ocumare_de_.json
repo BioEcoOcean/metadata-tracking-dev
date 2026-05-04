@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Rocky shore biodiversity assessment in Ocumare de la Costa, Venezuela",
+      "schema:name": "Rocky shore biodiversity assessment in Ocumare de la Costa, Venezuela",
+      "schema:url": "",
+      "schema:description": "This is an ongoing rocky shore biodiversity monitoring effort linked to the MBON Pole to Pole Project",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2019-04-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (-67.762 10.493)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_/Rocky_shore_biodiversity_assessment_in_Ocumare_de_.json",
+      "schema:keywords": [
+        "marine invertebrates"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_/Rocky_shore_biodiversity_assessment_in_Ocumare_de_.json",
+        "name": "Rocky shore biodiversity assessment in Ocumare de la Costa, Venezuela"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Rocky_shore_biodiversity_assessment_in_Ocumare_de_/Rocky_shore_biodiversity_assessment_in_Ocumare_de__actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

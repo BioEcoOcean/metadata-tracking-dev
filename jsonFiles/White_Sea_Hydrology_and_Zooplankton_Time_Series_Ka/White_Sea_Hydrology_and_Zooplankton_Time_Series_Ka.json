@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "White Sea Hydrology and Zooplankton Time Series: Kartesh D1",
+      "schema:name": "White Sea Hydrology and Zooplankton Time Series: Kartesh D1",
+      "schema:url": "https://www.st.nmfs.noaa.gov/plankton/time-series/ru-10101/",
+      "schema:description": "White Sea Hydrology and Zooplankton Time Series: Kartesh D1. The ongoing monitoring program have been accomplished since 1957, on a regular basis - since 1961. Sampling is conducted once 10 days in warm period (ice-free) and in March-April and once a month from December through February. Station depth is 60-65 m depending on tide phase and positioning accuracy. Standard horizons are sampled by vertical hauls: 10-0 m, 25-10 m and bottom-25 m. Standard Juday net with opening diameter 37 cm and 200-µm mesh size is used. ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1957-07-19",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (33.668 66.331)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka.json",
+      "schema:keywords": [
+        "abundance",
+        "zooplankton"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia",
+          "schema:description": "Project “Dynamics of structure and functioning of the ecosystems of the White Sea and adjacent Arctic seas” (No 1021051402749-2)"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka.json",
+        "name": "White Sea Hydrology and Zooplankton Time Series: Kartesh D1"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka/White_Sea_Hydrology_and_Zooplankton_Time_Series_Ka_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

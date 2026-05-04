@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Marine Mammals Exploring the Oceans Pole to Pole - USA",
+      "schema:name": "Marine Mammals Exploring the Oceans Pole to Pole - USA",
+      "schema:url": "https://meop.net/groups/usa.html",
+      "schema:description": "MEOP (Marine Mammals Exploring the Oceans Pole to Pole) is a consortium of international researchers dedicated to sharing animal-derived data and knowledge about the polar oceans. Collectively, MEOP demonstrates the power and cost-effectiveness of using marine mammals as data-collection platforms that can dramatically improve the ocean-observing system for biological and physical oceanographers.\r\nDeployment sites: Ross Sea, Antarctic Peninsula, Ano Nuevo California state park, Alaska, St Paul (Bering Sea)\r\nSupporting institutions: National Oceanographic Partnership Program, Office of Polar Program, National Science Foundation, and NOAA Antarctic Marine Living Resources Program",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((164.738 -76.951, 165.329 -76.946, 165.334 -77.415, 164.743 -77.42, 164.738 -76.951)), ((-66.6 -62.423, -60.721 -62.423, -60.721 -66.806, -66.6 -66.806, -66.6 -62.423)), ((-64.322 -42.043, -62.757 -42.019, -62.745 -43.067, -64.334 -43.09, -64.322 -42.043)), ((-115.808 29.312, -115.783 28.86, -116.335 28.847, -116.347 29.312, -115.808 29.312)), ((-126.248 40.353, -120.898 40.353, -120.898 35.08, -126.248 35.08, -126.248 40.353)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_10/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_10.json",
+      "schema:keywords": [
+        "Alaska",
+        "Ano Nuevo California state park",
+        "Antarctic Peninsula",
+        "Ross Sea"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_10/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_10.json",
+        "name": "Marine Mammals Exploring the Oceans Pole to Pole - USA"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_10/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_10_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

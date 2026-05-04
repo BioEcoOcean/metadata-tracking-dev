@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Marine Mammals Exploring the Oceans Pole to Pole - Germany",
+      "schema:name": "Marine Mammals Exploring the Oceans Pole to Pole - Germany",
+      "schema:url": "https://meop.net/groups/germany.html",
+      "schema:description": "MEOP (Marine Mammals Exploring the Oceans Pole to Pole) is a consortium of international researchers dedicated to sharing animal-derived data and knowledge about the polar oceans. Collectively, MEOP demonstrates the power and cost-effectiveness of using marine mammals as data-collection platforms that can dramatically improve the ocean-observing system for biological and physical oceanographers.\r\nFor the German group, deployments at Marion Island were done in collaboration with South Africa. Two of those deployments are co-owned by both groups and presented on the South Africa group page. A further two deployments were collaboratively done at King George Island. \r\nSeal-borne oceanographic data are attributed to the project Marine Mammal Tracking (MMT). MMT is a collaborative project of seal ecologists at the Bentho-Pelagic Processes Section of the Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung, Bremerhaven, Germany, and the Mammal Research Institute, University of Pretoria, South Africa. The collaboration involves the Instituto Antártico Argentino, Buenos Aires, Argentina, the National Institute of Polar Research, Tokyo, Japan, and the University of New South Wales, Evolution & Ecology Research Centre, School of Biological, Earth and Environmental Science, Sydney, Australia. We developed and initiated a joint and coherent collaborative research approach, which aims to compare the foraging behaviour of seals of different areas in relation to physical oceanography and in the context of climate change. MEOP data within MMT focus on Weddell and southern elephant seals. Validated post-processed data are provided via the MEOP portal. Primary data and related meta-information are available in open access (OA) via the Data Publisher for Earth & Environmental Science (PANGAEA).\r\n ",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-58.619 -62.306, -58.227 -62.346, -26.812 -74.228, -19.333 -72.883, -19.157 -72.825, -8.162 -70.564, 37.669 -46.889, 37.691 -46.869, 37.75 -46.864, 37.756 -46.857, 37.863 -46.807, 37.938 -46.958)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_6/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_6.json",
+      "schema:keywords": [
+        "Atka Bay",
+        "Drescher Inlet",
+        "Filchner Trough",
+        "King George Island",
+        "Marion Island (Prince Edward Islands)"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_6/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_6.json",
+        "name": "Marine Mammals Exploring the Oceans Pole to Pole - Germany"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_6/Marine_Mammals_Exploring_the_Oceans_Pole_to_Pole_-_6_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

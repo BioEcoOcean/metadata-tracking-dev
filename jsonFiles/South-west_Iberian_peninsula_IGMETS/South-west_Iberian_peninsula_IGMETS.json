@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "South-west Iberian peninsula/IGMETS",
+      "schema:name": "South-west Iberian peninsula/IGMETS",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/pt-30301",
+      "schema:description": "The Guadiana estuary (GE) is located in southwestern Iberia and is a 22 km2 mesotidal ecosystem (average depth: 6.5 m), ranging from partially stratified to well-mixed. GE is located in a Mediterranean climate area, classified as highly sensitive to climate change, and is currently considered one of the best preserved and most vulnerable estuaries of the Iberian Peninsula. The Guadiana River watershed is the fourth largest river basin in the Iberian Peninsula, and demonstrates a torrential hydrographic regime, with concentrated rainy periods and a prolonged dry season, usually from May to September. Managing water availability under such demanding conditions led to the construction of hundreds of dams, almost 90 of which have a volume capacity over 1 hm3. Recent construction of the large Alqueva dam, built in the upper estuary in 1999 and completed in 2002, further increased freshwater flow regulation up to 81%.\r\nPhytoplankton monitoring in GE began in 1996 and was motivated by an anticipated increase in cyanobacterial blooms caused by the construction of the Alqueva dam. Physical-chemical variables (e.g. temperature, salinity, intensity of photosynthetic available radiation, light extinction coefficient, dissolved oxygen, concentration of dissolved inorganic macronutrients, particulate suspended matter) and phytoplankton abundance, composition, and biomass were routinely monitored at different stations in the upper, middle, and lower estuary in the framework of projects funded by the Portuguěse Foundation of Science and Technology (FCT) and the European Union. Abundance of heterotrophic bacterioplankton and phytoplankton and bacterial production were less frequently determined. Water quality and phytoplankton are also regularly monitored by the Portuguěse Water Institute (INAG). Since 2008, water quality and hydrodynamics have been measured by an autonomous instrumented platform positioned at the estuary entrance.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://repository.oceanbestpractices.org/handle/11329/303"
+      ],
+      "schema:foundingDate": "1996-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-7.467 37.467, -7.408 37.175)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/South-west_Iberian_peninsula_IGMETS/South-west_Iberian_peninsula_IGMETS.json",
+      "schema:keywords": [
+        "CCMAR",
+        "CIMA",
+        "Guadiana Estuary",
+        "ICES"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.researchgate.net/publication/282610582_Zooplankton_of_the_Bay_of_Biscay_and_Western_Iberian_Peninsula"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/South-west_Iberian_peninsula_IGMETS/South-west_Iberian_peninsula_IGMETS.json",
+        "name": "South-west Iberian peninsula/IGMETS"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/South-west_Iberian_peninsula_IGMETS/South-west_Iberian_peninsula_IGMETS_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

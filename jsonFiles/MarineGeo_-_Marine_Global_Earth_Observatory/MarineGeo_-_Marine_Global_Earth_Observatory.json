@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "MarineGeo - Marine Global Earth Observatory",
+      "schema:name": "MarineGeo - Marine Global Earth Observatory",
+      "schema:url": "http://marinegeo.si.edu",
+      "schema:description": "\r\n\r\n\r\nMarineGEO is a global network of partners focused on understanding how coastal marine ecosystems work—and how to keep them working.\r\nWe focus on biodiversity as the heart of healthy, productive ecosystems and coastal regions, where marine life and people are concentrated and interact most. MarineGEO marshals the Smithsonian’s leadership in discovery and convening power to advance frontiers in knowledge and provide it to policymakers to support innovative management and protection of our oceans.\r\nClimate change and biodiversity loss pose existential challenges to the health of marine ecosystems and the people who depend on them. Yet our scattered knowledge of marine life hampers our ability to effectively address them.  The Smithsonian is committed to solving this challenge. The Marine Global Earth Observatory (MarineGEO) is a unique network of partners around the world dedicated to tracking the vital signs of coastal marine life, diagnosing the causes of change, and informing science-based solutions to build coastal resilience—all using standardized, coordinated methods. \r\n \r\nLed by the Smithsonian’s Tennenbaum Marine Observatories Network, MarineGEO coordinates the research of partner observatories and project collaborators that span the globe.   Our research focuses on biodiversity because it is the heart of functioning ecosystems, but is missing or poorly coordinated in most marine observing. We focus on coastal systems nearshore because this is where biodiversity and people are concentrated and interact most.  MarineGEO is also a community—the network is people. \r\n \r\nOur value proposition to partners is: The Smithsonian helps elevate your science and grow your professional network to take local science global and to accomplish outcomes none of us could reach alone. \r\n\r\n\r\n\r\n \r\n",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://marinegeo.si.edu/marinegeo-toolkit",
+        "https://marinegeo.github.io/downloads/Workflow-for-Developing-or-Revising-MarineGEO-Protocols-9-1-2020.pdf"
+      ],
+      "schema:foundingDate": "2001-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-157.778 21.444, -128 51.553, -122.885 48.57, -122.351 37.803, -96.009 28.606, -87.578 17.573, -80.763 28.579, -80.506 9.177, -76.996 -12.183, -76.479 38.922, -17.015 32.722, 114.197 22.252, 148.082 -42.564)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MarineGeo_-_Marine_Global_Earth_Observatory/MarineGeo_-_Marine_Global_Earth_Observatory.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Mangrove cover and composition",
+          "schema:url": "https://goosocean.org/eov/mangrove"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Microbe biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/microbes"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MarineGeo_-_Marine_Global_Earth_Observatory/MarineGeo_-_Marine_Global_Earth_Observatory.json",
+        "name": "MarineGeo - Marine Global Earth Observatory"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MarineGeo_-_Marine_Global_Earth_Observatory/MarineGeo_-_Marine_Global_Earth_Observatory_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

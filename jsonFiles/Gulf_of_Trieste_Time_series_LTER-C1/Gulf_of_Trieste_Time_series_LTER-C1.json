@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Gulf of Trieste Time series LTER-C1",
+      "schema:name": "Gulf of Trieste Time series LTER-C1",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/it-30201/",
+      "schema:description": "The station C1 is located in the Gulf of Trieste in the northernmost part of the Adriatic Sea. In 2006, it was formally included in the Italian network of long-term ecological research sites (LTER-Italy). Zooplankton are collected by vertical hauls from 15 m to the surface using a WP-2 net (200 µm mesh). Sampling has been ongoing since April 1970, with a major interruption from January 1981 to February 1986, inclusive. The sampling frequency is monthly and was fortnightly during a few months in the 1980s and in 2002-2004.The time-series station C1, established by the University of Trieste, was later taken over by the Laboratory of Marine Biology of Trieste after its formal institution in December 1979 and, since October 2005, has been handled by the Division of Oceanography (OCE) of the OGS (Istituto Nazionale di Oceanografiía e Geofisica Sperimentale) of Trieste.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1986-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POINT (13.424 45.423)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_of_Trieste_Time_series_LTER-C1/Gulf_of_Trieste_Time_series_LTER-C1.json",
+      "schema:keywords": [
+        "LTER"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_of_Trieste_Time_series_LTER-C1/Gulf_of_Trieste_Time_series_LTER-C1.json",
+        "name": "Gulf of Trieste Time series LTER-C1"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Gulf_of_Trieste_Time_series_LTER-C1/Gulf_of_Trieste_Time_series_LTER-C1_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "LTER Brazil: PELD Tamandaré",
+      "schema:name": "LTER Brazil: PELD Tamandaré",
+      "schema:url": "https://deims.org/b6604465-90c8-4ed0-9914-02be6e099e8f",
+      "schema:description": "Long Term Ecological Reseach (PELD) at the ILTER site Tamandaré - Spatial and temporal dynamics of marine ecosystems: connectivity, resilience and sustainable use in Southern Pernambuco.\r\nThe Site is located on the northeast Brazilian coast, East Brazil LME, and includes the seascape extending from the coast to the continental slope. The coastal area is formed by an ecosystem complex including remnantes of Atlantic forest, mangroves, seagrass beds and coraline reefs. These ecosystems are interconnected along the seascape over the typically carbonatic shelf, with widths around 18 nautical miles. Along the shelf, submerged channels related to continental drainage in glacial periods, and submerged reefs, form habitats responsible for supporting resources exploited by intense fishing activity. The outermost portion of the continental shelf, considered as an area of significant biological and ecological interest (EBSA), is a biodiversity hotspot, home to reef fish spawning aggregations, and higher fish yield associated with evidence of sub-surface upwellings. These seascape support complex ecological processes, subject to intense use, in an area recognized as a priority for conservation. The presence of Marine Protected Areas reflects this characteristic, both for the need to protect these environments, and for the socio-economic importance, with two protected areas for sustainable use (APAs) and one for Integrated Protection (Park), organized in mosaic.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1999-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-35.198 -8.875, -35.139 -8.67, -35.076 -8.576, -34.74 -8.673, -34.748 -8.706, -34.754 -8.725, -34.758 -8.742, -34.764 -8.765, -34.769 -8.787, -34.772 -8.805, -34.779 -8.836, -34.789 -8.874, -34.8 -8.907, -34.806 -8.936, -34.818 -8.959, -34.825 -8.979, -35.143 -8.894, -35.198 -8.875))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Brazil_PELD_Tamandaré/LTER_Brazil_PELD_Tamandaré.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Mangrove cover and composition",
+          "schema:url": "https://goosocean.org/eov/mangrove"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Brazil_PELD_Tamandaré/LTER_Brazil_PELD_Tamandaré.json",
+        "name": "LTER Brazil: PELD Tamandaré"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/LTER_Brazil_PELD_Tamandaré/LTER_Brazil_PELD_Tamandaré_actions.json",
+      "schema:description": "opportunistically",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

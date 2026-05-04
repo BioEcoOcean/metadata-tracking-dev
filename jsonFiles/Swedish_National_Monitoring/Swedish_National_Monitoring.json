@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Swedish National Monitoring",
+      "schema:name": "Swedish National Monitoring",
+      "schema:url": "https://www.umu.se/en/umea-marine-sciences-centre/environmental-surveilence/",
+      "schema:description": "Umeå Marine Sciences Centre (UMF) plays an important role in Swedish environmental monitoring. We design monitoring programmes, perform various types of sampling, analyze results scientifically and work continuously with quality assurance of results. UMF conducts sampling and measurements in water, sedimentary material, bottom sediments and organisms. Missionaries include the Swedish Agency for Marine and Water Management, county administrative boards along the coast of the Gulf of Bothnia, water authorities, the SMHI and the Swedish Radiation Safety Authority. Measurements and sampling are done using standardised methods and documented traceability. This allows you to find out what numbers are reliable, and to make corrections if something is wrong. We thereby create long time series of measurement data with good comparability both in time and with other laboratories. The operations are accredited by Swedac.\r\nThe pelagic marine monitoring subprogramme is a part of the national marine monitoring programme. The goal is to demonstrate, by hydrographic, chemical and biological measurements, mainly the effects of eutrophication. Also oxygen conditions and the presence of hydrogen sulphide are mapped.\r\nThe purpose of monitoring coastal fish populations every year is to estimate the condition of different species. This is an important starting point for assessing ecological status in coastal waters, and for monitoring biodiversity.\r\nThe macrovegetation is monitored to study long-term changes in the marine environment, caused primarily by changes in visibility, nutrient availability and physical impacts.\r\nSoft-bottom macrofauna is a subprogramme in the national environmental monitoring programme. The purpose is to investigate whether, and in what way, the structure of the bottom-living macrofauna changes. It gives a signal of long-term changes due to, for example, eutrophication and oxygen deficiency.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "1960-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (14.348 55.616, 15.798 55.875, 17.205 61.47, 17.314 57.255, 17.71 62.39, 17.842 58.666, 18.062 60.49, 18.655 59.378, 18.918 60.92, 19.666 58.859, 20.896 63.782, 22.236 65.667, 22.72 65.522)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Swedish_National_Monitoring/Swedish_National_Monitoring.json",
+      "schema:keywords": [
+        "Gulf of Bothnia",
+        "HELCOM",
+        "ICES"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Swedish_National_Monitoring/Swedish_National_Monitoring.json",
+        "name": "Swedish National Monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Swedish_National_Monitoring/Swedish_National_Monitoring_actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

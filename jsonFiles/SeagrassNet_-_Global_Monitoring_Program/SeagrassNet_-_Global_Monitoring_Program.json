@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "SeagrassNet - Global Monitoring Program",
+      "schema:name": "SeagrassNet - Global Monitoring Program",
+      "schema:url": "http://www.seagrassnet.org/about/",
+      "schema:description": "SeagrassNet: Assessing a Critical Coastal Resource Worldwide\r\nSeagrassNet is an expanding, global ecological monitoring program that investigates and documents the status of seagrass resources and the threats to this important and imperilled marine ecosystem. The program started in 2001 in the Western Pacific and now includes 122 sites in 33 countries with a global monitoring protocol and web-based data reporting system. Our ultimate aim is to preserve the valuable seagrass ecosystem by increasing scientific knowledge and public awareness of this threatened coastal resource.\r\nSeagrassNet teams composed of scientists and managers from participating countries conduct synchronous quarterly sampling of selected plant and environmental parameters to determine seagrass habitat status and trends. A lack of information exists on the status and health of seagrasses worldwide, particularly in less economically developed regions. SeagrassNet’s efforts to monitor known seagrass areas and to reconnoiter uncharted seagrasses are important first steps in understanding and sustaining the seagrass resource. From Brazil to the U.S. to east Africa and many Western Pacific island nations, SeagrassNet is collecting information with the goal of elevating awareness of seagrasses and providing a “global report card” on the health of seagrass coastal habitat.\r\nSeagrasses are underwater flowering plants that often occur in vast meadows and provide nurseries, shelter, and food for a variety of commercially, recreationally, and ecologically important species (e.g., fish, sea turtles, dugong, manatee, seahorses, crustaceans). Additionally, seagrasses filter estuarine and coastal waters of nutrients, contaminants, and sediments and are closely linked to other community types: in the tropics to coral reefs and mangrove forests, and in temperate waters to salt marshes, kelp forests, and oyster reefs. Existing at the interface of the land margin and the world’s oceans, seagrasses are threatened by numerous anthropogenic impacts as well as global climate change.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "http://www.seagrassnet.org/assets/about/SeagrassNet%20Worldwide%20Manual%202015.pdf",
+        "http://www.seagrassnet.org/global-monitoring/"
+      ],
+      "schema:foundingDate": "2001-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (-124.15 40.44, -124.14 40.44, -124.07 40.49, -122.94 48.1, -122.78 48.9, -122.72 48.57, -122.68 47.15, -122.46 47.34, -122.23 47.19, -115.98 30.43, -91 18.44, -90.28 19.56, -88.8 16.11, -88.8 16.16, -88.38 16.51, -88.37 16.51, -88.31 16.13, -88.2 16.44, -88.06 18.17, -88.04 17.85, -88.02 17.75, -88.02 17.79, -87.99 17.88, -87.98 16.52, -87.84 18.17, -87.82 16.77, -87.81 16.74, -87.81 17.28, -87.8 17.31, -87.54 17.21, -87.53 17.32, -87.22 30.18, -86.86 20.88, -75.71 10.95, -75.47 9.46, -75.33 38.07, -75.11 38.11, -74.46 11.19, -74.08 11.19, -74.03 11.2, -71.4 41.49, -71.32 41.58, -70.53 41.1, -70.53 43.074, -70.29 42.33, -69.7 43.08, -69.57 41.45, -69.57 41.57, -65.37 18.21, -65.15 18.17, -64.94 47.38, -64.84 43.93, -64.78 47.73, -63.72 46.55, -61.86 17.02, -61.73 17.99, -58.38 49.9, -42 -22.88, -38.7 -17.96, -35.4 -8.43, -7.58 37.01, -7.57 37.1, 8.73 42.58, 10.3 55.5, 15.29 44.13, 32.91 -26.02, 34.55 29.3, 34.55 29.33, 35 24.37, 35.66 24.4, 39.44 -6.28, 39.44 -6.14, 39.71 -4.05, 43.12 -23.48, 43.15 -23.5, 43.36 -23.93, 43.37 -23.93, 45.25 -12.71, 92.45 11.37, 99.2 7.23, 99.31 7.38, 99.41 6.36, 99.46 6.37, 99.46 6.56, 99.47 6.47, 100.2 5.22, 106.67 5.58, 106.92 5.6, 107.32 20.94, 109.17 21.26, 116.02 6.04, 116.03 6.01, 119.49 16.22, 119.87 -8.41, 120.5 16.31, 120.95 13.52, 120.98 13.52, 121.02 -8.36, 121.02 -8.27, 122.31 10.32, 122.31 10.62, 124.35 1.14, 125.69 7.17, 125.69 7.19, 128.12 51.65, 128.35 34.48, 134.51 7.36, 134.61 7.44, 138.05 9.32, 145.97 -16.76, 150.78 -2.61, 150.78 -2.59, 158.13 7, 158.26 6.76, 158.29 6.79, 162.95 5.34, 178.47 -18.18)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SeagrassNet_-_Global_Monitoring_Program/SeagrassNet_-_Global_Monitoring_Program.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass areal extent",
+          "schema:url": "https://goosocean.org/eov/seagrass/areal_extent"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass canopy cover",
+          "schema:url": "https://goosocean.org/eov/seagrass/canopy_cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass community composition - community abundance",
+          "schema:url": "https://goosocean.org/eov/seagrass/community_composition/abundance"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass composition",
+          "schema:url": "https://goosocean.org/eov/seagrass/composition"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover",
+          "schema:url": "https://goosocean.org/eov/seagrass/cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass diversity",
+          "schema:url": "https://goosocean.org/eov/seagrass/diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass shoot density / cover",
+          "schema:url": "https://goosocean.org/eov/seagrass/shoot_density_cover"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:description": "Funding for various aspects of SeagrassNet provided by The David and Lucile Packard Foundation, the Oak Foundation, the New Hampshire Charitable Foundation and Tom Haas, and the University of New Hampshire."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.seagrassnet.org/assets/about/SeagrassNet%20Worldwide%20Manual%202015.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SeagrassNet_-_Global_Monitoring_Program/SeagrassNet_-_Global_Monitoring_Program.json",
+        "name": "SeagrassNet - Global Monitoring Program"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/SeagrassNet_-_Global_Monitoring_Program/SeagrassNet_-_Global_Monitoring_Program_actions.json",
+      "schema:description": "quarterly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

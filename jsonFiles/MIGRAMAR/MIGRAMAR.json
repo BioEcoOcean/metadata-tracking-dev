@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "MIGRAMAR",
+      "schema:name": "MIGRAMAR",
+      "schema:url": "http://www.migramar.org",
+      "schema:description": "The MigraMar network conducts the scientific research needed to better understand and safeguard healthy populations of marine migratory species in the Eastern Pacific Ocean. MigraMar is the leading scientific authority in migratory species research in the Eastern Pacific Ocean (EPO). Over the last fifteen years, we have identified critical areas where migratory species are more vulnerable, including feeding and breeding grounds, and areas where seasonal migrations occur. These results have informed governments and stakeholders on the functioning and connectivity of marine protected areas (MPAs), and have supported decisions to improve protection for migratory species across the region.\r\nWe have delivered the scientific evidence to support creation of new marine reserves and expansion of existing reserves. The total area of MPAs has increased fourfold, from 156,000 km2 in 2010 to 630,000 km2 in 2022, providing larger grounds for migratory species to move without risk of capture. Our Swimways Initiative has been adopted by national authorities and is currently used as the binding tissue for regional governmental collaborations. MigraMar’s scientific research is focused on providing a technical basis for the management and conservation of our oceans. Read more about our work in our Institutional Projects and Members Projects sections.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "POLYGON ((-77.607 5.572, -77.651 4.259, -77.256 3.733, -77.827 2.943, -78.574 2.811, -78.926 1.362, -79.893 1.055, -80.991 -0.439, -80.991 -2.197, -81.123 -4.127, -81.519 -4.872, -84.419 -6.796, -89.692 -7.798, -95.581 -7.232, -97.822 -2.021, -96.504 3.47, -93.032 8.972, -86.88 11.738, -85.913 11.006, -85.957 10.012, -83.54 8.494, -80.728 7.275, -79.937 7.232, -80.376 8.277, -78.838 8.538, -77.432 6.097, -77.607 5.572))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MIGRAMAR/MIGRAMAR.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "civil_society"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MIGRAMAR/MIGRAMAR.json",
+        "name": "MIGRAMAR"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/MIGRAMAR/MIGRAMAR_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

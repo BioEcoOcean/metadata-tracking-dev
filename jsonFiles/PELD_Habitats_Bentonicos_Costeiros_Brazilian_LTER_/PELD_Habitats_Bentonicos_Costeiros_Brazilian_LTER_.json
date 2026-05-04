@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "PELD Habitats Bentonicos Costeiros/Brazilian LTER/PELD CNPq",
+      "schema:name": "PELD Habitats Bentonicos Costeiros/Brazilian LTER/PELD CNPq",
+      "schema:url": "http://bentos.ufes.br",
+      "schema:description": "Long-term study station (LTER) to access climate change impacts on coastal ecosystems, support local MPA's to protect these areas from variable human impacts and increase local communities' literacy on the importance of coastal ecosystems to their lives.\r\nThe PELD (Long-term Program of Ecological Research) Coastal Habitats of Espírito Santo is part of the Brazilian LTER program and started in 2017. It is located on the Eastern Coast of Brazil and evaluates coastal ecosystems including estuaries, mangroves, coastal reefs, and rodolith beds. This is an innovative project to assess the temporal patterns in multiple coastal ecosystems in the Eastern Brazil Marine Ecoregion, where there is a decadal warming trend. The program associates research and conservation, at three coastal-marine protected areas: Costa das Algas Environmental Protected Area, Santa Cruz Wildlife Refuge, and Municipal Reserves of Integral Protection of the mangroves of Piraquê-Açu and Piraquê-Mirim rivers. The project aims to investigate the interactions among abiotic, climatic, and ecological dynamics in the benthic communities and ichthyofauna assemblies associated with these coastal ecosystems. PELD-HCES counts on a research team coordinated by UFES in partnership with USP, UFBA, UFSB, UFF, UFPR, UNISUL, UFSC, UNIFESP, and the State University of Oregon, and funded by CNPQ, CAPES, and FAPES.\r\nPELD HCES has produced: 10-years of mangrove and estuary data covering an integrated set of ecological and biogeochemical indicators to disentangle climate change's impact on ecosystem dynamics and production; 5 years of benthic-pelagic data covering multiple essential biodiversity variables and seascape parameters to assess and predict warming effects on marine communities; and 4 years of fish and invertebrate data to build an ecological baseline for sustainable development in scenarios of global change.\r\nThe list of publications is available in the link provided in Output. Monitoring protocols are published in the Ocean Best Practices System portal. Biodiversity data is published in OBIS, and continuously updated.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "http://dx.doi.org/10.25607/OBP-900"
+      ],
+      "schema:foundingDate": "2017-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_.json",
+      "schema:keywords": [
+        "Southwestern Atlantic",
+        "coastal ecosystems",
+        "time series"
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": [
+            "academia",
+            "governmental"
+          ],
+          "schema:description": "Funded by CNPQ (The Brazilian National Council for Scientific and Technological Development), CAPES (The Brazilian Coordination for the Improvement of Higher Education Personnel), and FAPES (Foundation for Support to Research and Innovation of Espírito Santo)."
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "https://www.researchgate.net/project/PELD-Habitats-Costeiros-do-Espirito-Santo-HCES-PELD-2016-2024"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_.json",
+        "name": "PELD Habitats Bentonicos Costeiros/Brazilian LTER/PELD CNPq"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER_/PELD_Habitats_Bentonicos_Costeiros_Brazilian_LTER__actions.json",
+      "schema:description": "monthly",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

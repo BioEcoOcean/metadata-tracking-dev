@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "OBIS Spatial Ecological Analysis of Megavertebrate Populations",
+      "schema:name": "OBIS Spatial Ecological Analysis of Megavertebrate Populations",
+      "schema:url": "https://seamap.env.duke.edu/",
+      "schema:description": "As a thematic node of the Ocean Biodiversity Information System (OBIS), a group of investigators, led by Andrew Read and Patrick Halpin of Duke University, started building Ocean Biogeographic Information System Spatial Ecological Analysis of Megavertebrate Populations (OBIS-SEAMAP), a spatially, temporally interactive online database for marine mammal, sea turtle, seabird and ray & shark data back in 2002. This service is made possible by data sharing from contributors all over the world.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/OBIS_Spatial_Ecological_Analysis_of_Megavertebrate/OBIS_Spatial_Ecological_Analysis_of_Megavertebrate.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine birds abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/birds"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine turtles abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/turtles"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/OBIS_Spatial_Ecological_Analysis_of_Megavertebrate/OBIS_Spatial_Ecological_Analysis_of_Megavertebrate.json",
+        "name": "OBIS Spatial Ecological Analysis of Megavertebrate Populations"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/OBIS_Spatial_Ecological_Analysis_of_Megavertebrate/OBIS_Spatial_Ecological_Analysis_of_Megavertebrate_actions.json",
+      "schema:description": "unknown",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

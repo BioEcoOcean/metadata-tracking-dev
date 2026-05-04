@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Sargassum Watch System",
+      "schema:name": "Sargassum Watch System",
+      "schema:url": "https://optics.marine.usf.edu/projects/SaWS.html",
+      "schema:description": "The Sargassum Watch System (SaWS) is designed to use satellite data and numerical models to detect and track pelagic Saragassum in near-real time.\r\nPelagic Sargassum seaweed is a brown macroalgae floating on the ocean surface. Comprised primarily of two species, S. natans and S. fluitans, it is abundant in the Intra-Americas Sea (IAS), the Atlantic, and along the coasts of British Isles and mainland Europe. In the ocean it serves as an important habitat for many marine animals as it provides food, shade, and shelter (from predators) to fish, shrimp, crabs, and turtles. Sargassum may serve as fertilizers for sand dunes and thus protects shoreline stability. It is also a marine resource for other uses such as biomass for food, fuel, and as a possible source of pharmaceutical materials.\r\nHowever, excessive amounts of Sargassum on beaches in populated areas can cause a lot of problems and they must be physically removed. Sargassum decomposition on beaches smells bad, attracts insects, and causes many environmental problems (e.g., smothering turtle nesting sites, sea turtle mortality, fish kills) and economic problems (e.g., diminished tourism). The beaches along the Texas coast have experienced Sargassum inundation events annually, and since 2001 beaching events have also occurred on many Caribbean shores in nearly every spring and summer. Sargassum beaching events have also been reported in western Africa and northern Brazil. Monitoring Sargassum distribution and abundance in the ocean in a timely fashion is of great importance for studying ocean ecology, helping fishery management, and forecasting Sargassum beaching events. The SaWS is meant to provide such a function through producing and sharing customized satellite imagery in near real-time in a user-friendly way.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2011-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((-63 0, -63 10, -75 10, -75 7.5, -84 7.5, -84 15, -90 15, -90 18, -98 18, -98 30, -92 30, -92 38, -75 38, -75 23, -60 23, -60 22, -38 22, -38 0, -63 0)), ((-69 27, -69 37, -59 37, -59 27, -69 27)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sargassum_Watch_System/Sargassum_Watch_System.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "academia"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sargassum_Watch_System/Sargassum_Watch_System.json",
+        "name": "Sargassum Watch System"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Sargassum_Watch_System/Sargassum_Watch_System_actions.json",
+      "schema:description": "daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "Natural Resources Wales (NRW) Across Wales drop-down video monitoring",
+      "schema:name": "Natural Resources Wales (NRW) Across Wales drop-down video monitoring",
+      "schema:url": "https://portal.medin.org.uk/portal/start.php?tpc=007_4f4c4942-4343-5764-6473-313134343939",
+      "schema:description": "Drop-down video surveys of Special Areas of Conservation (SACs) across Wales. Work is carried out by NRW and repeat monitoring is focused on 2 areas, one in the north of the Pen Llyn a`r Sarnau SAC and one at St Brides Bay in Pembrokeshire Marine SAC. The camera system used consist of a control unit with a back-up mini DV video recorder and monitor, 200m umbilical cable, a video camera in a waterproof housing mounted on a metal frame sled with lights mounted either side of the frame. Laser pointers positioned 10cm apart from the front of the camera housing are used to project two red dots into the field of view to allow assessment of scale. Detailed information about the methodology can be found in CCW Contract Science Report No: 380. The data are collected to enable site monitoring to support management and reporting of SACs in Wales. The monitoring of subtidal aspects of SACs will indicate whether the desired condition of the feature of interest for which the site was designated is being achieved. The work also enables judgements to be made about whether the management of the site is appropriate. Analysis of video recordings is used to produce descriptions of the seabed environment including substrata and faunal communities as well as classifying the different sites into biotopes according to Connor et al. (2004).This project aims to develop and refine Quality Control and Quality Assurance for drop-down video techniques.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [],
+      "schema:foundingDate": "2005-05-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOLYGON (((-5.118 51.763, -5.327 51.758, -5.33 51.861, -5.124 51.867, -5.118 51.763)), ((-4.738 52.87, -4.599 52.989, -4.569 52.942, -4.692 52.868, -4.738 52.87)))"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Across_Wales_drop-down/Natural_Resources_Wales_NRW_Across_Wales_drop-down.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/fish"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Hard coral cover and composition",
+          "schema:url": "https://goosocean.org/eov/coral"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Marine mammals abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/mammals"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Fish community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/fish/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/invertebrates/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgae community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/macroalgae/community_composition/phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/seagrass/community_composition/taxonomic_phylogenetic_diversity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Zooplankton community composition - taxonomic/phylogenetic diversity",
+          "schema:url": "https://goosocean.org/eov/zooplankton/community_composition/taxonomic_phylogenetic_diversity"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": [
+        {
+          "@type": "schema:Offer",
+          "schema:name": "",
+          "schema:itemOffered": {
+            "@type": "schema:CreativeWork",
+            "schema:name": "",
+            "schema:url": "http://www.ukdmos.org/search-directory"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Across_Wales_drop-down/Natural_Resources_Wales_NRW_Across_Wales_drop-down.json",
+        "name": "Natural Resources Wales (NRW) Across Wales drop-down video monitoring"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/Natural_Resources_Wales_NRW_Across_Wales_drop-down/Natural_Resources_Wales_NRW_Across_Wales_drop-down_actions.json",
+      "schema:description": "annually",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}

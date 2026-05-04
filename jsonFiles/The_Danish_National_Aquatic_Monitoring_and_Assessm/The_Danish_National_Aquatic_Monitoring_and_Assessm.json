@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "geosparql": "http://www.opengis.net/ont/geosparql#"
+  },
+  "@graph": [
+    {
+      "@type": "Project",
+      "schema:legalName": "The Danish National Aquatic Monitoring and Assessment Program (DNAMAP)",
+      "schema:name": "The Danish National Aquatic Monitoring and Assessment Program (DNAMAP)",
+      "schema:url": "https://www.st.nmfs.noaa.gov/copepod/time-series/dk-30101/",
+      "schema:description": "The Danish National Aquatic Monitoring and Assessment Program (DNAMAP) was established in 1988 to monitor nutrient loading and ecological responses to the nutrient reduction targets. DNAMAP was organized with the aim of obtaining information on a wide range of eutrophication related variables (e.g., nutrients, Chlorophyll a, macrophytes, benthic macrofauna) covering many estuaries and coastal zones in Denmark. Monitoring in the open waters and selected coastal waters is a requirement of HELCOM and OSPAR, with DNAMAP and the Swedish national monitoring program operating in a coordinated joint effort.",
+      "schema:identifier": {},
+      "schema:parentOrganization": {
+        "schema:legalName": "",
+        "schema:url": ""
+      },
+      "schema:publishingPrinciples": [
+        "https://ecos.au.dk/forskningraadgivning/fagdatacentre/marint-fagdatacenter/gaeldende-tekniske-anvisninger"
+      ],
+      "schema:foundingDate": "1979-01-01",
+      "schema:dissolutionDate": "",
+      "schema:areaServed": [
+        {
+          "@type": "schema:Place",
+          "schema:geo": {
+            "@type": "schema:GeoShape",
+            "schema:description": "Bounding box polygon with lat long (Y X) coordinate order.",
+            "schema:geosparql:asWKT": {
+              "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+              "@value": "MULTIPOINT (8.126 56.206, 8.135 56.047, 8.21 55.203, 8.249 56.361, 8.348 55.058, 9.038 56.572, 9.046 56.373, 9.401 55.423, 9.544 55.511, 9.584 56.398, 10.054 54.405, 10.096 54.599, 10.191 56.093, 10.265 56.366, 10.312 55.288, 10.475 56.514, 11 55.226, 11.096 56.079, 12.04 55.428, 12.254 55.296, 12.45 55.52, 12.7 56.4, 13.18 55, 15.59 55.15)"
+            }
+          }
+        }
+      ],
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_Danish_National_Aquatic_Monitoring_and_Assessm/The_Danish_National_Aquatic_Monitoring_and_Assessm.json",
+      "schema:keywords": [
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Invertebrate abundance and distribution",
+          "schema:url": "https://goosocean.org/eov/invertebrates"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Macroalgal canopy cover and composition",
+          "schema:url": "https://goosocean.org/eov/macroalgae"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Phytoplankton biomass and diversity",
+          "schema:url": "https://goosocean.org/eov/phytoplankton"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Seagrass cover and composition",
+          "schema:url": "https://goosocean.org/eov/seagrass"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Nutrients",
+          "schema:url": "https://goosocean.org/eov/nutrients"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Oxygen",
+          "schema:url": "https://goosocean.org/eov/oxygen"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface salinity",
+          "schema:url": "https://goosocean.org/eov/sea_surface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Sea surface temperature",
+          "schema:url": "https://goosocean.org/eov/sea_surface_temperature"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface salinity",
+          "schema:url": "https://goosocean.org/eov/subsurface_salinity"
+        },
+        {
+          "@type": "schema:DefinedTerm",
+          "schema:name": "Subsurface temperature",
+          "schema:url": "https://goosocean.org/eov/subsurface_temperature"
+        }
+      ],
+      "schema:funding": [
+        {
+          "@type": "schema:MonetaryGrant",
+          "schema:category": "governmental"
+        }
+      ],
+      "schema:contactPoint": [],
+      "schema:makesOffer": []
+    },
+    {
+      "@type": "schema:Action",
+      "agent": {
+        "@type": "schema:ResearchProject",
+        "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_Danish_National_Aquatic_Monitoring_and_Assessm/The_Danish_National_Aquatic_Monitoring_and_Assessm.json",
+        "name": "The Danish National Aquatic Monitoring and Assessment Program (DNAMAP)"
+      },
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/metadata-tracking-dev/refs/heads/main/jsonFiles/The_Danish_National_Aquatic_Monitoring_and_Assessm/The_Danish_National_Aquatic_Monitoring_and_Assessm_actions.json",
+      "schema:description": "daily",
+      "instrument": [],
+      "actionProcess": []
+    },
+    {
+      "schema:frequency": "unknown"
+    }
+  ]
+}
